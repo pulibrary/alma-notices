@@ -20,6 +20,7 @@
 									<xsl:value-of
 										select="//notification_data/receivers/receiver/user/last_name"
 									/>
+									<xsl:text>:</xsl:text>
 								</xsl:when>
 								<xsl:otherwise>
 									<xsl:value-of
@@ -27,6 +28,7 @@
 									<xsl:text> </xsl:text>
 									<xsl:value-of
 										select="//notification_data/user_for_printing/last_name"/>
+									<xsl:text>:</xsl:text>
 								</xsl:otherwise>
 							</xsl:choose>
 						</p>
