@@ -4,6 +4,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	
+	<!-- add conditionals to avoid empty table rows -->
 	
 	<xsl:template name="senderReceiver">
 		<table cellspacing="0" cellpadding="5" border="0" width="100%">
@@ -16,7 +17,6 @@
 								<xsl:attribute name="style">
 									<xsl:call-template name="listStyleCss" /> <!-- style.xsl -->
 								</xsl:attribute>
-<!-- add conditionals to avoid empty table rows -->
 								<tr><td><b><xsl:value-of select="notification_data/user_for_printing/name"/></b></td></tr>
 								<xsl:if test="notification_data/user_for_printing/address1[.!='']">
 								<tr><td><xsl:value-of select="notification_data/user_for_printing/address1"/></td></tr>
@@ -38,7 +38,7 @@
 								</xsl:if>
 							</table>
 						</xsl:when>
-						<xsl:when test="notification_data/receivers/receiver/user">
+						<xsl:otherwise>
 							<xsl:for-each select="notification_data/receivers/receiver/user">
 								<table>
 									<xsl:attribute name="style">
@@ -57,9 +57,6 @@
 
 							</xsl:for-each>
 							
-						</xsl:when>
-						<xsl:otherwise>
-							
 						</xsl:otherwise>
 					</xsl:choose>
 					
@@ -71,11 +68,19 @@
 								<xsl:call-template name="listStyleCss" /> <!-- style.xsl -->
 							</xsl:attribute>
 							<tr><td><xsl:value-of select="name"/></td></tr>
+							<xsl:if test="address/line1[.='']">
 							<tr><td><xsl:value-of select="address/line1"/></td></tr>
+							</xsl:if>
+							<xsl:if test="address/line2[.='']">
 							<tr><td><xsl:value-of select="address/line2"/></td></tr>
+							</xsl:if>
+							<xsl:if test="address/city[.='']">
 							<tr><td><xsl:value-of select="address/city"/></td></tr>
+							</xsl:if>
+							<xsl:if test="address/postal_code[.='']">
 							<tr><td><xsl:value-of select="address/postal_code"/></td></tr>
-							<tr><td><xsl:value-of select="address/country"/></td></tr>
+							</xsl:if>
+							<!--<tr><td><xsl:value-of select="address/country"/></td></tr>-->
 						</table>
 					</xsl:for-each>
 				</td>
