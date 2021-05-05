@@ -115,7 +115,7 @@
 						</table>
 					</table>
 					<br />
-					
+					<xsl:call-template name="contactUs"/><!-- footer.xsl -->
 					<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
 				</body>
 			</html>
