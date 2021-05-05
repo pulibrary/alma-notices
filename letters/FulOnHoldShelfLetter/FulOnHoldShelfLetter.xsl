@@ -80,7 +80,8 @@
 						<td>@@department@@</td>
 					</tr>
 				</table>
-				<xsl:call-template name="lastFooter"/>
+				<xsl:call-template name="contactUs"/><!-- footer.xsl -->
+				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
 				<!-- footer.xsl -->
 			</body>
 		</html>

@@ -64,7 +64,8 @@
 					</div>
 				</div>
 				<!-- footer.xsl -->
-				<xsl:call-template name="lastFooter"/>
+				<xsl:call-template name="contactUs"/><!-- footer.xsl -->
+				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
 			</body>
 		</html>
 	</xsl:template>
