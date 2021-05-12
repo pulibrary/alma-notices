@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:include href="header.xsl" />
-	<xsl:include href="senderReceiver.xsl" />
-	<xsl:include href="mailReason.xsl" />
-	<xsl:include href="footer.xsl" />
-	<xsl:include href="style.xsl" />
-
+	<xsl:include href="header.xsl"/>
+	<xsl:include href="senderReceiver.xsl"/>
+	<xsl:include href="mailReason.xsl"/>
+	<xsl:include href="footer.xsl"/>
+	<xsl:include href="style.xsl"/>
 	<xsl:template match="/">
 		<html>
 			<xsl:if test="notification_data/languages/string">
@@ -66,8 +65,17 @@
 									<strong>@@due_date@@ :</strong><xsl:value-of
 										select="item_loan/due_date"/>
 									<br/>
-									<strong>@@barcode@@ :</strong><xsl:value-of
-										select="item_loan/barcode"/>
+									<strong>@@barcode@@ :</strong>
+									<span>
+										<xsl:attribute name="style"><xsl:call-template name="barcodeCss"/></xsl:attribute>
+										
+										<xsl:text>*</xsl:text>
+										<xsl:value-of
+											select="item_loan/barcode"/>
+										<xsl:text>*</xsl:text>
+									</span>
+									<br/>
+									<xsl:value-of select="item_loan/barcode"/>
 									<br/>
 									<strong>@@call_number@@ :</strong><xsl:value-of
 										select="phys_item_display/call_number"/>
@@ -105,8 +113,10 @@
 					</table>
 				</table>
 				<br/>
-				<xsl:call-template name="contactUs"/><!-- footer.xsl -->
-				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+				<xsl:call-template name="contactUs"/>
+				<!-- footer.xsl -->
+				<xsl:call-template name="lastFooter"/>
+				<!-- footer.xsl -->
 			</body>
 		</html>
 	</xsl:template>

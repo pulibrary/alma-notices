@@ -511,7 +511,7 @@
 				<job_description/>
 				<job_title/>
 				<job_title_original_value/>
-				<last_name>user_last_namel</last_name>
+				<last_name>user_last_name</last_name>
 				<library_id/>
 				<library_unit_id/>
 				<linked_account>false</linked_account>
@@ -663,7 +663,7 @@
 				<value>87499765</value>
 			</code_value>
 		</identifiers>
-		<name>some_name</name>
+		<name>first_name last_name</name>
 		<phone/>
 		<postal_code>02062</postal_code>
 		<state>MA</state>
