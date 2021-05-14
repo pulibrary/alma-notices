@@ -119,17 +119,22 @@
 						</table>
 						
 						<br />
-						<table role='presentation' >
+						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
-						</table>
+						</table>-->
+						<xsl:call-template name="signed"/>
+						<!-- footer.xsl -->
+						
+						
 					</div>
 				</div>
 				
+				<xsl:call-template name="protocols"/> 
 				<!-- footer.xsl -->
-				<xsl:call-template name="lastFooter" />
-				<xsl:call-template name="myAccount" />
 				<xsl:call-template name="contactUs" />
+				<xsl:call-template name="lastFooter" />
+				<!--<xsl:call-template name="myAccount" />-->
 			</body>
 		</html>
 	</xsl:template>

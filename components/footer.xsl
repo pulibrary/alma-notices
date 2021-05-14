@@ -13,23 +13,55 @@
 						<xsl:call-template name="listStyleCss"/>
 						<!-- style.xsl -->
 					</xsl:attribute>
-					<td align="center"><xsl:value-of select="name"/>&#160;<xsl:value-of
+					<td align="center">
+						<xsl:value-of select="name"/>
+						<!--&#160;<xsl:value-of
 							select="line1"/>&#160;<xsl:value-of select="line2"/>&#160;<xsl:value-of
 							select="city"/>&#160;<xsl:value-of select="postal_code"
-							/><!--&#160;<xsl:value-of select="country"/>--></td>
+						/>-->
+						<!--&#160;<xsl:value-of select="country"/>-->
+					</td>
 				</xsl:for-each>
 			</tr>
 		</table>
 	</xsl:template>
+	<xsl:template name="signed">
+		<xsl:attribute name="style">
+			<xsl:call-template name="listStyleCss"/>
+			<!-- style.xsl -->
+		</xsl:attribute>
+		<table role="presentation">
+			<tr>
+				<td>
+					<strong>Sincerely</strong>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>Firestone Circulation Services</strong>
+				</td>
+			</tr>
+		</table>
+	</xsl:template>
 	<xsl:template name="contactUs">
-		
+		<xsl:attribute name="style">
+			<xsl:call-template name="listStyleCss"/>
+			<!-- style.xsl -->
+		</xsl:attribute>
 		<table align="left">
-			
-			<tr><td align="left">(609) 258-3202</td></tr>
+			<tr>
+				<td align="left">If you have questions or need mailing instructions, please contact
+					us at fstcirc@princeton.edu </td>
+				<td height="10em"/>
+			</tr>
+			<tr>
+				<td height="10em"/>
+			</tr>
 			<tr>
 				<td align="left">
 					<a>
-						<xsl:attribute name="href">https://library.princeton.edu/services/access/circulation-policies</xsl:attribute>
+						<xsl:attribute name="href"
+							>https://library.princeton.edu/services/access/circulation-policies</xsl:attribute>
 						About Us</a>
 				</td>
 			</tr>
@@ -39,6 +71,30 @@
 						<xsl:attribute name="href"> @@email_contact_us@@ </xsl:attribute>
 						@@contact_us@@ </a>
 				</td>
+			</tr>
+			<tr>
+				<td height="10em"/>
+			</tr>
+		</table>
+	</xsl:template>
+	<xsl:template name="protocols">
+		<xsl:attribute name="style">
+			<xsl:call-template name="listStyleCss"/>
+			<!-- style.xsl -->
+		</xsl:attribute>
+		<table align="left">
+			<tr>
+				<td height="10em"/>
+			</tr>
+			<tr>
+				<td align="left">Mandatory COVID-19 training must be completed before picking up a
+					book or entering any Library space. When picking up and/or dropping off your
+					books, please do so promptly, remain only in the designated pick-up area, wear a
+					mask or face covering, and follow social distancing guidelines. We appreciate
+					your help in our efforts to slow the spread of Covid-19. Sincere thanks. </td>
+			</tr>
+			<tr>
+				<td height="10em"/>
 			</tr>
 		</table>
 	</xsl:template>
