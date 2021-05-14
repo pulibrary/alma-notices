@@ -13,10 +13,14 @@
 						<xsl:call-template name="listStyleCss"/>
 						<!-- style.xsl -->
 					</xsl:attribute>
-					<td align="center"><xsl:value-of select="name"/>&#160;<xsl:value-of
+					<td align="center">
+						<xsl:value-of select="name"/>
+						<!--&#160;<xsl:value-of
 							select="line1"/>&#160;<xsl:value-of select="line2"/>&#160;<xsl:value-of
 							select="city"/>&#160;<xsl:value-of select="postal_code"
-						/><!--&#160;<xsl:value-of select="country"/>--></td>
+						/>-->
+						<!--&#160;<xsl:value-of select="country"/>-->
+					</td>
 				</xsl:for-each>
 			</tr>
 		</table>
@@ -51,6 +55,9 @@
 				<td height="10em"/>
 			</tr>
 			<tr>
+				<td height="10em"/>
+			</tr>
+			<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"
@@ -64,6 +71,9 @@
 						<xsl:attribute name="href"> @@email_contact_us@@ </xsl:attribute>
 						@@contact_us@@ </a>
 				</td>
+			</tr>
+			<tr>
+				<td height="10em"/>
 			</tr>
 		</table>
 	</xsl:template>

@@ -122,12 +122,17 @@
 					</xsl:if>
 					<br/>
 					<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>
-					<table role="presentation">
+					<!--<table role="presentation">
 						<tr><td>@@sincerely@@</td></tr>
 						<tr><td>@@department@@</td></tr>
-					</table>
+					</table>-->
 				</table>
 				<br/>
+				<xsl:call-template name="signed"/>
+				<!-- footer.xsl -->
+				
+				<xsl:call-template name="protocols"/> 
+				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="lastFooter"/>

@@ -52,17 +52,22 @@
 						
 						<br />
 						<br />
-						<table role='presentation' >
+						<!--<table role='presentation' >
 							<tr>
 								<td>@@sincerely@@</td>
 							</tr>
 							<tr>
 								<td>@@from@@</td>
 							</tr>
-						</table>
+						</table>-->
 						<br />
+						<xsl:call-template name="signed"/>
+						<!-- footer.xsl -->
 					</div>
 				</div>
+				
+				<xsl:call-template name="protocols"/> 
+				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/><!-- footer.xsl -->
 				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
 				<br />

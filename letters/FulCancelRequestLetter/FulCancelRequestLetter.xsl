@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:include href="header.xsl" />
-	<xsl:include href="senderReceiver.xsl" />
-	<xsl:include href="mailReason.xsl" />
-	<xsl:include href="footer.xsl" />
-	<xsl:include href="style.xsl" />
-	<xsl:include href="recordTitle.xsl" />
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:include href="header.xsl"/>
+	<xsl:include href="senderReceiver.xsl"/>
+	<xsl:include href="mailReason.xsl"/>
+	<xsl:include href="footer.xsl"/>
+	<xsl:include href="style.xsl"/>
+	<xsl:include href="recordTitle.xsl"/>
 	<xsl:template match="/">
 		<html>
 			<xsl:if test="notification_data/languages/string">
@@ -14,37 +13,37 @@
 					<xsl:value-of select="notification_data/languages/string"/>
 				</xsl:attribute>
 			</xsl:if>
-
 			<head>
 				<title>
 					<xsl:value-of select="notification_data/general_data/subject"/>
 				</title>
-
-				<xsl:call-template name="generalStyle" />
+				<xsl:call-template name="generalStyle"/>
 			</head>
 			<body>
 				<xsl:attribute name="style">
-				<xsl:call-template name="bodyStyleCss" /> <!-- style.xsl -->
-			</xsl:attribute>
-				<xsl:call-template name="head" /> <!-- header.xsl -->
-				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
-				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
-
+					<xsl:call-template name="bodyStyleCss"/>
+					<!-- style.xsl -->
+				</xsl:attribute>
+				<xsl:call-template name="head"/>
+				<!-- header.xsl -->
+				<xsl:call-template name="senderReceiver"/>
+				<!-- SenderReceiver.xsl -->
+				<xsl:call-template name="toWhomIsConcerned"/>
+				<!-- mailReason.xsl -->
 				<div class="messageArea">
 					<div class="messageBody">
-						<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
+						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>
-									@@on@@
-									<xsl:value-of select="notification_data/general_data/current_date" />
-									@@we_cancel_y_req_of@@
-									<xsl:value-of select="notification_data/request/create_date" />
-									@@detailed_below@@ :
-								</td>
+								<td> @@on@@ <xsl:value-of
+										select="notification_data/general_data/current_date"/>
+									@@we_cancel_y_req_of@@ <xsl:value-of
+										select="notification_data/request/create_date"/>
+									@@detailed_below@@ : </td>
 							</tr>
 							<tr>
 								<td>
-									<xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl -->
+									<xsl:call-template name="recordTitle"/>
+									<!-- recordTitle.xsl -->
 								</td>
 							</tr>
 							<!-- <xsl:if test="notification_data/metadata/title != ''">
@@ -263,62 +262,71 @@
 									</td>
 								</tr>
 							</xsl:if> -->
-
-
 							<xsl:if test="notification_data/request/start_time != ''">
 								<tr>
 									<td>
 										<strong> @@start_time@@: </strong>
-										<xsl:value-of select="notification_data/booking_start_time_str" />
+										<xsl:value-of
+											select="notification_data/booking_start_time_str"/>
 									</td>
 								</tr>
 							</xsl:if>
-						<xsl:if test="notification_data/request/end_time != ''">
+							<xsl:if test="notification_data/request/end_time != ''">
 								<tr>
 									<td>
 										<strong> @@end_time@@: </strong>
-										<xsl:value-of select="notification_data/booking_end_time_str" />
+										<xsl:value-of
+											select="notification_data/booking_end_time_str"/>
 									</td>
 								</tr>
 							</xsl:if>
-						<xsl:if test="notification_data/request/note != ''">
+							<xsl:if test="notification_data/request/note != ''">
 								<tr>
 									<td>
 										<strong> @@request_note@@: </strong>
-										<xsl:value-of select="notification_data/request/note" />
+										<xsl:value-of select="notification_data/request/note"/>
 									</td>
 								</tr>
 							</xsl:if>
 							<tr>
 								<td>
 									<strong> @@reason_deleting_request@@: </strong>
-									<xsl:value-of select="notification_data/request/status_note_display" />
+									<xsl:value-of
+										select="notification_data/request/status_note_display"/>
 								</td>
 							</tr>
 							<xsl:if test="notification_data/request/cancel_reason != ''">
 								<tr>
 									<td>
 										<strong> @@request_cancellation_note@@: </strong>
-										<xsl:value-of select="notification_data/request/cancel_reason" />
+										<xsl:value-of
+											select="notification_data/request/cancel_reason"/>
 									</td>
 								</tr>
 							</xsl:if>
 						</table>
-						<br />
-						<table role='presentation' >
-
+						<br/>
+						<!--<table role="presentation">
 							<tr>
 								<td>@@sincerely@@</td>
 							</tr>
 							<tr>
 								<td>@@department@@</td>
 							</tr>
-
-						</table>
+						</table>-->
+						<xsl:call-template name="signed"/>
+						<!-- footer.xsl -->
+						
+						
 					</div>
 				</div>
-				<xsl:call-template name="contactUs" /><!-- footer.xsl -->
-				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+				
+				<xsl:call-template name="protocols"/> 
+				<!-- footer.xsl -->
+				<xsl:call-template name="contactUs"/>
+				<!-- footer.xsl -->
+				<xsl:call-template name="lastFooter"/>
+				<!-- footer.xsl -->
 			</body>
 		</html>
 	</xsl:template>
