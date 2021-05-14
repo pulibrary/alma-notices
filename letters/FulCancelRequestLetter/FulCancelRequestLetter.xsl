@@ -15,7 +15,8 @@
 			</xsl:if>
 			<head>
 				<title>
-					<xsl:value-of select="notification_data/general_data/subject"/>
+					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
+					<xsl:text>Cancellation notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -34,11 +35,14 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td> @@on@@ <xsl:value-of
+								<!--<td> @@on@@ <xsl:value-of
 										select="notification_data/general_data/current_date"/>
 									@@we_cancel_y_req_of@@ <xsl:value-of
 										select="notification_data/request/create_date"/>
-									@@detailed_below@@ : </td>
+									@@detailed_below@@ : </td>-->
+								<td>
+									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. Cancellations can occur for several reasons. Your recall request may have expired after 30 days, the item available for you was not picked up, or the item you requested was needed for course reserve. If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
+								</td>
 							</tr>
 							<tr>
 								<td>
@@ -316,12 +320,9 @@
 						</table>-->
 						<xsl:call-template name="signed"/>
 						<!-- footer.xsl -->
-						
-						
 					</div>
 				</div>
-				
-				<xsl:call-template name="protocols"/> 
+				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->

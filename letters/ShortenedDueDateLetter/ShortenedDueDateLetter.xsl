@@ -15,7 +15,8 @@
 			</xsl:if>
 			<head>
 				<title>
-					<xsl:value-of select="notification_data/general_data/subject"/>
+					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
+					<xsl:text>Recall notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -35,20 +36,31 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td> @@title@@&#160;<xsl:value-of
-										select="notification_data/item_loan/title"/>
-									<xsl:text>, previously due on </xsl:text>
-									<xsl:value-of select="notification_data/item_loan/old_due_date"/>
-									<xsl:text>, </xsl:text> @@due_back@@ <xsl:value-of
+								<td><xsl:text> The following item with a previous due date of </xsl:text>
+									<xsl:value-of select="notification_data/item_loan/old_due_date"
+									/> @@due_back@@ <xsl:value-of
 										select="notification_data/item_loan/due_date"/>
 									<xsl:text> owing to: </xsl:text>
 									<xsl:value-of
 										select="notification_data/item_loan/shortened_due_date_reason"/>
 									<br/><br/>
-									<xsl:text>Please return by </xsl:text>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong><xsl:value-of select="notification_data/item_loan/author"/>: 
+									<xsl:value-of select="notification_data/item_loan/title"/></strong>
+									<br/>
+									<br/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:text>Fines for overdue recalled items are $1 per day. Please return the urgently needed items before </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/due_date"/>
 									<xsl:text>.</xsl:text>
-									<br/><br/>
+									<br/>
+									<br/>
 								</td>
 							</tr>
 						</table>
@@ -63,16 +75,14 @@
 						</table>-->
 						<xsl:call-template name="signed"/>
 						<!-- footer.xsl -->
-						
-						
 					</div>
 				</div>
-				
-				<xsl:call-template name="protocols"/> 
+				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
+				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->
-				<xsl:call-template name="contactUs"/><!-- footer.xsl -->
-				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+				<xsl:call-template name="lastFooter"/>
+				<!-- footer.xsl -->
 			</body>
 		</html>
 	</xsl:template>

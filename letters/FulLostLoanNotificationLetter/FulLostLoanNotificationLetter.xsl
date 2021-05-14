@@ -14,7 +14,8 @@
 			</xsl:if>
 			<head>
 				<title>
-					<xsl:value-of select="notification_data/general_data/subject"/>
+					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
+					<xsl:text>Overdue recall notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -33,9 +34,12 @@
 				<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 					<tr>
 						<td>
-							<h>@@inform_you_item_below@@ </h>
-							<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>
-						</td>
+							<!--<h>@@inform_you_item_below@@ </h>
+							<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>-->
+							<xsl:text>The following recalled item(s) are overdue and fines of $1 per day are accruing. Please return these items which are urgently needed by another patron.</xsl:text>
+<br/>
+<br/>						
+</td>
 					</tr>
 				</table>
 				<table role="presentation" cellpadding="5" class="listing">
@@ -47,7 +51,8 @@
 						<table role="presentation">
 							<tr>
 								<td>
-									<strong>@@lost_item@@ :</strong>
+									<!--<strong>@@lost_item@@ :</strong>-->
+									<strong>Item :</strong>
 									<xsl:value-of select="item_loan/title"/>
 									<br/>
 									<strong>@@description@@ :</strong><xsl:value-of
@@ -79,7 +84,7 @@
 									<strong>@@call_number@@ :</strong><xsl:value-of
 										select="phys_item_display/call_number"/>
 									<br/>
-									<strong>@@charged_with_fines_fees@@ </strong>
+									<!--<strong>@@charged_with_fines_fees@@ </strong>-->
 								</td>
 							</tr>
 						</table>
@@ -89,7 +94,7 @@
 							<xsl:call-template name="mainTableStyleCss"/>
 							<!-- style.xsl -->
 						</xsl:attribute>
-						<tr>
+					<!--	<tr>
 							<th>@@fee_type@@</th>
 							<th>@@fee_amount@@</th>
 							<th>@@note@@</th>
@@ -102,7 +107,7 @@
 									/></td>
 								<td><xsl:value-of select="ff"/></td>
 							</tr>
-						</xsl:for-each>
+						</xsl:for-each>-->
 					</table>
 					<br/>
 					<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>
@@ -114,8 +119,7 @@
 				<br/>
 				<xsl:call-template name="signed"/>
 				<!-- footer.xsl -->
-				
-				<xsl:call-template name="protocols"/> 
+				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->
