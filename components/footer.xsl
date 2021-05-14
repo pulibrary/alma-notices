@@ -98,7 +98,7 @@
 			</tr>
 		</table>
 	</xsl:template>
-	<xsl:template name="myAccount">
+	<!--<xsl:template name="myAccount">
 		<table align="right">
 			<tr>
 				<td align="right">
@@ -108,5 +108,9 @@
 				</td>
 			</tr>
 		</table>
+	</xsl:template>-->
+	<xsl:template name="myAccount">
+		<a>
+			<xsl:attribute name="href">https://catalog.princeton.edu/account</xsl:attribute>here</a>
 	</xsl:template>
 </xsl:stylesheet>
