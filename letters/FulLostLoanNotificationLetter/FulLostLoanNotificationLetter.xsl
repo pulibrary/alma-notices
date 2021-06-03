@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:include href="header.xsl"/>
 	<xsl:include href="senderReceiver.xsl"/>
+	<xsl:include href="mailReason.xsl"/>
 	<xsl:include href="footer.xsl"/>
 	<xsl:include href="style.xsl"/>
 	<xsl:template match="/">
@@ -26,7 +26,9 @@
 				<!-- header.xsl -->
 				<xsl:call-template name="senderReceiver"/>
 				<!-- SenderReceiver.xsl -->
-				<br/>
+				<xsl:call-template name="toWhomIsConcerned"/>
+				<!-- mailReason.xsl -->
+				<!--<br />-->
 				<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 					<tr>
 						<td>
@@ -44,7 +46,7 @@
 						select="notification_data/loans_by_library/library_loans_for_display">
 						<tr>
 							<td>
-								<table cellpadding="5" class="listing">
+								<table role="presentation" cellpadding="5" class="listing">
 									<xsl:attribute name="style">
 										<xsl:call-template name="mainTableStyleCss"/>
 									</xsl:attribute>
@@ -70,33 +72,38 @@
 											<td><xsl:value-of select="item_loan/description"/></td>
 											<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
-											/></td>
+												/></td>
 											<td><xsl:value-of select="item_loan/loan_date"/></td>
 											<td><xsl:value-of select="item_loan/due_date"/></td>
 											<td><span>
 												<xsl:attribute name="style"><xsl:call-template
-													name="barcodeCss"/></xsl:attribute>
+												name="barcodeCss"/></xsl:attribute>
 												<xsl:text>*</xsl:text>
 												<xsl:value-of select="item_loan/barcode"/>
 												<xsl:text>*</xsl:text>
-											</span>
+												</span>
 												<br/>
 												<xsl:value-of select="item_loan/barcode"/>
 												<br/></td>
 											<td><xsl:value-of
 												select="physical_item_display_for_printing/call_number"
-											/></td>
+												/></td>
 											<td>
 												<xsl:for-each
-													select="fines_fees_list/user_fines_fees">
-													<strong><xsl:value-of
-														select="fine_fee_type_display"/>:
-													</strong><xsl:value-of
-														select="fine_fee_ammount/normalized_sum"
-													/>&#160;<xsl:value-of
-														select="fine_fee_ammount/currency"
-													/>&#160;<xsl:value-of select="ff"/>
-													<br/>
+												select="fines_fees_list/user_fines_fees">
+												<strong>
+												<xsl:value-of select="fine_fee_type_display"/>: </strong>
+												<xsl:choose>
+												<xsl:when test="fine_fee_ammount/normalized_sum"
+												><xsl:value-of
+												select="fine_fee_ammount/normalized_sum"/>
+												</xsl:when>
+												<xsl:otherwise><xsl:value-of
+												select="fine_fee_ammount/sum"/></xsl:otherwise>
+												</xsl:choose>&#160;<xsl:value-of
+												select="fine_fee_ammount/currency"
+												/>&#160;<xsl:value-of select="ff"/>
+												<br/>
 												</xsl:for-each>
 											</td>
 										</tr>
@@ -109,12 +116,12 @@
 					<xsl:if test="notification_data/overdue_notification_fee_amount/sum != ''">
 						<tr>
 							<td>
-								<strong>@@overdue_notification_fee@@ </strong>
+								<strong>@@overdue_notification_fee@@</strong>
 								<xsl:value-of
 									select="notification_data/overdue_notification_fee_amount/normalized_sum"
-								/>&#160;<xsl:value-of
+									/>&#160;<xsl:value-of
 									select="notification_data/overdue_notification_fee_amount/currency"
-								/>&#160;<xsl:value-of select="ff"/>
+									/>&#160;<xsl:value-of select="ff"/>
 							</td>
 						</tr>
 					</xsl:if>
@@ -128,8 +135,7 @@
 				<br/>
 				<xsl:call-template name="signed"/>
 				<!-- footer.xsl -->
-				
-				<xsl:call-template name="protocols"/> 
+				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->

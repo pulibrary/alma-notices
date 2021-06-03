@@ -16,7 +16,7 @@
 					<xsl:call-template name="bodyStyleCss"/>
 					<!-- style.xsl -->
 				</xsl:attribute>
-				<!--	<xsl:call-template name="head" />  header.xsl -->
+					<xsl:call-template name="head" />  <!--header.xsl -->
 				<div class="messageArea">
 					<br/>
 					<table cellspacing="0" cellpadding="5" border="0">
@@ -39,16 +39,9 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<br/>
-							<br/>
-							<br/>
 							<tr>
 								<td>
 									<b>@@item_barcode@@: </b>
-								</td>
-							</tr>
-							<tr>
-								<td>
 									<!--<img src="cid:item_id_barcode.png" alt="Item Barcode"/>-->
 									<span>
 										<xsl:attribute name="style"><xsl:call-template name="barcodeCss"/></xsl:attribute>
@@ -69,7 +62,7 @@
 							<br/>
 							<tr>
 								<td>
-									<b>@@title@@ : </b>
+									<b>@@title@@: </b>
 									<xsl:value-of select="notification_data/title"/>
 								</td>
 							</tr>
@@ -87,21 +80,21 @@
 							</tr>
 							<tr>
 								<td>
-									<b>@@order_number@@ : </b>
+									<b>@@order_number@@: </b>
 									<xsl:value-of select="notification_data/poline_number"/>
 								</td>
 							</tr>
 							<b/>
 							<tr>
 								<td>
-									<b>@@library@@ : </b>
+									<b>@@library@@: </b>
 									<xsl:value-of select="notification_data/organization_unit/name"
 									/>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<b>@@location@@ : </b>
+									<b>@@location@@: </b>
 									<xsl:value-of select="notification_data/location"/>
 								</td>
 							</tr>
