@@ -33,7 +33,7 @@
 		<table role="presentation">
 			<tr>
 				<td>
-					<strong>Sincerely</strong>
+					<strong>Sincerely,</strong>
 				</td>
 			</tr>
 			<tr>

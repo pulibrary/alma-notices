@@ -47,25 +47,25 @@
 						<table role="presentation">
 							<tr>
 								<td>
-									<strong>@@lost_item@@ :</strong>
+									<strong>@@lost_item@@: </strong>
 									<xsl:value-of select="item_loan/title"/>
-									<br/>
-									<strong>@@description@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong>@@description@@: </strong><xsl:value-of
 										select="item_loan/description"/>
-									<br/>
-									<strong> @@by@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong> @@by@@: </strong><xsl:value-of
 										select="item_loan/author"/>
-									<br/>
-									<strong>@@library@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong>@@library@@: </strong><xsl:value-of
 										select="organization_unit/name"/>
-									<br/>
-									<strong>@@loan_date@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong>@@loan_date@@: </strong><xsl:value-of
 										select="item_loan/loan_date"/>
-									<br/>
-									<strong>@@due_date@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong>@@due_date@@: </strong><xsl:value-of
 										select="item_loan/due_date"/>
-									<br/>
-									<strong>@@barcode@@ :</strong>
+									<br/><br/>
+									<strong>@@barcode@@: </strong>
 									<span>
 										<xsl:attribute name="style"><xsl:call-template name="barcodeCss"/></xsl:attribute>
 										
@@ -76,10 +76,10 @@
 									</span>
 									<br/>
 									<xsl:value-of select="item_loan/barcode"/>
-									<br/>
-									<strong>@@call_number@@ :</strong><xsl:value-of
+									<br/><br/>
+									<strong>@@call_number@@: </strong><xsl:value-of
 										select="phys_item_display/call_number"/>
-									<br/>
+									<br/><br/>
 									<strong>@@charged_with_fines_fees@@ </strong>
 								</td>
 							</tr>

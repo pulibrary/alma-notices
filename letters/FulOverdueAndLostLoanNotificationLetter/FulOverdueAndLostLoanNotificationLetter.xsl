@@ -70,33 +70,33 @@
 											<td><xsl:value-of select="item_loan/description"/></td>
 											<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
-												/></td>
+											/></td>
 											<td><xsl:value-of select="item_loan/loan_date"/></td>
 											<td><xsl:value-of select="item_loan/due_date"/></td>
 											<td><span>
 												<xsl:attribute name="style"><xsl:call-template
-												name="barcodeCss"/></xsl:attribute>
+													name="barcodeCss"/></xsl:attribute>
 												<xsl:text>*</xsl:text>
 												<xsl:value-of select="item_loan/barcode"/>
 												<xsl:text>*</xsl:text>
-												</span>
+											</span>
 												<br/>
 												<xsl:value-of select="item_loan/barcode"/>
 												<br/></td>
 											<td><xsl:value-of
 												select="physical_item_display_for_printing/call_number"
-												/></td>
+											/></td>
 											<td>
 												<xsl:for-each
-												select="fines_fees_list/user_fines_fees">
-												<strong><xsl:value-of
-												select="fine_fee_type_display"/>:
-												</strong><xsl:value-of
-												select="fine_fee_ammount/normalized_sum"
-												/>&#160;<xsl:value-of
-												select="fine_fee_ammount/currency"
-												/>&#160;<xsl:value-of select="ff"/>
-												<br/>
+													select="fines_fees_list/user_fines_fees">
+													<strong><xsl:value-of
+														select="fine_fee_type_display"/>:
+													</strong><xsl:value-of
+														select="fine_fee_ammount/normalized_sum"
+													/>&#160;<xsl:value-of
+														select="fine_fee_ammount/currency"
+													/>&#160;<xsl:value-of select="ff"/>
+													<br/>
 												</xsl:for-each>
 											</td>
 										</tr>
@@ -110,11 +110,10 @@
 						<tr>
 							<td>
 								<strong>@@overdue_notification_fee@@ </strong>
-								<xsl:value-of
-									select="notification_data/overdue_notification_fee_amount/normalized_sum"
-									/>&#160;<xsl:value-of
+								<xsl:value-of select="overdue_notification_fee_amount/sum"
+								/>&#160;<xsl:value-of
 									select="notification_data/overdue_notification_fee_amount/currency"
-									/>&#160;<xsl:value-of select="ff"/>
+								/>&#160;<xsl:value-of select="ff"/>
 							</td>
 						</tr>
 					</xsl:if>
