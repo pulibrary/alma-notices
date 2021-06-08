@@ -13,11 +13,28 @@
 			</head>
 			<body>
 				<h1 style="font-size: 500%;">
-					<b><!--@@requested_for@@ : --><xsl:value-of
-							select="notification_data/user_for_printing/name"/>
+					<b>
+						<!--@@requested_for@@ : -->
+						<xsl:value-of select="notification_data/user_for_printing/name"/>
 					</b>
 				</h1>
-<h1>Patron Barcode: <xsl:value-of select="notification_data/user_for_printing/identifiers/code_value[1]/value"/></h1>
+				<h1>
+					<xsl:value-of
+						select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
+					/>
+				</h1>
+				<h1>
+					<span>
+						<xsl:attribute name="style">
+							<xsl:call-template name="barcodeCss"/>
+						</xsl:attribute>
+						<xsl:text>*</xsl:text>
+						<xsl:value-of
+							select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"/>
+						<xsl:text>*</xsl:text>
+					</span>
+				</h1>
+
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<div class="messageArea">
