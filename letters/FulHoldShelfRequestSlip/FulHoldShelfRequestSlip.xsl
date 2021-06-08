@@ -34,28 +34,29 @@
 						<xsl:text>*</xsl:text>
 					</span>
 				</h1>
-
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<!--<xsl:if
-								test="notification_data/request/selected_inventory_type = 'ITEM'">
-								<tr>
-									<td>
-										<b>@@note_item_specified_request@@.</b>
-									</td>
-								</tr>
-							</xsl:if>-->
-							<xsl:if test="notification_data/request/manual_description != ''">
-								<tr>
-									<td><b>@@please_note@@: </b>@@manual_description_note@@ -
-											<xsl:value-of
-											select="notification_data/request/manual_description"
-										/></td>
-								</tr>
-							</xsl:if>
+							<tr>
+								<td>
+									<h2>
+										<b>@@location@@: </b>
+										<xsl:value-of
+											select="notification_data/phys_item_display/location_name"
+										/>
+									</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2>
+										<b>@@move_to_library@@: </b>
+										<xsl:value-of select="notification_data/destination"/>
+									</h2>
+								</td>
+							</tr>
 							<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
@@ -77,14 +78,42 @@
 									</td>
 								</tr>
 							</xsl:if>
-							<xsl:if test="notification_data/external_id != ''">
+							<xsl:if test="notification_data/phys_item_display/call_number != ''">
+								<tr>
+									<td>
+											<b>@@call_number@@: </b>
+											<xsl:value-of
+												select="notification_data/phys_item_display/call_number"
+											/>
+										
+									</td>
+								</tr>
+							</xsl:if>
+							<!--<xsl:if
+								test="notification_data/request/selected_inventory_type = 'ITEM'">
+								<tr>
+									<td>
+										<b>@@note_item_specified_request@@.</b>
+									</td>
+								</tr>
+							</xsl:if>-->
+							
+							<xsl:if test="notification_data/request/manual_description != ''">
+								<tr>
+									<td><b>@@please_note@@: </b>@@manual_description_note@@ -
+											<xsl:value-of
+											select="notification_data/request/manual_description"
+										/></td>
+								</tr>
+							</xsl:if>
+							<!--<xsl:if test="notification_data/external_id != ''">
 								<tr>
 									<td>
 										<b>@@external_id@@: </b>
 										<xsl:value-of select="notification_data/external_id"/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/user_for_printing/name">
 								<tr>
 									<td>
@@ -99,7 +128,7 @@
 									<xsl:call-template name="recordTitle"/>
 								</td>
 							</tr>
-							<xsl:if test="notification_data/phys_item_display/isbn != ''">
+							<!--<xsl:if test="notification_data/phys_item_display/isbn != ''">
 								<tr>
 									<td>@@isbn@@: <xsl:value-of
 											select="notification_data/phys_item_display/isbn"/></td>
@@ -125,28 +154,10 @@
 										/></td>
 								</tr>
 							</xsl:if>
-							<b/>
-							<tr>
-								<td>
-									<h2>
-										<b>@@location@@: </b>
-										<xsl:value-of
-											select="notification_data/phys_item_display/location_name"
-										/>
-									</h2>
-								</td>
-								<xsl:if test="notification_data/phys_item_display/call_number != ''">
-									<td>
-										<h2>
-											<b>@@call_number@@: </b>
-											<xsl:value-of
-												select="notification_data/phys_item_display/call_number"
-											/>
-										</h2>
-									</td>
-								</xsl:if>
-								<xsl:if
-									test="notification_data/phys_item_display/accession_number != ''">
+							
+							<xsl:if
+								test="notification_data/phys_item_display/accession_number != ''">
+								<tr>
 									<td>
 										<h2>
 											<b>@@accession_number@@: </b>
@@ -155,8 +166,8 @@
 											/>
 										</h2>
 									</td>
-								</xsl:if>
-							</tr>
+								</tr>
+							</xsl:if>-->
 							<xsl:if
 								test="notification_data/phys_item_display/shelving_location/string">
 								<xsl:if
@@ -181,7 +192,7 @@
 										</td>
 									</tr>
 								</xsl:if>
-								<xsl:if
+								<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
 										<td>
@@ -191,7 +202,7 @@
 												<xsl:value-of select="."/> &#160; </xsl:for-each>
 										</td>
 									</tr>
-								</xsl:if>
+								</xsl:if>-->
 							</xsl:if>
 							<xsl:if
 								test="notification_data/phys_item_display/display_alt_call_numbers/string">
@@ -217,7 +228,7 @@
 										</td>
 									</tr>
 								</xsl:if>
-								<xsl:if
+								<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
 										<td>
@@ -227,15 +238,9 @@
 												<xsl:value-of select="."/> &#160; </xsl:for-each>
 										</td>
 									</tr>
-								</xsl:if>
+								</xsl:if>-->
 							</xsl:if>
 							<b/>
-							<tr>
-								<td>
-									<b>@@move_to_library@@: </b>
-									<xsl:value-of select="notification_data/destination"/>
-								</td>
-							</tr>
 							<tr>
 								<td>
 									<b>@@request_type@@: </b>
