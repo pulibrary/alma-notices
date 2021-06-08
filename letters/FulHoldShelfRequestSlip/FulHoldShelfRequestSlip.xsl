@@ -241,13 +241,13 @@
 								</xsl:if>-->
 							</xsl:if>
 							<b/>
-							<tr>
+							<!--<tr>
 								<td>
 									<b>@@request_type@@: </b>
 									<xsl:value-of select="notification_data/request_type"/>
 								</td>
-							</tr>
-							<xsl:if test="notification_data/request/system_notes != ''">
+							</tr>-->
+							<!--<xsl:if test="notification_data/request/system_notes != ''">
 								<tr>
 									<td>
 										<b>@@system_notes@@:</b>
@@ -255,15 +255,15 @@
 											select="notification_data/request/system_notes"/>
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/note != ''">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/note != ''">
 								<tr>
 									<td>
 										<b>@@request_note@@:</b>
 										<xsl:value-of select="notification_data/request/note"/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<tr>
 								<td>
 									<strong>@@request_id@@: </strong>

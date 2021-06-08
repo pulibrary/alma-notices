@@ -62,13 +62,13 @@
 								<td><b>@@transfer_time@@: </b>
 									<xsl:value-of select="notification_data/request/create_time" /></td>
 							</tr>
-							<xsl:if test="notification_data/request/material_type_display">
+							<!--<xsl:if test="notification_data/request/material_type_display">
 								<tr>
 									<td><b>@@material_type@@: </b>
 										<xsl:value-of select="notification_data/request/material_type_display" /></td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/user_for_printing/note">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/user_for_printing/note">
 								<tr>
 									<td>
 										<b>@@user_note@@:</b>
@@ -79,8 +79,8 @@
 										<xsl:value-of select="notification_data/user_for_printing/note" />
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/system_notes">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/system_notes">
 								<tr>
 									<td>
 										<b>@@system_notes@@:</b>
@@ -91,8 +91,8 @@
 										<xsl:value-of select="notification_data/request/system_notes" />
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/note">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/note">
 								<tr>
 									<td>
 										<b>@@request_note@@:</b>
@@ -103,7 +103,7 @@
 										<xsl:value-of select="notification_data/request/note" />
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/user_for_printing/name">
 								<tr>
 									<td>
