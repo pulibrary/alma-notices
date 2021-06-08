@@ -55,9 +55,9 @@
 									/>
 								</td>
 							</tr>
-							<tr>
+<!--							<tr>
 								<td>@@we_are_transferring_item_below@@</td>
-							</tr>
+							</tr>-->
 							<tr>
 								<td><b>@@from@@: </b>
 									<xsl:value-of select="notification_data/request/assigned_unit_name" /></td>
