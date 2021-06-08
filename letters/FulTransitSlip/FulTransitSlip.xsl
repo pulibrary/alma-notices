@@ -23,23 +23,7 @@
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
 							
-							<tr>
-								<td>
-									<b>@@request_id@@: </b>
-									<img src="cid:request_id_barcode.png"
-										alt="Request Barcode" />
-									<!--<span>
-										<xsl:attribute name="style"><xsl:call-template
-											name="barcodeCss"/></xsl:attribute>
-										<xsl:text>*</xsl:text>
-										<xsl:value-of select="notification_data/request_id"/>
-										<xsl:text>*</xsl:text>
-									</span>-->
-									<br/>
-									<xsl:value-of select="notification_data/request_id"/>
-									<br/>
-								</td>
-							</tr>
+							
 							<tr>
 								<td>
 									<b>@@item_barcode@@: </b>
@@ -163,6 +147,23 @@
 										<xsl:value-of select="notification_data/phys_item_display/owning_library_name" /></td>
 								</tr>
 							</xsl:if>
+							<tr>
+								<td>
+									<b>@@request_id@@: </b>
+									<!--<img src="cid:request_id_barcode.png"
+										alt="Request Barcode" />-->
+									<!--<span>
+										<xsl:attribute name="style"><xsl:call-template
+											name="barcodeCss"/></xsl:attribute>
+										<xsl:text>*</xsl:text>
+										<xsl:value-of select="notification_data/request_id"/>
+										<xsl:text>*</xsl:text>
+									</span>-->
+									<br/>
+									<xsl:value-of select="notification_data/request_id"/>
+									<br/>
+								</td>
+							</tr>
 							<tr>
 								<td>@@print_date@@: 
 									<xsl:value-of select="notification_data/request/create_date" />-
