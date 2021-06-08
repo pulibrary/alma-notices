@@ -22,12 +22,7 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<tr>
-								<td><b>@@print_date@@: </b>
-									<xsl:value-of select="notification_data/request/create_date" />-
-									
-									<xsl:value-of select="notification_data/request/create_time" /></td>
-							</tr>
+							
 							<tr>
 								<td>
 									<b>@@request_id@@: </b>
@@ -168,6 +163,12 @@
 										<xsl:value-of select="notification_data/phys_item_display/owning_library_name" /></td>
 								</tr>
 							</xsl:if>
+							<tr>
+								<td>@@print_date@@: 
+									<xsl:value-of select="notification_data/request/create_date" />-
+									
+									<xsl:value-of select="notification_data/request/create_time" /></td>
+							</tr>
 						</table>
 					</div>
 				</div>
