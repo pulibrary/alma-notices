@@ -20,10 +20,13 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>
 			<body>
-				<h1>
-					<strong>@@requested_for@@ : <xsl:value-of
+				<h1 style="font-size: 500%;">
+					<b>
+						<xsl:value-of select="notification_data/phys_item_display/call_number"/>
+					</b>
+					<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
-					</strong>
+					</strong>-->
 				</h1>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
@@ -48,6 +51,13 @@
 							</xsl:if>
 							<tr>
 								<td>
+									<strong>@@requested_for@@ :</strong>
+									<xsl:value-of select="notification_data/user_for_printing/name"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>
 									<strong>@@request_id@@: </strong>
 									<img src="cid:request_id_barcode.png" alt="Request Barcode"/>
 									<!--<span>
@@ -69,8 +79,9 @@
 										<strong>@@item_barcode@@: </strong>
 										<!--<img src="cid:item_id_barcode.png" alt="Item Barcode"/>-->
 										<span>
-											<xsl:attribute name="style"><xsl:call-template name="barcodeCss"/></xsl:attribute>
-											
+											<xsl:attribute name="style">
+												<xsl:call-template name="barcodeCss"/>
+											</xsl:attribute>
 											<xsl:text>*</xsl:text>
 											<xsl:value-of
 												select="//notification_data/phys_item_display/available_items/available_item/barcode"/>
@@ -141,7 +152,9 @@
 										/>
 									</h2>
 								</td>
-								<xsl:if test="notification_data/phys_item_display/call_number != ''">
+							</tr>
+							<!--<xsl:if test="notification_data/phys_item_display/call_number != ''">
+								<tr>
 									<td>
 										<h2>
 											<strong>@@call_number@@: </strong>
@@ -150,9 +163,11 @@
 											/>
 										</h2>
 									</td>
-								</xsl:if>
-								<xsl:if
-									test="notification_data/phys_item_display/accession_number != ''">
+								</tr>
+							</xsl:if>-->
+							<xsl:if
+								test="notification_data/phys_item_display/accession_number != ''">
+								<tr>
 									<td>
 										<h2>
 											<strong>@@accession_number@@: </strong>
@@ -161,8 +176,8 @@
 											/>
 										</h2>
 									</td>
-								</xsl:if>
-							</tr>
+								</tr>
+							</xsl:if>
 							<xsl:if
 								test="notification_data/phys_item_display/shelving_location/string">
 								<xsl:if
