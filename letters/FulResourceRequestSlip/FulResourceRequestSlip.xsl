@@ -41,14 +41,6 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							<tr>
-								<td>
-									<strong>@@requested_for@@ :</strong>
-									<xsl:value-of select="notification_data/user_for_printing/name"
-									/>
-								</td>
-							</tr>
-							
 							<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
