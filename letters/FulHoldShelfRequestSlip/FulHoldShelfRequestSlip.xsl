@@ -275,9 +275,7 @@
 										<xsl:value-of select="notification_data/request_id"/>
 										<xsl:text>*</xsl:text>
 									</span>-->
-									<br/>
 									<xsl:value-of select="notification_data/request_id"/>
-									<br/>
 								</td>
 							</tr>
 						</table>

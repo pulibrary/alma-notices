@@ -88,9 +88,9 @@
 							<xsl:if test="notification_data/request/manual_description != ''">
 								<tr>
 									<td><strong>@@please_note@@:
-									</strong>@@manual_description_note@@ - <xsl:value-of
-										select="notification_data/request/manual_description"
-									/></td>
+										</strong>@@manual_description_note@@ - <xsl:value-of
+											select="notification_data/request/manual_description"
+										/></td>
 								</tr>
 							</xsl:if>
 							<!--<xsl:if test="notification_data/phys_item_display/isbn != ''">
@@ -127,6 +127,14 @@
 										<xsl:value-of
 											select="notification_data/phys_item_display/location_name"
 										/>
+									</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2>
+										<strong>@@move_to_library@@: </strong>
+										<xsl:value-of select="notification_data/destination"/>
 									</h2>
 								</td>
 							</tr>
@@ -230,12 +238,6 @@
 							<strong/>
 							<tr>
 								<td>
-									<strong>@@move_to_library@@: </strong>
-									<xsl:value-of select="notification_data/destination"/>
-								</td>
-							</tr>
-							<tr>
-								<td>
 									<strong>@@request_type@@: </strong>
 									<xsl:value-of select="notification_data/request_type"/>
 								</td>
@@ -268,15 +270,13 @@
 										<xsl:value-of select="notification_data/request_id"/>
 										<xsl:text>*</xsl:text>
 									</span>-->
-									<br/>
 									<xsl:value-of select="notification_data/request_id"/>
-									<br/>
 								</td>
 							</tr>
 						</table>
 					</div>
 				</div>
-			<!--	<xsl:call-template name="lastFooter"/>-->
+				<!--	<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
