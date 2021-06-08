@@ -40,14 +40,14 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<xsl:if
+							<!--<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
 									<td>
 										<b>@@note_item_specified_request@@.</b>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/request/manual_description != ''">
 								<tr>
 									<td><b>@@please_note@@: </b>@@manual_description_note@@ -
