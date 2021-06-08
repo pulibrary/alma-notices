@@ -12,11 +12,12 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>
 			<body>
-				<h1>
-					<b>@@requested_for@@ : <xsl:value-of
+				<h1 style="font-size: 500%;">
+					<b><!--@@requested_for@@ : --><xsl:value-of
 							select="notification_data/user_for_printing/name"/>
 					</b>
 				</h1>
+<h1>Patron Barcode: <xsl:value-of select="notification_data/user_for_printing/identifiers/code_value[1]/value"/></h1>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<div class="messageArea">
