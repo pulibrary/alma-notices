@@ -31,15 +31,15 @@
 							<tr>
 								<td>
 									<b>@@request_id@@: </b>
-									<!--<img src="cid:request_id_barcode.png"
-										alt="Request Barcode" />-->
-									<span>
+									<img src="cid:request_id_barcode.png"
+										alt="Request Barcode" />
+									<!--<span>
 										<xsl:attribute name="style"><xsl:call-template
 											name="barcodeCss"/></xsl:attribute>
 										<xsl:text>*</xsl:text>
 										<xsl:value-of select="notification_data/request_id"/>
 										<xsl:text>*</xsl:text>
-									</span>
+									</span>-->
 									<br/>
 									<xsl:value-of select="notification_data/request_id"/>
 									<br/>
