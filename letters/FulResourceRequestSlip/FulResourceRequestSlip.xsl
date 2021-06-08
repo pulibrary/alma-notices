@@ -33,14 +33,14 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
-							<xsl:if
+							<!--<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
 									<td>
 										<strong>@@note_item_specified_request@@.</strong>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/request/manual_description != ''">
 								<tr>
 									<td><strong>@@please_note@@:
@@ -283,7 +283,7 @@
 						</table>
 					</div>
 				</div>
-				<xsl:call-template name="lastFooter"/>
+			<!--	<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
