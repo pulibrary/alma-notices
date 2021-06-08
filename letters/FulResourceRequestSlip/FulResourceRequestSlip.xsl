@@ -41,6 +41,24 @@
 									</td>
 								</tr>
 							</xsl:if>-->
+							<tr>
+								<td>
+									<h2>
+										<strong>@@location@@: </strong>
+										<xsl:value-of
+											select="notification_data/phys_item_display/location_name"
+										/>
+									</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2>
+										<strong>@@move_to_library@@: </strong>
+										<xsl:value-of select="notification_data/destination"/>
+									</h2>
+								</td>
+							</tr>
 							<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
@@ -120,24 +138,7 @@
 								</tr>
 							</xsl:if>
 							<strong/>-->
-							<tr>
-								<td>
-									<h2>
-										<strong>@@location@@: </strong>
-										<xsl:value-of
-											select="notification_data/phys_item_display/location_name"
-										/>
-									</h2>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h2>
-										<strong>@@move_to_library@@: </strong>
-										<xsl:value-of select="notification_data/destination"/>
-									</h2>
-								</td>
-							</tr>
+							
 							<!--<xsl:if test="notification_data/phys_item_display/call_number != ''">
 								<tr>
 									<td>
@@ -187,7 +188,7 @@
 										</td>
 									</tr>
 								</xsl:if>
-								<xsl:if
+								<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
 										<td>
@@ -197,7 +198,7 @@
 												<xsl:value-of select="."/> &#160; </xsl:for-each>
 										</td>
 									</tr>
-								</xsl:if>
+								</xsl:if>-->
 							</xsl:if>
 							<xsl:if
 								test="notification_data/phys_item_display/display_alt_call_numbers/string">
@@ -223,7 +224,7 @@
 										</td>
 									</tr>
 								</xsl:if>
-								<xsl:if
+								<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
 										<td>
@@ -233,7 +234,7 @@
 												<xsl:value-of select="."/> &#160; </xsl:for-each>
 										</td>
 									</tr>
-								</xsl:if>
+								</xsl:if>-->
 							</xsl:if>
 							<strong/>
 							<tr>
