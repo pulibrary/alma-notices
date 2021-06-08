@@ -9,14 +9,26 @@
 	<xsl:include href="recordTitle.xsl" />
 	<xsl:template match="/">
 		<html>
+			<xsl:if test="notification_data/languages/string">
+				<xsl:attribute name="lang">
+					<xsl:value-of select="notification_data/languages/string"/>
+				</xsl:attribute>
+			</xsl:if>
 			<head>
-				<xsl:call-template name="generalStyle" />
+				<title>
+					<xsl:value-of select="notification_data/general_data/subject"/>
+				</title>
+				<xsl:call-template name="generalStyle"/>
 			</head>
 			<body>
-				<xsl:attribute name="style">
-					<xsl:call-template name="bodyStyleCss" />
-					<!-- style.xsl -->
-				</xsl:attribute>
+				<h1 style="font-size: 500%;">
+					<b>
+						<xsl:value-of select="notification_data/request/calculated_destination_name" />
+					</b>
+					<!--<strong>@@requested_for@@ : <xsl:value-of
+							select="notification_data/user_for_printing/name"/>
+					</strong>-->
+				</h1>
 				<xsl:call-template name="head" />
 				<!-- header.xsl -->
 				<div class="messageArea">
