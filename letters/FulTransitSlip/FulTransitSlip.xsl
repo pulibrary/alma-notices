@@ -9,42 +9,33 @@
 	<xsl:include href="recordTitle.xsl" />
 	<xsl:template match="/">
 		<html>
+			<xsl:if test="notification_data/languages/string">
+				<xsl:attribute name="lang">
+					<xsl:value-of select="notification_data/languages/string"/>
+				</xsl:attribute>
+			</xsl:if>
 			<head>
-				<xsl:call-template name="generalStyle" />
+				<title>
+					<xsl:value-of select="notification_data/general_data/subject"/>
+				</title>
+				<xsl:call-template name="generalStyle"/>
 			</head>
 			<body>
-				<xsl:attribute name="style">
-					<xsl:call-template name="bodyStyleCss" />
-					<!-- style.xsl -->
-				</xsl:attribute>
+				<h1 style="font-size: 500%;">
+					<b>
+						<xsl:value-of select="notification_data/request/calculated_destination_name" />
+					</b>
+					<!--<strong>@@requested_for@@ : <xsl:value-of
+							select="notification_data/user_for_printing/name"/>
+					</strong>-->
+				</h1>
 				<xsl:call-template name="head" />
 				<!-- header.xsl -->
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<tr>
-								<td><b>@@print_date@@: </b>
-									<xsl:value-of select="notification_data/request/create_date" />-
-									
-									<xsl:value-of select="notification_data/request/create_time" /></td>
-							</tr>
-							<tr>
-								<td>
-									<b>@@request_id@@: </b>
-									<!--<img src="cid:request_id_barcode.png"
-										alt="Request Barcode" />-->
-									<span>
-										<xsl:attribute name="style"><xsl:call-template
-											name="barcodeCss"/></xsl:attribute>
-										<xsl:text>*</xsl:text>
-										<xsl:value-of select="notification_data/request_id"/>
-										<xsl:text>*</xsl:text>
-									</span>
-									<br/>
-									<xsl:value-of select="notification_data/request_id"/>
-									<br/>
-								</td>
-							</tr>
+							
+							
 							<tr>
 								<td>
 									<b>@@item_barcode@@: </b>
@@ -64,9 +55,9 @@
 									/>
 								</td>
 							</tr>
-							<tr>
+<!--							<tr>
 								<td>@@we_are_transferring_item_below@@</td>
-							</tr>
+							</tr>-->
 							<tr>
 								<td><b>@@from@@: </b>
 									<xsl:value-of select="notification_data/request/assigned_unit_name" /></td>
@@ -83,13 +74,13 @@
 								<td><b>@@transfer_time@@: </b>
 									<xsl:value-of select="notification_data/request/create_time" /></td>
 							</tr>
-							<xsl:if test="notification_data/request/material_type_display">
+							<!--<xsl:if test="notification_data/request/material_type_display">
 								<tr>
 									<td><b>@@material_type@@: </b>
 										<xsl:value-of select="notification_data/request/material_type_display" /></td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/user_for_printing/note">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/user_for_printing/note">
 								<tr>
 									<td>
 										<b>@@user_note@@:</b>
@@ -100,8 +91,8 @@
 										<xsl:value-of select="notification_data/user_for_printing/note" />
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/system_notes">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/system_notes">
 								<tr>
 									<td>
 										<b>@@system_notes@@:</b>
@@ -112,8 +103,8 @@
 										<xsl:value-of select="notification_data/request/system_notes" />
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/note">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/note">
 								<tr>
 									<td>
 										<b>@@request_note@@:</b>
@@ -124,7 +115,7 @@
 										<xsl:value-of select="notification_data/request/note" />
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/user_for_printing/name">
 								<tr>
 									<td>
@@ -168,11 +159,35 @@
 										<xsl:value-of select="notification_data/phys_item_display/owning_library_name" /></td>
 								</tr>
 							</xsl:if>
+							<xsl:if test="notification_data/request_id[not(.='')]">
+							<tr>
+								<td>
+									<b>@@request_id@@: </b>
+									<!--<img src="cid:request_id_barcode.png"
+										alt="Request Barcode" />-->
+									<!--<span>
+										<xsl:attribute name="style"><xsl:call-template
+											name="barcodeCss"/></xsl:attribute>
+										<xsl:text>*</xsl:text>
+										<xsl:value-of select="notification_data/request_id"/>
+										<xsl:text>*</xsl:text>
+									</span>-->
+									<xsl:value-of select="notification_data/request_id"/>
+									<br/>
+								</td>
+							</tr>
+							</xsl:if>
+							<tr>
+								<td>@@print_date@@: 
+									<xsl:value-of select="notification_data/request/create_date" />-
+									
+									<xsl:value-of select="notification_data/request/create_time" /></td>
+							</tr>
 						</table>
 					</div>
 				</div>
 				<!-- recordTitle.xsl -->
-				<xsl:call-template name="lastFooter" />
+				<!--<xsl:call-template name="lastFooter" />-->
 				<!-- footer.xsl -->
 			</body>
 		</html>

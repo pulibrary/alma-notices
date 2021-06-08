@@ -1,958 +1,1259 @@
 <notification_data>
-<attachments_list></attachments_list>
-<general_data><address_c>None;None</address_c>
-<address_c>None;None</address_c>
-<address_from>libcir@princeton.edu</address_from>
-<current_date>05/06/2021</current_date>
-<letter_channel_info></letter_channel_info>
-<letter_name>Transit Letter</letter_name>
-<letter_type>FulTransitSlipLetter</letter_type>
-<subject>Transit Letter</subject>
-</general_data>
-<languages><string>en</string>
-</languages>
-<letter_params></letter_params>
-<letter_texts></letter_texts>
-<loans_by_library></loans_by_library>
-<normalize_sum_strategy></normalize_sum_strategy>
-<organization_unit><address><city>Princeton</city>
-<country></country>
-<country_display></country_display>
-<create_date>12/23/2020</create_date>
-<entity_action></entity_action>
-<library_id></library_id>
-<library_unit_id></library_unit_id>
-<line1>Princeton University Library</line1>
-<line2></line2>
-<line3></line3>
-<line4></line4>
-<line5></line5>
-<note></note>
-<originating_id></originating_id>
-<postal_code>08544</postal_code>
-<preferred>true</preferred>
-<segment_types_display><string>Primary</string>
-</segment_types_display>
-<state_province>NJ</state_province>
-<user_address_types_display></user_address_types_display>
-</address>
-<automatic_creation>false</automatic_creation>
-<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
-<automatically_locate_resource>false</automatically_locate_resource>
-<bibliographic_titles></bibliographic_titles>
-<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
-<code>firestone</code>
-<code_rfid></code_rfid>
-<country></country>
-<create_date>12/02/2020</create_date>
-<data_encryption_type></data_encryption_type>
-<default_acq_loctaion_id>124295800006421</default_acq_loctaion_id>
-<default_item_loctaion_id>124300630006421</default_item_loctaion_id>
-<default_move_loctaion_id></default_move_loctaion_id>
-<default_pickup_loctaion_id>124288510006421</default_pickup_loctaion_id>
-<default_printer></default_printer>
-<description></description>
-<digital_objects></digital_objects>
-<digital_storage_size></digital_storage_size>
-<disable_call_number_calculation>false</disable_call_number_calculation>
-<edi_code></edi_code>
-<edi_type></edi_type>
-<email><create_date>12/23/2020</create_date>
-<description></description>
-<email>almacirc@princeton.edu</email>
-<entity_action></entity_action>
-<esploro_display_email></esploro_display_email>
-<external_id></external_id>
-<library_id></library_id>
-<library_unit_id></library_unit_id>
-<originating_id></originating_id>
-<preferred>true</preferred>
-</email>
-<entity_action></entity_action>
-<hold_shelf_email_delay></hold_shelf_email_delay>
-<ignore_electronic>false</ignore_electronic>
-<inactive_dates_end_bor></inactive_dates_end_bor>
-<inactive_dates_end_lend></inactive_dates_end_lend>
-<inactive_dates_start_bor></inactive_dates_start_bor>
-<inactive_dates_start_lend></inactive_dates_start_lend>
-<isil_code></isil_code>
-<itemless_library></itemless_library>
-<leader_institution_id></leader_institution_id>
-<library_id></library_id>
-<library_unit_id></library_unit_id>
-<name>Firestone Library</name>
-<named_users></named_users>
-<org_scope><customer_id>6420</customer_id>
-<institution_id>6421</institution_id>
-<library_id>124288510006421</library_id>
-<library_unit_id></library_unit_id>
-</org_scope>
-<organization_id>124288510006421</organization_id>
-<organization_path>6420.6421.124288510006421</organization_path>
-<organization_type>LIBRARY</organization_type>
-<parent_org_id>6421</parent_org_id>
-<path>01PRI.01PRI_INST.firestone</path>
-<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
-<phone><create_date>12/02/2020</create_date>
-<entity_action></entity_action>
-<esploro_display_phone>0</esploro_display_phone>
-<external_id></external_id>
-<library_id></library_id>
-<library_unit_id></library_unit_id>
-<originating_id></originating_id>
-<phone>609-258-3202</phone>
-<preferred>true</preferred>
-<preferred_phone></preferred_phone>
-<preferred_sms></preferred_sms>
-</phone>
-<premium_sandbox></premium_sandbox>
-<prod_instance_name></prod_instance_name>
-<rapido_symbol></rapido_symbol>
-<reject_not_available>false</reject_not_available>
-<reject_not_requestable>false</reject_not_requestable>
-<reject_on_locate_failure>false</reject_on_locate_failure>
-<reject_only_electronic>false</reject_only_electronic>
-<reshelf_period></reshelf_period>
-<resource_sharing_library>false</resource_sharing_library>
-<extend_due_date></extend_due_date>
-<uresolver_locate>false</uresolver_locate>
-<serves_other_institutions>false</serves_other_institutions>
-<standard_sandbox></standard_sandbox>
-<status>ACTIVE</status>
-<support_code></support_code>
-<temp_inactive_borrowing>false</temp_inactive_borrowing>
-<temp_inactive_lending>false</temp_inactive_lending>
-<unique_ejournal_titles></unique_ejournal_titles>
-<url_mapping_prefix></url_mapping_prefix>
-</organization_unit>
-<phys_item_display><accession_number></accession_number>
-<alt_call_number_type></alt_call_number_type>
-<attachments></attachments>
-<author>Henry, Paul,</author>
-<available_items><available_item><barcode>32101112785173</barcode>
-<call_number>E169.Z83 H46 2020</call_number>
-<inventory_number></inventory_number>
-<item_policy>Gen</item_policy>
-<library_code>firestone</library_code>
-<library_name>Firestone Library</library_name>
-<location_code>dixn</location_code>
-<location_name>dixn: Dixon Books</location_name>
-<material_type>BOOK</material_type>
-<public_note></public_note>
-<shelving_location></shelving_location>
-</available_item>
-</available_items>
-<barcode>32101112785173</barcode>
-<call_number>E169.Z83 H46 2020</call_number>
-<call_number_type>0</call_number_type>
-<chron_i></chron_i>
-<chron_j></chron_j>
-<chron_k></chron_k>
-<chron_l></chron_l>
-<chron_m></chron_m>
-<copy_id></copy_id>
-<destination_name></destination_name>
-<display_alt_call_numbers></display_alt_call_numbers>
-<edition></edition>
-<enum_a></enum_a>
-<enum_b></enum_b>
-<enum_c></enum_c>
-<enum_d></enum_d>
-<enum_e></enum_e>
-<enum_f></enum_f>
-<enum_g></enum_g>
-<enum_h></enum_h>
-<fulfillment_note></fulfillment_note>
-<imprint>Auckland, New Zealand : Allen &amp; Unwin, 2020.</imprint>
-<internal_note1></internal_note1>
-<internal_note2></internal_note2>
-<internal_note3></internal_note3>
-<inventory_material_type>Book</inventory_material_type>
-<isbn>1988547601</isbn>
-<issn></issn>
-<issue_level_description></issue_level_description>
-<item_pid>23477929720006421</item_pid>
-<item_policy>Gen</item_policy>
-<library_code>firestone</library_code>
-<library_name>Firestone Library</library_name>
-<location_code>dixn</location_code>
-<location_name>dixn: Dixon Books</location_name>
-<material_type>BOOK</material_type>
-<optional_barcodes><string>32101112785173</string>
-</optional_barcodes>
-<owning_library_details><address1>Princeton University Library</address1>
-<address2></address2>
-<address3></address3>
-<address4></address4>
-<address5></address5>
-<blocks></blocks>
-<city>Princeton</city>
-<country></country>
-<email>almacirc@princeton.edu</email>
-<first_name></first_name>
-<identifiers><code_value><code>Primary Identifier</code>
-<value></value>
-</code_value>
-</identifiers>
-<last_name></last_name>
-<middle_name></middle_name>
-<name>Firestone Library</name>
-<phone>609-258-3202</phone>
-<postal_code>08544</postal_code>
-<preferred_first_name></preferred_first_name>
-<preferred_last_name></preferred_last_name>
-<preferred_middle_name></preferred_middle_name>
-<state>NJ</state>
-<title></title>
-<user_group></user_group>
-<user_title></user_title>
-</owning_library_details>
-<owning_library_id>124288510006421</owning_library_id>
-<owning_library_name>Firestone Library</owning_library_name>
-<parsed_alt_call_number></parsed_alt_call_number>
-<parsed_call_number></parsed_call_number>
-<parsed_issue_level_description></parsed_issue_level_description>
-<permanent_library></permanent_library>
-<permanent_location></permanent_location>
-<profile_names></profile_names>
-<public_note></public_note>
-<publication_date>2020.</publication_date>
-<publication_place>Auckland, New Zealand :</publication_place>
-<publisher>Allen &amp; Unwin,</publisher>
-<row_call_number>$$h E169.Z83 $$i H46 2020 </row_call_number>
-<shelving_location></shelving_location>
-<statistics_note1></statistics_note1>
-<statistics_note2></statistics_note2>
-<statistics_note3></statistics_note3>
-<summary_holding_infos></summary_holding_infos>
-<suppressed>false</suppressed>
-<title>I'm in a United State /</title>
-<title_abcnph>I'm in a United State / Paul Henry.</title_abcnph>
-</phys_item_display>
-<receivers><receiver><attached_to_entity_id>3908368140006421</attached_to_entity_id>
-<entity_id></entity_id>
-<entity_type></entity_type>
-<params></params>
-<preferred_language></preferred_language>
-<printer><code>fprint</code>
-<create_date>12/23/2020</create_date>
-<description>Printing</description>
-<email></email>
-<entity_action></entity_action>
-<library_id>124288510006421</library_id>
-<library_unit_id></library_unit_id>
-<name>almacirc@princeton.edu</name>
-<printout_queue_indicator>true</printout_queue_indicator>
-</printer>
-<receiver_id></receiver_id>
-<receiver_type></receiver_type>
-<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
-</receiver>
-</receivers>
-<request><active>true</active>
-<additional_id></additional_id>
-<all_org_fields></all_org_fields>
-<all_previous_locations_used>false</all_previous_locations_used>
-<approval_entity></approval_entity>
-<approval_management></approval_management>
-<assigned_unit_name>Firestone Library - Circulation Desk</assigned_unit_name>
-<author></author>
-<author_display></author_display>
-<booking_resolution></booking_resolution>
-<bulk_request>false</bulk_request>
-<calculated_destination_name>Technical Services - techserv Acquisitions Department</calculated_destination_name>
-<cancel_reason></cancel_reason>
-<cause_for_recalled_item>false</cause_for_recalled_item>
-<chapter_article_author></chapter_article_author>
-<chapter_article_title></chapter_article_title>
-<citation_upload_file_status></citation_upload_file_status>
-<convertable_to_resource_sharing>false</convertable_to_resource_sharing>
-<copyright_declaration_signed></copyright_declaration_signed>
-<copyright_source></copyright_source>
-<create_date>05/06/2021</create_date>
-<create_time>16:02:41 EDT</create_time>
-<date_available_from></date_available_from>
-<date_available_from_dummy><calendar>12/31/1969</calendar>
-<calendar_ui></calendar_ui>
-<day>1</day>
-<day_ui></day_ui>
-<default_value_for_with_validation>0</default_value_for_with_validation>
-<full_date></full_date>
-<full_date_from_ui></full_date_from_ui>
-<input_date_tag_format>00.00.0</input_date_tag_format>
-<month>0</month>
-<month_ui></month_ui>
-<date>true</date>
-<year>1970</year>
-<year_ui></year_ui>
-</date_available_from_dummy>
-<date_available_to></date_available_to>
-<date_available_to_dummy><calendar>12/31/1969</calendar>
-<calendar_ui></calendar_ui>
-<day>1</day>
-<day_ui></day_ui>
-<default_value_for_with_validation>0</default_value_for_with_validation>
-<full_date></full_date>
-<full_date_from_ui></full_date_from_ui>
-<input_date_tag_format>00.00.0</input_date_tag_format>
-<month>0</month>
-<month_ui></month_ui>
-<date>true</date>
-<year>1970</year>
-<year_ui></year_ui>
-</date_available_to_dummy>
-<delivery_address>Technical Services - techserv Acquisitions Department</delivery_address>
-<deposit_indicator></deposit_indicator>
-<document_delivery_email></document_delivery_email>
-<document_delivery_file_name></document_delivery_file_name>
-<document_delivery_indicator></document_delivery_indicator>
-<document_delivery_link_indicator></document_delivery_link_indicator>
-<document_delivery_max_num_of_views></document_delivery_max_num_of_views>
-<document_delivery_user_name></document_delivery_user_name>
-<due_back_date_updated>false</due_back_date_updated>
-<end_time></end_time>
-<end_time_dummy></end_time_dummy>
-<entity_action></entity_action>
-<expiry_by_date_needed_by></expiry_by_date_needed_by>
-<from_another_inst></from_another_inst>
-<from_another_inst_circ_desk></from_another_inst_circ_desk>
-<from_another_inst_library></from_another_inst_library>
-<fulfill_network_borrowing_id></fulfill_network_borrowing_id>
-<fulfill_network_inst_code></fulfill_network_inst_code>
-<hold_shelf_letter_sent>false</hold_shelf_letter_sent>
-<hold_shelf_reminder_date></hold_shelf_reminder_date>
-<hold_shelf_slip_printed>false</hold_shelf_slip_printed>
-<image_included>false</image_included>
-<initiated_from></initiated_from>
-<full_chapter></full_chapter>
-<out_of_institution_pickup></out_of_institution_pickup>
-<issue></issue>
-<keep_copyright>false</keep_copyright>
-<last_interest_date></last_interest_date>
-<library_id>124288510006421</library_id>
-<library_unit_id></library_unit_id>
-<manual_description></manual_description>
-<material_type_display>Book</material_type_display>
-<needs_hold_shelf_processing>false</needs_hold_shelf_processing>
-<ngrs_rapido>false</ngrs_rapido>
-<pickup>false</pickup>
-<note></note>
-<note1></note1>
-<note2></note2>
-<note3></note3>
-<notes></notes>
-<num_copies_for_staff></num_copies_for_staff>
-<num_copies_for_students></num_copies_for_students>
-<num_of_students></num_of_students>
-<num_of_total_pages></num_of_total_pages>
-<original_end_time></original_end_time>
-<original_start_time></original_start_time>
-<originating_mms_key></originating_mms_key>
-<originating_user_key></originating_user_key>
-<out_of_inst_library_id></out_of_inst_library_id>
-<out_of_institution_owner_institution_name></out_of_institution_owner_institution_name>
-<out_of_institution_owner_library_name></out_of_institution_owner_library_name>
-<out_of_institution_owner_location_name></out_of_institution_owner_location_name>
-<out_of_institution_requester></out_of_institution_requester>
-<pages></pages>
-<part></part>
-<partial_digitization></partial_digitization>
-<pickup_inst_code></pickup_inst_code>
-<pickup_location_display></pickup_location_display>
-<place_in_queue></place_in_queue>
-<previous_locations></previous_locations>
-<print_transit_slip>true</print_transit_slip>
-<publication_date></publication_date>
-<reading_list_citation_id></reading_list_citation_id>
-<reading_list_name></reading_list_name>
-<recall_loan>true</recall_loan>
-<record_display_section><isbn></isbn>
-<isbn_list></isbn_list>
-<issn></issn>
-<issn_list></issn_list>
-<location_and_access></location_and_access>
-<titles></titles>
-<accession_number></accession_number>
-<titles></titles>
-<alternate_titles></alternate_titles>
-<author>Henry, Paul, 1960- author.</author>
-<author_list><string>Henry, Paul, 1960- author.</string>
-</author_list>
-<begin_pub_date>2020</begin_pub_date>
-<bib_id></bib_id>
-<bib_level>m</bib_level>
-<binding_information></binding_information>
-<call_number></call_number>
-<call_number_prefix></call_number_prefix>
-<call_number_suffix></call_number_suffix>
-<category_of_material></category_of_material>
-<complete_edition></complete_edition>
-<complete_title>I'm in a United State / Paul Henry.</complete_title>
-<complete_title_reversed>I'm in a United State / Paul Henry.</complete_title_reversed>
-<completeness></completeness>
-<copy_number></copy_number>
-<copy_version_ident_note></copy_version_ident_note>
-<creator>Henry, Paul, 1960- author.</creator>
-<date>2020</date>
-<date_of_publication>2020.</date_of_publication>
-<date_of_report></date_of_report>
-<license></license>
-<rights></rights>
-<description>Despite his best intentions, Paul Henry has written his third book. It's a charming and eccentric ramble through the United States and back to New Zealand during the Covid-19 pandemic. There are two weddings, an election, a new TV show and his love affair with Palm Springs, sad desert motels, road trips and other passions. A fascinating window into the intriguing world of Paul Henry. 'I love the USA. And in this book, in real time, over the first six months of 2020, I chronicle my thoughts and actions and draw from my past to try and work out why. I'm brutally honest and clearly disturbed, magnificently so! I literally don't care what people think. You will be surprised. This is me, now . . . You're welcome.' Paul Henry.</description>
-<description_list><string>Despite his best intentions, Paul Henry has written his third book. It's a charming and eccentric ramble through the United States and back to New Zealand during the Covid-19 pandemic. There are two weddings, an election, a new TV show and his love affair with Palm Springs, sad desert motels, road trips and other passions. A fascinating window into the intriguing world of Paul Henry. 'I love the USA. And in this book, in real time, over the first six months of 2020, I chronicle my thoughts and actions and draw from my past to try and work out why. I'm brutally honest and clearly disturbed, magnificently so! I literally don't care what people think. You will be surprised. This is me, now . . . You're welcome.' Paul Henry.</string>
-</description_list>
-<encoding_level></encoding_level>
-<end_pub_date>2020</end_pub_date>
-<format>318 pages, 16 unnumbered pages of plates :;colour illustrations, ;;24 cm</format>
-<free_access></free_access>
-<general_retention></general_retention>
-<holdings></holdings>
-<id>99122455059206421</id>
-<identifier35></identifier35>
-<immediate_source_of_acq_note></immediate_source_of_acq_note>
-<isbn>1988547601</isbn>
-<isbn_az>9781988547602</isbn_az>
-<isbn_list><string>1988547601</string>
-<string>9781988547602</string>
-</isbn_list>
-<isbn_or_eisbn>1988547601</isbn_or_eisbn>
-<issn></issn>
-<issn_a></issn_a>
-<issn_list></issn_list>
-<issn_and_eissn_list></issn_and_eissn_list>
-<issn_az></issn_az>
-<issn_list></issn_list>
-<issn_or_eissn></issn_or_eissn>
-<language>eng</language>
-<lccn></lccn>
-<local_location></local_location>
-<local_notes></local_notes>
-<local_notes_list></local_notes_list>
-<local_subjects></local_subjects>
-<local_subjects_list></local_subjects_list>
-<local_subjects_list_reversed></local_subjects_list_reversed>
-<location></location>
-<material_type>BK</material_type>
-<material_type_list><string>BK</string>
-</material_type_list>
-<medium_type></medium_type>
-<method_of_acquisition></method_of_acquisition>
-<monograph_edition></monograph_edition>
-<monograph_editor></monograph_editor>
-<monograph_volume></monograph_volume>
-<network_number><string>(OCoLC)on1198246079</string>
-<string>(OCoLC)1198246079</string>
-<string>(OCoLC)1184238049</string>
-</network_number>
-<network_number_a><string>(OCoLC)on1198246079</string>
-<string>(OCoLC)1198246079</string>
-</network_number_a>
-<non_public_location_note></non_public_location_note>
-<normalized_title></normalized_title>
-<notes>&quot;Red white and beautifully entertaining&quot;--Title page.</notes>
-<notes_list><string>&quot;Red white and beautifully entertaining&quot;--Title page.</string>
-</notes_list>
-<nuc_code></nuc_code>
-<operational_sec><elm></elm>
-<elms></elms>
-<elms_list></elms_list>
-<fld></fld>
-<flds><map_entry><date><value><operational_fld><name>date</name>
-<value>2020</value>
-</operational_fld>
-</value>
-</date></map_entry><map_entry><complete_title><value><operational_fld><name>complete_title</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-</value>
-</complete_title></map_entry><map_entry><notes><value><operational_fld><name>notes</name>
-<value>&quot;Red white and beautifully entertaining&quot;--Title page.</value>
-</operational_fld>
-</value>
-</notes></map_entry><map_entry><end_pub_date><value><operational_fld><name>end_pub_date</name>
-<value>2020</value>
-</operational_fld>
-</value>
-</end_pub_date></map_entry><map_entry><type_of_date><value><operational_fld><name>type_of_date</name>
-<value>t</value>
-</operational_fld>
-</value>
-</type_of_date></map_entry><map_entry><isbn><value><operational_fld><name>isbn</name>
-<value>1988547601</value>
-</operational_fld>
-<operational_fld><name>isbn</name>
-<value>9781988547602</value>
-</operational_fld>
-</value>
-</isbn></map_entry><map_entry><description><value><operational_fld><name>description</name>
-<value>Despite his best intentions, Paul Henry has written his third book. It's a charming and eccentric ramble through the United States and back to New Zealand during the Covid-19 pandemic. There are two weddings, an election, a new TV show and his love affair with Palm Springs, sad desert motels, road trips and other passions. A fascinating window into the intriguing world of Paul Henry. 'I love the USA. And in this book, in real time, over the first six months of 2020, I chronicle my thoughts and actions and draw from my past to try and work out why. I'm brutally honest and clearly disturbed, magnificently so! I literally don't care what people think. You will be surprised. This is me, now . . . You're welcome.' Paul Henry.</value>
-</operational_fld>
-</value>
-</description></map_entry><map_entry><language><value><operational_fld><name>language</name>
-<value>eng</value>
-</operational_fld>
-</value>
-</language></map_entry><map_entry><title><value><operational_fld><name>title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-</value>
-</title></map_entry><map_entry><registry_id><value><operational_fld><name>registry_id</name>
-<value>3</value>
-</operational_fld>
-</value>
-</registry_id></map_entry><map_entry><material_type><value><operational_fld><name>material_type</name>
-<value>BK</value>
-</operational_fld>
-</value>
-</material_type></map_entry><map_entry><carrier_type><value><operational_fld><name>carrier_type</name>
-<value>volume</value>
-</operational_fld>
-</value>
-</carrier_type></map_entry><map_entry><short_title><value><operational_fld><name>short_title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-</value>
-</short_title></map_entry><map_entry><content_type><value><operational_fld><name>content_type</name>
-<value>text</value>
-</operational_fld>
-</value>
-</content_type></map_entry><map_entry><media_type><value><operational_fld><name>media_type</name>
-<value>unmediated</value>
-</operational_fld>
-</value>
-</media_type></map_entry><map_entry><title_abcnph><value><operational_fld><name>title_abcnph</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-</value>
-</title_abcnph></map_entry><map_entry><place_of_publication><value><operational_fld><name>place_of_publication</name>
-<value>Auckland, New Zealand :</value>
-</operational_fld>
-</value>
-</place_of_publication></map_entry><map_entry><id><value><operational_fld><name>id</name>
-<value>99122455059206421</value>
-</operational_fld>
-</value>
-</id></map_entry><map_entry><creator><value><operational_fld><name>creator</name>
-<value>Henry, Paul, 1960- author.</value>
-</operational_fld>
-</value>
-</creator></map_entry><map_entry><author><value><operational_fld><name>author</name>
-<value>Henry, Paul, 1960- author.</value>
-</operational_fld>
-</value>
-</author></map_entry><map_entry><isbn_az><value><operational_fld><name>isbn_az</name>
-<value>9781988547602</value>
-</operational_fld>
-</value>
-</isbn_az></map_entry><map_entry><subjects><value><operational_fld><name>subjects</name>
-<value>Biographies.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>United States.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>New Zealand.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>United States--Description and travel.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Travel.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Broadcasters.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Broadcasters--New Zealand--Biography.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Henry, Paul,--1960-</value>
-</operational_fld>
-</value>
-</subjects></map_entry><map_entry><format><value><operational_fld><name>format</name>
-<value>318 pages, 16 unnumbered pages of plates :;colour illustrations, ;;24 cm</value>
-</operational_fld>
-</value>
-</format></map_entry><map_entry><leganto_complete_title><value><operational_fld><name>leganto_complete_title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-</value>
-</leganto_complete_title></map_entry><map_entry><resource_type><value><operational_fld><name>resource_type</name>
-<value>Book - Physical</value>
-</operational_fld>
-</value>
-</resource_type></map_entry><map_entry><short_creator><value><operational_fld><name>short_creator</name>
-<value>Henry, Paul,</value>
-</operational_fld>
-</value>
-</short_creator></map_entry><map_entry><type_of_record_bib><value><operational_fld><name>type_of_record_bib</name>
-<value>a</value>
-</operational_fld>
-</value>
-</type_of_record_bib></map_entry><map_entry><bib_level><value><operational_fld><name>bib_level</name>
-<value>m</value>
-</operational_fld>
-</value>
-</bib_level></map_entry><map_entry><begin_pub_date><value><operational_fld><name>begin_pub_date</name>
-<value>2020</value>
-</operational_fld>
-</value>
-</begin_pub_date></map_entry><map_entry><network_number_a><value><operational_fld><name>network_number_a</name>
-<value>(OCoLC)on1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number_a</name>
-<value>(OCoLC)1198246079</value>
-</operational_fld>
-</value>
-</network_number_a></map_entry><map_entry><date_of_publication><value><operational_fld><name>date_of_publication</name>
-<value>2020.</value>
-</operational_fld>
-</value>
-</date_of_publication></map_entry><map_entry><publisher><value><operational_fld><name>publisher</name>
-<value>Allen &amp; Unwin,</value>
-</operational_fld>
-</value>
-</publisher></map_entry><map_entry><poline_title><value><operational_fld><name>poline_title</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-</value>
-</poline_title></map_entry><map_entry><publisher_const_b><value><operational_fld><name>publisher_const_b</name>
-<value>Allen &amp; Unwin</value>
-</operational_fld>
-</value>
-</publisher_const_b></map_entry><map_entry><place_code><value><operational_fld><name>place_code</name>
-<value>nz</value>
-</operational_fld>
-</value>
-</place_code></map_entry><map_entry><network_number><value><operational_fld><name>network_number</name>
-<value>(OCoLC)on1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number</name>
-<value>(OCoLC)1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number</name>
-<value>(OCoLC)1184238049</value>
-</operational_fld>
-</value>
-</network_number></map_entry></flds>
-<flds_list><operational_fld><name>date</name>
-<value>2020</value>
-</operational_fld>
-<operational_fld><name>complete_title</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-<operational_fld><name>notes</name>
-<value>&quot;Red white and beautifully entertaining&quot;--Title page.</value>
-</operational_fld>
-<operational_fld><name>end_pub_date</name>
-<value>2020</value>
-</operational_fld>
-<operational_fld><name>type_of_date</name>
-<value>t</value>
-</operational_fld>
-<operational_fld><name>isbn</name>
-<value>1988547601</value>
-</operational_fld>
-<operational_fld><name>isbn</name>
-<value>9781988547602</value>
-</operational_fld>
-<operational_fld><name>description</name>
-<value>Despite his best intentions, Paul Henry has written his third book. It's a charming and eccentric ramble through the United States and back to New Zealand during the Covid-19 pandemic. There are two weddings, an election, a new TV show and his love affair with Palm Springs, sad desert motels, road trips and other passions. A fascinating window into the intriguing world of Paul Henry. 'I love the USA. And in this book, in real time, over the first six months of 2020, I chronicle my thoughts and actions and draw from my past to try and work out why. I'm brutally honest and clearly disturbed, magnificently so! I literally don't care what people think. You will be surprised. This is me, now . . . You're welcome.' Paul Henry.</value>
-</operational_fld>
-<operational_fld><name>language</name>
-<value>eng</value>
-</operational_fld>
-<operational_fld><name>title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-<operational_fld><name>registry_id</name>
-<value>3</value>
-</operational_fld>
-<operational_fld><name>material_type</name>
-<value>BK</value>
-</operational_fld>
-<operational_fld><name>carrier_type</name>
-<value>volume</value>
-</operational_fld>
-<operational_fld><name>short_title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-<operational_fld><name>content_type</name>
-<value>text</value>
-</operational_fld>
-<operational_fld><name>media_type</name>
-<value>unmediated</value>
-</operational_fld>
-<operational_fld><name>title_abcnph</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-<operational_fld><name>place_of_publication</name>
-<value>Auckland, New Zealand :</value>
-</operational_fld>
-<operational_fld><name>id</name>
-<value>99122455059206421</value>
-</operational_fld>
-<operational_fld><name>creator</name>
-<value>Henry, Paul, 1960- author.</value>
-</operational_fld>
-<operational_fld><name>author</name>
-<value>Henry, Paul, 1960- author.</value>
-</operational_fld>
-<operational_fld><name>isbn_az</name>
-<value>9781988547602</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Biographies.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>United States.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>New Zealand.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>United States--Description and travel.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Travel.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Broadcasters.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Broadcasters--New Zealand--Biography.</value>
-</operational_fld>
-<operational_fld><name>subjects</name>
-<value>Henry, Paul,--1960-</value>
-</operational_fld>
-<operational_fld><name>format</name>
-<value>318 pages, 16 unnumbered pages of plates :;colour illustrations, ;;24 cm</value>
-</operational_fld>
-<operational_fld><name>leganto_complete_title</name>
-<value>I'm in a United State /</value>
-</operational_fld>
-<operational_fld><name>resource_type</name>
-<value>Book - Physical</value>
-</operational_fld>
-<operational_fld><name>short_creator</name>
-<value>Henry, Paul,</value>
-</operational_fld>
-<operational_fld><name>type_of_record_bib</name>
-<value>a</value>
-</operational_fld>
-<operational_fld><name>bib_level</name>
-<value>m</value>
-</operational_fld>
-<operational_fld><name>begin_pub_date</name>
-<value>2020</value>
-</operational_fld>
-<operational_fld><name>network_number_a</name>
-<value>(OCoLC)on1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number_a</name>
-<value>(OCoLC)1198246079</value>
-</operational_fld>
-<operational_fld><name>date_of_publication</name>
-<value>2020.</value>
-</operational_fld>
-<operational_fld><name>publisher</name>
-<value>Allen &amp; Unwin,</value>
-</operational_fld>
-<operational_fld><name>poline_title</name>
-<value>I'm in a United State / Paul Henry.</value>
-</operational_fld>
-<operational_fld><name>publisher_const_b</name>
-<value>Allen &amp; Unwin</value>
-</operational_fld>
-<operational_fld><name>place_code</name>
-<value>nz</value>
-</operational_fld>
-<operational_fld><name>network_number</name>
-<value>(OCoLC)on1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number</name>
-<value>(OCoLC)1198246079</value>
-</operational_fld>
-<operational_fld><name>network_number</name>
-<value>(OCoLC)1184238049</value>
-</operational_fld>
-</flds_list>
-<name>display</name>
-</operational_sec>
-<ownership_and_custodial_history></ownership_and_custodial_history>
-<permanent_call_number></permanent_call_number>
-<permanent_call_number_type></permanent_call_number_type>
-<permanent_physical_location></permanent_physical_location>
-<place_code>nz</place_code>
-<place_of_publication>Auckland, New Zealand :</place_of_publication>
-<place_of_publication_list_reversed><string>Auckland, New Zealand :</string>
-</place_of_publication_list_reversed>
-<preferred_chronological_subdivision_list></preferred_chronological_subdivision_list>
-<preferred_chronological_term_list></preferred_chronological_term_list>
-<preferred_classification_number_list></preferred_classification_number_list>
-<preferred_corporate_name_list></preferred_corporate_name_list>
-<preferred_form_subdivision_list></preferred_form_subdivision_list>
-<preferred_general_subdivision_list></preferred_general_subdivision_list>
-<preferred_genre_form_name_list></preferred_genre_form_name_list>
-<preferred_geographic_name_list></preferred_geographic_name_list>
-<preferred_geographic_subdivision_list></preferred_geographic_subdivision_list>
-<preferred_meeting_name_list></preferred_meeting_name_list>
-<preferred_personal_name_list></preferred_personal_name_list>
-<preferred_topical_term_list></preferred_topical_term_list>
-<preferred_uniform_title_list></preferred_uniform_title_list>
-<public_access_note></public_access_note>
-<public_access_note_list></public_access_note_list>
-<public_general_note></public_general_note>
-<public_location_note></public_location_note>
-<publication_type></publication_type>
-<publisher>Allen &amp; Unwin,</publisher>
-<publisher_const>Allen &amp; Unwin</publisher_const>
-<publisher_const_list><string>Allen &amp; Unwin</string>
-</publisher_const_list>
-<receipt_acq_status></receipt_acq_status>
-<registry_id>3</registry_id>
-<reproduction_note></reproduction_note>
-<resource_title></resource_title>
-<resource_type>Book - Physical</resource_type>
-<see_also_chronological_subdivision_list></see_also_chronological_subdivision_list>
-<see_also_chronological_term_list></see_also_chronological_term_list>
-<see_also_corporate_name_list></see_also_corporate_name_list>
-<see_also_form_subdivision_list></see_also_form_subdivision_list>
-<see_also_general_subdivision_list></see_also_general_subdivision_list>
-<see_also_genre_form_name_list></see_also_genre_form_name_list>
-<see_also_geographic_name_list></see_also_geographic_name_list>
-<see_also_geographic_subdivision_list></see_also_geographic_subdivision_list>
-<see_also_meeting_name_list></see_also_meeting_name_list>
-<see_also_personal_name_list></see_also_personal_name_list>
-<see_also_topical_term_list></see_also_topical_term_list>
-<see_also_uniform_title_list></see_also_uniform_title_list>
-<see_chronological_subdivision_list></see_chronological_subdivision_list>
-<see_chronological_term_list></see_chronological_term_list>
-<see_corporate_name_list></see_corporate_name_list>
-<see_form_subdivision_list></see_form_subdivision_list>
-<see_general_subdivision_list></see_general_subdivision_list>
-<see_genre_form_name_list></see_genre_form_name_list>
-<see_geographic_name_list></see_geographic_name_list>
-<see_geographic_subdivision_list></see_geographic_subdivision_list>
-<see_meeting_name_list></see_meeting_name_list>
-<see_personal_name_list></see_personal_name_list>
-<see_topical_term_list></see_topical_term_list>
-<see_uniform_title_list></see_uniform_title_list>
-<series_all></series_all>
-<series_name></series_name>
-<series_small></series_small>
-<series_small_list></series_small_list>
-<series_volume></series_volume>
-<shelving_data></shelving_data>
-<shelving_location></shelving_location>
-<short_creator>Henry, Paul,</short_creator>
-<short_edition></short_edition>
-<short_title>I'm in a United State /</short_title>
-<short_title_reversed>I'm in a United State /</short_title_reversed>
-<source_found></source_found>
-<special_format_designation></special_format_designation>
-<subjects>Biographies.</subjects>
-<subjects_list><string>Biographies.</string>
-<string>United States.</string>
-<string>New Zealand.</string>
-<string>United States--Description and travel.</string>
-<string>Travel.</string>
-<string>Broadcasters.</string>
-<string>Broadcasters--New Zealand--Biography.</string>
-<string>Henry, Paul,--1960-</string>
-</subjects_list>
-<subjects_list_reversed><string>Henry, Paul,--1960-</string>
-<string>Broadcasters--New Zealand--Biography.</string>
-<string>Broadcasters.</string>
-<string>Travel.</string>
-<string>United States--Description and travel.</string>
-<string>New Zealand.</string>
-<string>United States.</string>
-<string>Biographies.</string>
-</subjects_list_reversed>
-<summary_holding_list></summary_holding_list>
-<terms_use_repro></terms_use_repro>
-<title>I'm in a United State /</title>
-<title_abcnph>I'm in a United State / Paul Henry.</title_abcnph>
-<title_id></title_id>
-<title_reversed>I'm in a United State /</title_reversed>
-<type_of_date>t</type_of_date>
-<type_of_record></type_of_record>
-<type_of_record_bib>a</type_of_record_bib>
-<uniform_title></uniform_title>
-</record_display_section>
-<remote_digitize_indicator></remote_digitize_indicator>
-<req_items_before_recalculation></req_items_before_recalculation>
-<request_creator></request_creator>
-<request_life_cycle></request_life_cycle>
-<request_not_needed>false</request_not_needed>
-<request_source></request_source>
-<request_status_display></request_status_display>
-<request_type>AcqWorkOrder</request_type>
-<request_type_display></request_type_display>
-<required_chapters></required_chapters>
-<resource_sharing_request_id></resource_sharing_request_id>
-<resource_slip_printed>false</resource_slip_printed>
-<resource_slip_reported>false</resource_slip_reported>
-<rule_id></rule_id>
-<scan_from_page></scan_from_page>
-<scan_from_page2></scan_from_page2>
-<scan_to_page></scan_to_page>
-<scan_to_page2></scan_to_page2>
-<search_type>PHYSICAL_ITEM</search_type>
-<selected_inventory_id>23477929720006421</selected_inventory_id>
-<selected_inventory_type>ITEM</selected_inventory_type>
-<show_in_task_list></show_in_task_list>
-<start_time></start_time>
-<start_time_dummy></start_time_dummy>
-<status_note></status_note>
-<status_note_display></status_note_display>
-<system_notes></system_notes>
-<title_display></title_display>
-<total_chapters_count></total_chapters_count>
-<user_group></user_group>
-<user_statistics1></user_statistics1>
-<user_statistics10></user_statistics10>
-<user_statistics2></user_statistics2>
-<user_statistics3></user_statistics3>
-<user_statistics4></user_statistics4>
-<user_statistics5></user_statistics5>
-<user_statistics6></user_statistics6>
-<user_statistics7></user_statistics7>
-<user_statistics8></user_statistics8>
-<user_statistics9></user_statistics9>
-<volume></volume>
-<volume_issue></volume_issue>
-<work_flow_entity><action_date>05/06/2021</action_date>
-<assigned_unit_id>124288530006421</assigned_unit_id>
-<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
-<calculated_destination_id>124284780006421</calculated_destination_id>
-<calculated_destination_type>SERVICE_UNIT</calculated_destination_type>
-<create_date>05/06/2021</create_date>
-<destination_institution_code></destination_institution_code>
-<entity_action></entity_action>
-<estimated_arrival_date>05/07/2021</estimated_arrival_date>
-<expiration_date>05/07/2021</expiration_date>
-<expiration_date_to_end_of_day></expiration_date_to_end_of_day>
-<transit>true</transit>
-<work_order_department>false</work_order_department>
-<library_id>124288510006421</library_id>
-<library_unit_id></library_unit_id>
-<step_type>OUT_OF_LIBRARY</step_type>
-<user_id></user_id>
-</work_flow_entity>
-</request>
-<send_after_commit>true</send_after_commit>
-<sms_content></sms_content>
-<throw_exceptions>false</throw_exceptions>
-<url_list></url_list>
-<user_for_printing></user_for_printing>
-<webhook_data><fees></fees>
-<items></items>
-<loans></loans>
-<outgoing_resource_sharing_requests></outgoing_resource_sharing_requests>
-<receivers></receivers>
-<smss_content></smss_content>
-<user_requests></user_requests>
-</webhook_data>
+	<attachments_list/>
+	<general_data>
+		<address_c>None;None</address_c>
+		<address_c>None;None</address_c>
+		<address_from>libcir@princeton.edu</address_from>
+		<current_date>06/07/2021</current_date>
+		<letter_channel_info/>
+		<letter_name>Transit Letter</letter_name>
+		<letter_type>FulTransitSlipLetter</letter_type>
+		<subject>Transit Letter</subject>
+	</general_data>
+	<languages>
+		<string>en</string>
+	</languages>
+	<letter_params/>
+	<letter_texts/>
+	<loans_by_library/>
+	<normalize_sum_strategy/>
+	<organization_unit>
+		<address>
+			<city>Princeton</city>
+			<country/>
+			<country_display/>
+			<create_date>12/23/2020</create_date>
+			<entity_action/>
+			<library_id/>
+			<library_unit_id/>
+			<line1>Princeton University Library</line1>
+			<line2/>
+			<line3/>
+			<line4/>
+			<line5/>
+			<note/>
+			<originating_id/>
+			<postal_code>08544</postal_code>
+			<preferred>true</preferred>
+			<segment_types_display>
+				<string>Primary</string>
+			</segment_types_display>
+			<state_province>NJ</state_province>
+			<user_address_types_display/>
+		</address>
+		<automatic_creation>false</automatic_creation>
+		<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+		<automatically_locate_resource>false</automatically_locate_resource>
+		<bibliographic_titles/>
+		<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+		<code>recap</code>
+		<code_rfid/>
+		<country/>
+		<create_date>12/02/2020</create_date>
+		<data_encryption_type/>
+		<default_acq_loctaion_id>124302380006421</default_acq_loctaion_id>
+		<default_item_loctaion_id/>
+		<default_move_loctaion_id/>
+		<default_pickup_loctaion_id/>
+		<default_printer/>
+		<description/>
+		<digital_objects/>
+		<digital_storage_size/>
+		<disable_call_number_calculation>false</disable_call_number_calculation>
+		<edi_code/>
+		<edi_type/>
+		<email>
+			<create_date>12/23/2020</create_date>
+			<description/>
+			<email>almacirc@princeton.edu</email>
+			<entity_action/>
+			<esploro_display_email/>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<preferred>true</preferred>
+		</email>
+		<entity_action/>
+		<hold_shelf_email_delay/>
+		<ignore_electronic>false</ignore_electronic>
+		<inactive_dates_end_bor/>
+		<inactive_dates_end_lend/>
+		<inactive_dates_start_bor/>
+		<inactive_dates_start_lend/>
+		<isil_code/>
+		<itemless_library/>
+		<leader_institution_id/>
+		<library_id/>
+		<library_unit_id/>
+		<name>ReCAP</name>
+		<named_users/>
+		<org_scope>
+			<customer_id>6420</customer_id>
+			<institution_id>6421</institution_id>
+			<library_id>124287370006421</library_id>
+			<library_unit_id/>
+		</org_scope>
+		<organization_id>124287370006421</organization_id>
+		<organization_path>6420.6421.124287370006421</organization_path>
+		<organization_type>LIBRARY</organization_type>
+		<parent_org_id>6421</parent_org_id>
+		<path>01PRI.01PRI_INST.recap</path>
+		<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+		<phone>
+			<create_date>12/02/2020</create_date>
+			<entity_action/>
+			<esploro_display_phone>0</esploro_display_phone>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<phone/>
+			<preferred>true</preferred>
+			<preferred_phone/>
+			<preferred_sms/>
+		</phone>
+		<premium_sandbox/>
+		<prod_instance_name/>
+		<rapido_symbol/>
+		<reject_not_available>false</reject_not_available>
+		<reject_not_requestable>false</reject_not_requestable>
+		<reject_on_locate_failure>false</reject_on_locate_failure>
+		<reject_only_electronic>false</reject_only_electronic>
+		<reshelf_period/>
+		<resource_sharing_library>false</resource_sharing_library>
+		<extend_due_date/>
+		<uresolver_locate>false</uresolver_locate>
+		<serves_other_institutions>false</serves_other_institutions>
+		<standard_sandbox/>
+		<status>ACTIVE</status>
+		<support_code/>
+		<temp_inactive_borrowing>false</temp_inactive_borrowing>
+		<temp_inactive_lending>false</temp_inactive_lending>
+		<unique_ejournal_titles/>
+		<url_mapping_prefix/>
+	</organization_unit>
+	<phys_item_display>
+		<accession_number/>
+		<alt_call_number_type/>
+		<attachments/>
+		<author>Bakery and Confectionery Workers' International Union of America.</author>
+		<available_items>
+			<available_item>
+				<barcode>32101088341621</barcode>
+				<call_number>MICROFILM S01205</call_number>
+				<inventory_number/>
+				<item_policy>Gen</item_policy>
+				<library_code>recap</library_code>
+				<library_name>ReCAP</library_name>
+				<location_code>pf</location_code>
+				<location_name>rcppf: RECAP Microforms</location_name>
+				<material_type>ISSUE</material_type>
+				<public_note/>
+				<shelving_location/>
+			</available_item>
+		</available_items>
+		<barcode>32101088341621</barcode>
+		<call_number>MICROFILM S01205</call_number>
+		<call_number_type>8</call_number_type>
+		<chron_i/>
+		<chron_j/>
+		<chron_k/>
+		<chron_l/>
+		<chron_m/>
+		<copy_id>1</copy_id>
+		<destination_name/>
+		<display_alt_call_numbers/>
+		<edition/>
+		<enum_a>1973-June 1978</enum_a>
+		<enum_b/>
+		<enum_c/>
+		<enum_d/>
+		<enum_e/>
+		<enum_f/>
+		<enum_g/>
+		<enum_h/>
+		<fulfillment_note/>
+		<imprint>[Washington] : Bakery and Confectionery Workers' International Union of America,
+			1969-1978.</imprint>
+		<internal_note1/>
+		<internal_note2/>
+		<internal_note3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 |
+			HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note3>
+		<inventory_material_type>Issue</inventory_material_type>
+		<isbn/>
+		<issn/>
+		<issue_level_description>1973-June 1978</issue_level_description>
+		<item_pid>23116653980006421</item_pid>
+		<item_policy>Gen</item_policy>
+		<library_code>recap</library_code>
+		<library_name>ReCAP</library_name>
+		<location_code>pf</location_code>
+		<location_name>rcppf: RECAP Microforms</location_name>
+		<material_type>ISSUE</material_type>
+		<optional_barcodes>
+			<string>32101088341621</string>
+		</optional_barcodes>
+		<owning_library_details>
+			<address1>Princeton University Library</address1>
+			<address2/>
+			<address3/>
+			<address4/>
+			<address5/>
+			<blocks/>
+			<city>Princeton</city>
+			<country/>
+			<email>almacirc@princeton.edu</email>
+			<first_name/>
+			<identifiers>
+				<code_value>
+					<code>Primary Identifier</code>
+					<value/>
+				</code_value>
+			</identifiers>
+			<last_name/>
+			<middle_name/>
+			<name>ReCAP</name>
+			<phone/>
+			<postal_code>08544</postal_code>
+			<preferred_first_name/>
+			<preferred_last_name/>
+			<preferred_middle_name/>
+			<state>NJ</state>
+			<title/>
+			<user_group/>
+			<user_title/>
+		</owning_library_details>
+		<owning_library_id>124287370006421</owning_library_id>
+		<owning_library_name>ReCAP</owning_library_name>
+		<parsed_alt_call_number/>
+		<parsed_call_number/>
+		<parsed_issue_level_description/>
+		<permanent_library/>
+		<permanent_location/>
+		<profile_names/>
+		<public_note/>
+		<publication_date>1969-1978.</publication_date>
+		<publication_place>[Washington] :</publication_place>
+		<publisher>Bakery and Confectionery Workers' International Union of America,</publisher>
+		<row_call_number>$$h MICROFILM S01205 </row_call_number>
+		<shelving_location/>
+		<statistics_note1/>
+		<statistics_note2/>
+		<statistics_note3/>
+		<summary_holding_infos>
+			<summary_holding_info>
+				<notes/>
+				<summary_holding>Vol. 1, no. 1 (Dec. 1969)-v. 9, no. 6 (June 1978)</summary_holding>
+			</summary_holding_info>
+		</summary_holding_infos>
+		<suppressed>false</suppressed>
+		<title>B &amp; C news</title>
+		<title_abcnph>B &amp; C news [microform]</title_abcnph>
+	</phys_item_display>
+	<receivers>
+		<receiver>
+			<attached_to_entity_id>3908368140006421</attached_to_entity_id>
+			<entity_id/>
+			<entity_type/>
+			<params/>
+			<preferred_language/>
+			<printer>
+				<code>fprint</code>
+				<create_date>12/23/2020</create_date>
+				<description>Printing</description>
+				<email/>
+				<entity_action/>
+				<library_id>124288510006421</library_id>
+				<library_unit_id/>
+				<name>almacirc@princeton.edu</name>
+				<printout_queue_indicator>true</printout_queue_indicator>
+			</printer>
+			<receiver_id/>
+			<receiver_type/>
+			<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+		</receiver>
+	</receivers>
+	<request>
+		<active>true</active>
+		<additional_id/>
+		<all_org_fields/>
+		<all_previous_locations_used>false</all_previous_locations_used>
+		<approval_entity/>
+		<approval_management/>
+		<assigned_unit_name>Firestone Library - Firestone Remote Storage Desk</assigned_unit_name>
+		<author/>
+		<author_display/>
+		<booking_resolution/>
+		<bulk_request>false</bulk_request>
+		<calculated_destination_name>ReCAP - ReCAP Circulation Desk</calculated_destination_name>
+		<cancel_reason/>
+		<cause_for_recalled_item>false</cause_for_recalled_item>
+		<chapter_article_author/>
+		<chapter_article_title/>
+		<citation_upload_file_status/>
+		<convertable_to_resource_sharing>false</convertable_to_resource_sharing>
+		<copyright_declaration_signed/>
+		<copyright_source/>
+		<create_date>06/07/2021</create_date>
+		<create_time>01:36:49 EDT</create_time>
+		<date_available_from/>
+		<date_available_from_dummy>
+			<calendar>12/31/1969</calendar>
+			<calendar_ui/>
+			<day>1</day>
+			<day_ui/>
+			<default_value_for_with_validation>0</default_value_for_with_validation>
+			<full_date/>
+			<full_date_from_ui/>
+			<input_date_tag_format>00.00.0</input_date_tag_format>
+			<month>0</month>
+			<month_ui/>
+			<date>true</date>
+			<year>1970</year>
+			<year_ui/>
+		</date_available_from_dummy>
+		<date_available_to/>
+		<date_available_to_dummy>
+			<calendar>12/31/1969</calendar>
+			<calendar_ui/>
+			<day>1</day>
+			<day_ui/>
+			<default_value_for_with_validation>0</default_value_for_with_validation>
+			<full_date/>
+			<full_date_from_ui/>
+			<input_date_tag_format>00.00.0</input_date_tag_format>
+			<month>0</month>
+			<month_ui/>
+			<date>true</date>
+			<year>1970</year>
+			<year_ui/>
+		</date_available_to_dummy>
+		<delivery_address>ReCAP</delivery_address>
+		<deposit_indicator/>
+		<document_delivery_email/>
+		<document_delivery_file_name/>
+		<document_delivery_indicator/>
+		<document_delivery_link_indicator/>
+		<document_delivery_max_num_of_views/>
+		<document_delivery_user_name/>
+		<due_back_date_updated>false</due_back_date_updated>
+		<end_time/>
+		<end_time_dummy/>
+		<entity_action/>
+		<expiry_by_date_needed_by/>
+		<from_another_inst/>
+		<from_another_inst_circ_desk/>
+		<from_another_inst_library/>
+		<fulfill_network_borrowing_id/>
+		<fulfill_network_inst_code/>
+		<hold_shelf_letter_sent>false</hold_shelf_letter_sent>
+		<hold_shelf_reminder_date/>
+		<hold_shelf_slip_printed>false</hold_shelf_slip_printed>
+		<image_included>false</image_included>
+		<initiated_from/>
+		<full_chapter/>
+		<out_of_institution_pickup/>
+		<issue/>
+		<keep_copyright>false</keep_copyright>
+		<last_interest_date/>
+		<library_id>124287370006421</library_id>
+		<library_unit_id/>
+		<manual_description/>
+		<material_type_display>Issue</material_type_display>
+		<needs_hold_shelf_processing>false</needs_hold_shelf_processing>
+		<ngrs_rapido>false</ngrs_rapido>
+		<pickup>false</pickup>
+		<note/>
+		<note1/>
+		<note2/>
+		<note3/>
+		<notes/>
+		<num_copies_for_staff/>
+		<num_copies_for_students/>
+		<num_of_students/>
+		<num_of_total_pages/>
+		<original_end_time/>
+		<original_start_time/>
+		<originating_mms_key/>
+		<originating_user_key/>
+		<out_of_inst_library_id/>
+		<out_of_institution_owner_institution_name/>
+		<out_of_institution_owner_library_name/>
+		<out_of_institution_owner_location_name/>
+		<out_of_institution_requester/>
+		<pages/>
+		<part/>
+		<partial_digitization/>
+		<pickup_inst_code/>
+		<pickup_location_display/>
+		<place_in_queue/>
+		<previous_locations/>
+		<print_transit_slip>true</print_transit_slip>
+		<publication_date/>
+		<reading_list_citation_id/>
+		<reading_list_name/>
+		<recall_loan>true</recall_loan>
+		<record_display_section>
+			<isbn/>
+			<isbn_list/>
+			<issn/>
+			<issn_list/>
+			<location_and_access/>
+			<titles/>
+			<accession_number/>
+			<titles>
+				<string>B&amp;C news</string>
+				<string>B and C news</string>
+			</titles>
+			<alternate_titles/>
+			<author/>
+			<author_list/>
+			<begin_pub_date>1969</begin_pub_date>
+			<bib_id/>
+			<bib_level>s</bib_level>
+			<binding_information/>
+			<call_number/>
+			<call_number_prefix/>
+			<call_number_suffix/>
+			<category_of_material>h</category_of_material>
+			<complete_edition/>
+			<complete_title>B &amp; C news [microform]</complete_title>
+			<complete_title_reversed>B &amp; C news [microform]</complete_title_reversed>
+			<completeness/>
+			<copy_number/>
+			<copy_version_ident_note/>
+			<creator/>
+			<date>Vol. 1, no. 1 (Dec. 1969)-v. 9, no. 8 (Aug. 1978).</date>
+			<date_of_publication>1969-1978.</date_of_publication>
+			<date_of_report/>
+			<license/>
+			<rights/>
+			<description/>
+			<description_list/>
+			<encoding_level/>
+			<end_pub_date>1978</end_pub_date>
+			<format>9 v. :;ill. ;;44 cm.</format>
+			<free_access/>
+			<general_retention/>
+			<holdings/>
+			<id>998542943506421</id>
+			<identifier35/>
+			<immediate_source_of_acq_note/>
+			<isbn/>
+			<isbn_az/>
+			<isbn_list/>
+			<isbn_or_eisbn/>
+			<issn/>
+			<issn_a/>
+			<issn_list/>
+			<issn_and_eissn_list/>
+			<issn_az/>
+			<issn_list/>
+			<issn_or_eissn/>
+			<language>eng</language>
+			<lccn/>
+			<local_location/>
+			<local_notes/>
+			<local_notes_list/>
+			<local_subjects/>
+			<local_subjects_list/>
+			<local_subjects_list_reversed/>
+			<location/>
+			<material_type>CR</material_type>
+			<material_type_list>
+				<string>CR</string>
+			</material_type_list>
+			<medium_type>microform</medium_type>
+			<method_of_acquisition/>
+			<monograph_edition/>
+			<monograph_editor/>
+			<monograph_volume/>
+			<network_number>
+				<string>(NjP)854294-princetondb</string>
+				<string>854294</string>
+				<string>(CStRLIN)NJPG93-S5478</string>
+				<string>(OCoLC)4645287</string>
+			</network_number>
+			<network_number_a>
+				<string>(NjP)854294-princetondb</string>
+				<string>854294</string>
+				<string>(CStRLIN)NJPG93-S5478</string>
+				<string>(OCoLC)4645287</string>
+			</network_number_a>
+			<non_public_location_note/>
+			<normalized_title/>
+			<notes>Merged with: Tobacco worker, to form: BC &amp; T news.</notes>
+			<notes_list>
+				<string>Merged with: Tobacco worker, to form: BC &amp; T news.</string>
+				<string>Formed by the union of: ABC news and: B &amp; C journal.</string>
+				<string>Official publication of the Bakery and Confectionery Workers' International
+					Union of America.</string>
+				<string>Microfilm. Madison, Wis. : State Historical Society of Wisconsin. 1
+					microfilm reel ; 35 mm. d19691978wiuuua</string>
+			</notes_list>
+			<nuc_code/>
+			<operational_sec>
+				<elm/>
+				<elms/>
+				<elms_list/>
+				<fld/>
+				<flds>
+					<map_entry>
+						<date>
+							<value>
+								<operational_fld>
+									<name>date</name>
+									<value>Vol. 1, no. 1 (Dec. 1969)-v. 9, no. 8 (Aug.
+										1978).</value>
+								</operational_fld>
+							</value>
+						</date>
+					</map_entry>
+					<map_entry>
+						<complete_title>
+							<value>
+								<operational_fld>
+									<name>complete_title</name>
+									<value>B &amp; C news [microform]</value>
+								</operational_fld>
+							</value>
+						</complete_title>
+					</map_entry>
+					<map_entry>
+						<notes>
+							<value>
+								<operational_fld>
+									<name>notes</name>
+									<value>Merged with: Tobacco worker, to form: BC &amp; T
+										news.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>notes</name>
+									<value>Formed by the union of: ABC news and: B &amp; C
+										journal.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>notes</name>
+									<value>Official publication of the Bakery and Confectionery
+										Workers' International Union of America.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>notes</name>
+									<value>Microfilm. Madison, Wis. : State Historical Society of
+										Wisconsin. 1 microfilm reel ; 35 mm. d19691978wiuuua</value>
+								</operational_fld>
+							</value>
+						</notes>
+					</map_entry>
+					<map_entry>
+						<end_pub_date>
+							<value>
+								<operational_fld>
+									<name>end_pub_date</name>
+									<value>1978</value>
+								</operational_fld>
+							</value>
+						</end_pub_date>
+					</map_entry>
+					<map_entry>
+						<type_of_date>
+							<value>
+								<operational_fld>
+									<name>type_of_date</name>
+									<value>d</value>
+								</operational_fld>
+							</value>
+						</type_of_date>
+					</map_entry>
+					<map_entry>
+						<language>
+							<value>
+								<operational_fld>
+									<name>language</name>
+									<value>eng</value>
+								</operational_fld>
+							</value>
+						</language>
+					</map_entry>
+					<map_entry>
+						<title>
+							<value>
+								<operational_fld>
+									<name>title</name>
+									<value>B &amp; C news</value>
+								</operational_fld>
+							</value>
+						</title>
+					</map_entry>
+					<map_entry>
+						<frequency>
+							<value>
+								<operational_fld>
+									<name>frequency</name>
+									<value>Monthly</value>
+								</operational_fld>
+							</value>
+						</frequency>
+					</map_entry>
+					<map_entry>
+						<registry_id>
+							<value>
+								<operational_fld>
+									<name>registry_id</name>
+									<value>3</value>
+								</operational_fld>
+							</value>
+						</registry_id>
+					</map_entry>
+					<map_entry>
+						<material_type>
+							<value>
+								<operational_fld>
+									<name>material_type</name>
+									<value>CR</value>
+								</operational_fld>
+							</value>
+						</material_type>
+					</map_entry>
+					<map_entry>
+						<short_title>
+							<value>
+								<operational_fld>
+									<name>short_title</name>
+									<value>B &amp; C news</value>
+								</operational_fld>
+							</value>
+						</short_title>
+					</map_entry>
+					<map_entry>
+						<contributor>
+							<value>
+								<operational_fld>
+									<name>contributor</name>
+									<value>Bakery and Confectionery Workers' International Union of
+										America.</value>
+								</operational_fld>
+							</value>
+						</contributor>
+					</map_entry>
+					<map_entry>
+						<category_of_material>
+							<value>
+								<operational_fld>
+									<name>category_of_material</name>
+									<value>h</value>
+								</operational_fld>
+							</value>
+						</category_of_material>
+					</map_entry>
+					<map_entry>
+						<title_abcnph>
+							<value>
+								<operational_fld>
+									<name>title_abcnph</name>
+									<value>B &amp; C news [microform]</value>
+								</operational_fld>
+							</value>
+						</title_abcnph>
+					</map_entry>
+					<map_entry>
+						<place_of_publication>
+							<value>
+								<operational_fld>
+									<name>place_of_publication</name>
+									<value>[Washington] :</value>
+								</operational_fld>
+							</value>
+						</place_of_publication>
+					</map_entry>
+					<map_entry>
+						<id>
+							<value>
+								<operational_fld>
+									<name>id</name>
+									<value>998542943506421</value>
+								</operational_fld>
+							</value>
+						</id>
+					</map_entry>
+					<map_entry>
+						<medium_type>
+							<value>
+								<operational_fld>
+									<name>medium_type</name>
+									<value>microform</value>
+								</operational_fld>
+							</value>
+						</medium_type>
+					</map_entry>
+					<map_entry>
+						<subjects>
+							<value>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Confectioners--United States--Periodicals.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Bakery employees--Labor unions--Periodicals.--United
+										States</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Bakery and Confectionery Workers' International Union of
+										America--Periodicals.</value>
+								</operational_fld>
+							</value>
+						</subjects>
+					</map_entry>
+					<map_entry>
+						<format>
+							<value>
+								<operational_fld>
+									<name>format</name>
+									<value>9 v. :;ill. ;;44 cm.</value>
+								</operational_fld>
+							</value>
+						</format>
+					</map_entry>
+					<map_entry>
+						<leganto_complete_title>
+							<value>
+								<operational_fld>
+									<name>leganto_complete_title</name>
+									<value>B &amp; C news [microform]</value>
+								</operational_fld>
+							</value>
+						</leganto_complete_title>
+					</map_entry>
+					<map_entry>
+						<resource_type>
+							<value>
+								<operational_fld>
+									<name>resource_type</name>
+									<value>Microforms</value>
+								</operational_fld>
+							</value>
+						</resource_type>
+					</map_entry>
+					<map_entry>
+						<short_creator>
+							<value>
+								<operational_fld>
+									<name>short_creator</name>
+									<value>Bakery and Confectionery Workers' International Union of
+										America.</value>
+								</operational_fld>
+							</value>
+						</short_creator>
+					</map_entry>
+					<map_entry>
+						<type_of_record_bib>
+							<value>
+								<operational_fld>
+									<name>type_of_record_bib</name>
+									<value>a</value>
+								</operational_fld>
+							</value>
+						</type_of_record_bib>
+					</map_entry>
+					<map_entry>
+						<bib_level>
+							<value>
+								<operational_fld>
+									<name>bib_level</name>
+									<value>s</value>
+								</operational_fld>
+							</value>
+						</bib_level>
+					</map_entry>
+					<map_entry>
+						<begin_pub_date>
+							<value>
+								<operational_fld>
+									<name>begin_pub_date</name>
+									<value>1969</value>
+								</operational_fld>
+							</value>
+						</begin_pub_date>
+					</map_entry>
+					<map_entry>
+						<network_number_a>
+							<value>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(NjP)854294-princetondb</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>854294</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(CStRLIN)NJPG93-S5478</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(OCoLC)4645287</value>
+								</operational_fld>
+							</value>
+						</network_number_a>
+					</map_entry>
+					<map_entry>
+						<alttitle>
+							<value>
+								<operational_fld>
+									<name>alttitle</name>
+									<value>B&amp;C news</value>
+								</operational_fld>
+								<operational_fld>
+									<name>alttitle</name>
+									<value>B and C news</value>
+								</operational_fld>
+							</value>
+						</alttitle>
+					</map_entry>
+					<map_entry>
+						<date_of_publication>
+							<value>
+								<operational_fld>
+									<name>date_of_publication</name>
+									<value>1969-1978.</value>
+								</operational_fld>
+							</value>
+						</date_of_publication>
+					</map_entry>
+					<map_entry>
+						<publisher>
+							<value>
+								<operational_fld>
+									<name>publisher</name>
+									<value>Bakery and Confectionery Workers' International Union of
+										America,</value>
+								</operational_fld>
+							</value>
+						</publisher>
+					</map_entry>
+					<map_entry>
+						<poline_title>
+							<value>
+								<operational_fld>
+									<name>poline_title</name>
+									<value>B &amp; C news [microform]</value>
+								</operational_fld>
+							</value>
+						</poline_title>
+					</map_entry>
+					<map_entry>
+						<publisher_const_b>
+							<value>
+								<operational_fld>
+									<name>publisher_const_b</name>
+									<value>Bakery and Confectionery Workers' International Union of
+										America</value>
+								</operational_fld>
+							</value>
+						</publisher_const_b>
+					</map_entry>
+					<map_entry>
+						<place_code>
+							<value>
+								<operational_fld>
+									<name>place_code</name>
+									<value>dcu</value>
+								</operational_fld>
+							</value>
+						</place_code>
+					</map_entry>
+					<map_entry>
+						<network_number>
+							<value>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(NjP)854294-princetondb</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>854294</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(CStRLIN)NJPG93-S5478</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(OCoLC)4645287</value>
+								</operational_fld>
+							</value>
+						</network_number>
+					</map_entry>
+				</flds>
+				<flds_list>
+					<operational_fld>
+						<name>date</name>
+						<value>Vol. 1, no. 1 (Dec. 1969)-v. 9, no. 8 (Aug. 1978).</value>
+					</operational_fld>
+					<operational_fld>
+						<name>complete_title</name>
+						<value>B &amp; C news [microform]</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Merged with: Tobacco worker, to form: BC &amp; T news.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Formed by the union of: ABC news and: B &amp; C journal.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Official publication of the Bakery and Confectionery Workers'
+							International Union of America.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Microfilm. Madison, Wis. : State Historical Society of Wisconsin. 1
+							microfilm reel ; 35 mm. d19691978wiuuua</value>
+					</operational_fld>
+					<operational_fld>
+						<name>end_pub_date</name>
+						<value>1978</value>
+					</operational_fld>
+					<operational_fld>
+						<name>type_of_date</name>
+						<value>d</value>
+					</operational_fld>
+					<operational_fld>
+						<name>language</name>
+						<value>eng</value>
+					</operational_fld>
+					<operational_fld>
+						<name>title</name>
+						<value>B &amp; C news</value>
+					</operational_fld>
+					<operational_fld>
+						<name>frequency</name>
+						<value>Monthly</value>
+					</operational_fld>
+					<operational_fld>
+						<name>registry_id</name>
+						<value>3</value>
+					</operational_fld>
+					<operational_fld>
+						<name>material_type</name>
+						<value>CR</value>
+					</operational_fld>
+					<operational_fld>
+						<name>short_title</name>
+						<value>B &amp; C news</value>
+					</operational_fld>
+					<operational_fld>
+						<name>contributor</name>
+						<value>Bakery and Confectionery Workers' International Union of
+							America.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>category_of_material</name>
+						<value>h</value>
+					</operational_fld>
+					<operational_fld>
+						<name>title_abcnph</name>
+						<value>B &amp; C news [microform]</value>
+					</operational_fld>
+					<operational_fld>
+						<name>place_of_publication</name>
+						<value>[Washington] :</value>
+					</operational_fld>
+					<operational_fld>
+						<name>id</name>
+						<value>998542943506421</value>
+					</operational_fld>
+					<operational_fld>
+						<name>medium_type</name>
+						<value>microform</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Confectioners--United States--Periodicals.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Bakery employees--Labor unions--Periodicals.--United States</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Bakery and Confectionery Workers' International Union of
+							America--Periodicals.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>format</name>
+						<value>9 v. :;ill. ;;44 cm.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>leganto_complete_title</name>
+						<value>B &amp; C news [microform]</value>
+					</operational_fld>
+					<operational_fld>
+						<name>resource_type</name>
+						<value>Microforms</value>
+					</operational_fld>
+					<operational_fld>
+						<name>short_creator</name>
+						<value>Bakery and Confectionery Workers' International Union of
+							America.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>type_of_record_bib</name>
+						<value>a</value>
+					</operational_fld>
+					<operational_fld>
+						<name>bib_level</name>
+						<value>s</value>
+					</operational_fld>
+					<operational_fld>
+						<name>begin_pub_date</name>
+						<value>1969</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(NjP)854294-princetondb</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>854294</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(CStRLIN)NJPG93-S5478</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(OCoLC)4645287</value>
+					</operational_fld>
+					<operational_fld>
+						<name>alttitle</name>
+						<value>B&amp;C news</value>
+					</operational_fld>
+					<operational_fld>
+						<name>alttitle</name>
+						<value>B and C news</value>
+					</operational_fld>
+					<operational_fld>
+						<name>date_of_publication</name>
+						<value>1969-1978.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>publisher</name>
+						<value>Bakery and Confectionery Workers' International Union of
+							America,</value>
+					</operational_fld>
+					<operational_fld>
+						<name>poline_title</name>
+						<value>B &amp; C news [microform]</value>
+					</operational_fld>
+					<operational_fld>
+						<name>publisher_const_b</name>
+						<value>Bakery and Confectionery Workers' International Union of
+							America</value>
+					</operational_fld>
+					<operational_fld>
+						<name>place_code</name>
+						<value>dcu</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(NjP)854294-princetondb</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>854294</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(CStRLIN)NJPG93-S5478</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(OCoLC)4645287</value>
+					</operational_fld>
+				</flds_list>
+				<name>display</name>
+			</operational_sec>
+			<ownership_and_custodial_history/>
+			<permanent_call_number/>
+			<permanent_call_number_type/>
+			<permanent_physical_location/>
+			<place_code>dcu</place_code>
+			<place_of_publication>[Washington] :</place_of_publication>
+			<place_of_publication_list_reversed>
+				<string>[Washington] :</string>
+			</place_of_publication_list_reversed>
+			<preferred_chronological_subdivision_list/>
+			<preferred_chronological_term_list/>
+			<preferred_classification_number_list/>
+			<preferred_corporate_name_list/>
+			<preferred_form_subdivision_list/>
+			<preferred_general_subdivision_list/>
+			<preferred_genre_form_name_list/>
+			<preferred_geographic_name_list/>
+			<preferred_geographic_subdivision_list/>
+			<preferred_meeting_name_list/>
+			<preferred_personal_name_list/>
+			<preferred_topical_term_list/>
+			<preferred_uniform_title_list/>
+			<public_access_note/>
+			<public_access_note_list/>
+			<public_general_note/>
+			<public_location_note/>
+			<publication_type/>
+			<publisher>Bakery and Confectionery Workers' International Union of America,</publisher>
+			<publisher_const>Bakery and Confectionery Workers' International Union of
+				America</publisher_const>
+			<publisher_const_list>
+				<string>Bakery and Confectionery Workers' International Union of America</string>
+			</publisher_const_list>
+			<receipt_acq_status/>
+			<registry_id>3</registry_id>
+			<reproduction_note/>
+			<resource_title/>
+			<resource_type>Microforms</resource_type>
+			<see_also_chronological_subdivision_list/>
+			<see_also_chronological_term_list/>
+			<see_also_corporate_name_list/>
+			<see_also_form_subdivision_list/>
+			<see_also_general_subdivision_list/>
+			<see_also_genre_form_name_list/>
+			<see_also_geographic_name_list/>
+			<see_also_geographic_subdivision_list/>
+			<see_also_meeting_name_list/>
+			<see_also_personal_name_list/>
+			<see_also_topical_term_list/>
+			<see_also_uniform_title_list/>
+			<see_chronological_subdivision_list/>
+			<see_chronological_term_list/>
+			<see_corporate_name_list/>
+			<see_form_subdivision_list/>
+			<see_general_subdivision_list/>
+			<see_genre_form_name_list/>
+			<see_geographic_name_list/>
+			<see_geographic_subdivision_list/>
+			<see_meeting_name_list/>
+			<see_personal_name_list/>
+			<see_topical_term_list/>
+			<see_uniform_title_list/>
+			<series_all/>
+			<series_name/>
+			<series_small/>
+			<series_small_list/>
+			<series_volume/>
+			<shelving_data/>
+			<shelving_location/>
+			<short_creator>Bakery and Confectionery Workers' International Union of
+				America.</short_creator>
+			<short_edition/>
+			<short_title>B &amp; C news</short_title>
+			<short_title_reversed>B &amp; C news</short_title_reversed>
+			<source_found/>
+			<special_format_designation/>
+			<subjects>Confectioners--United States--Periodicals.</subjects>
+			<subjects_list>
+				<string>Confectioners--United States--Periodicals.</string>
+				<string>Bakery employees--Labor unions--Periodicals.--United States</string>
+				<string>Bakery and Confectionery Workers' International Union of
+					America--Periodicals.</string>
+			</subjects_list>
+			<subjects_list_reversed>
+				<string>Bakery and Confectionery Workers' International Union of
+					America--Periodicals.</string>
+				<string>Bakery employees--Labor unions--Periodicals.--United States</string>
+				<string>Confectioners--United States--Periodicals.</string>
+			</subjects_list_reversed>
+			<summary_holding_list/>
+			<terms_use_repro/>
+			<title>B &amp; C news</title>
+			<title_abcnph>B &amp; C news [microform]</title_abcnph>
+			<title_id/>
+			<title_reversed>B &amp; C news</title_reversed>
+			<type_of_date>d</type_of_date>
+			<type_of_record/>
+			<type_of_record_bib>a</type_of_record_bib>
+			<uniform_title/>
+		</record_display_section>
+		<remote_digitize_indicator/>
+		<req_items_before_recalculation/>
+		<request_creator/>
+		<request_life_cycle/>
+		<request_not_needed>false</request_not_needed>
+		<request_source/>
+		<request_status_display/>
+		<request_type>TRANSIT_FOR_RESHELVING</request_type>
+		<request_type_display/>
+		<required_chapters/>
+		<resource_sharing_request_id/>
+		<resource_slip_printed>false</resource_slip_printed>
+		<resource_slip_reported>false</resource_slip_reported>
+		<rule_id/>
+		<scan_from_page/>
+		<scan_from_page2/>
+		<scan_to_page/>
+		<scan_to_page2/>
+		<search_type>PHYSICAL_ITEM</search_type>
+		<selected_inventory_id>23116653980006421</selected_inventory_id>
+		<selected_inventory_type>ITEM</selected_inventory_type>
+		<show_in_task_list/>
+		<start_time/>
+		<start_time_dummy/>
+		<status_note/>
+		<status_note_display/>
+		<system_notes/>
+		<title_display/>
+		<total_chapters_count/>
+		<user_group/>
+		<user_statistics1/>
+		<user_statistics10/>
+		<user_statistics2/>
+		<user_statistics3/>
+		<user_statistics4/>
+		<user_statistics5/>
+		<user_statistics6/>
+		<user_statistics7/>
+		<user_statistics8/>
+		<user_statistics9/>
+		<volume/>
+		<volume_issue/>
+		<work_flow_entity>
+			<action_date>06/07/2021</action_date>
+			<assigned_unit_id>6874525510006421</assigned_unit_id>
+			<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
+			<calculated_destination_id>124287390006421</calculated_destination_id>
+			<calculated_destination_type>CIRCULATION_DESK</calculated_destination_type>
+			<create_date>06/07/2021</create_date>
+			<destination_institution_code/>
+			<entity_action/>
+			<estimated_arrival_date>06/07/2021</estimated_arrival_date>
+			<expiration_date>06/07/2021</expiration_date>
+			<expiration_date_to_end_of_day/>
+			<transit>true</transit>
+			<work_order_department>false</work_order_department>
+			<library_id>124287370006421</library_id>
+			<library_unit_id/>
+			<step_type>OUT_OF_LIBRARY</step_type>
+			<user_id/>
+		</work_flow_entity>
+	</request>
+	<send_after_commit>true</send_after_commit>
+	<sms_content/>
+	<throw_exceptions>false</throw_exceptions>
+	<url_list/>
+	<user_for_printing/>
+	<webhook_data>
+		<fees/>
+		<items/>
+		<loans/>
+		<outgoing_resource_sharing_requests/>
+		<receivers/>
+		<smss_content/>
+		<user_requests/>
+	</webhook_data>
 </notification_data>
