@@ -159,6 +159,7 @@
 										<xsl:value-of select="notification_data/phys_item_display/owning_library_name" /></td>
 								</tr>
 							</xsl:if>
+							<xsl:if test="notification_data/request_id[not(.='')]">
 							<tr>
 								<td>
 									<b>@@request_id@@: </b>
@@ -171,11 +172,11 @@
 										<xsl:value-of select="notification_data/request_id"/>
 										<xsl:text>*</xsl:text>
 									</span>-->
-									<br/>
 									<xsl:value-of select="notification_data/request_id"/>
 									<br/>
 								</td>
 							</tr>
+							</xsl:if>
 							<tr>
 								<td>@@print_date@@: 
 									<xsl:value-of select="notification_data/request/create_date" />-
