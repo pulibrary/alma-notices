@@ -43,7 +43,7 @@
 									<xsl:if test="notification_data/short_loans='false'">
 										<strong>@@message@@</strong>
 									</xsl:if>-->
-									<xsl:text>This notice is to remind you that the following item(s) will be due soon. Please return or renew the item(s) by the due date indicated below. Online renewal is available for most items. To renew, log in to Your Account </xsl:text>
+									<xsl:text>This notice is to remind you that the following item(s) will be due soon. Please return or renew the item(s) by the due date indicated below. Online renewal is available for most items. To renew, log into your account </xsl:text>
 									<xsl:call-template name="myAccount"/>. <br/><br/>
 								</td>
 							</tr>
@@ -63,6 +63,8 @@
 											<th>@@title@@</th>
 											<!--<th>@@description@@</th>-->
 											<th>@@author@@</th>
+											<th>Call Number</th>
+											<th>Barcode</th>
 											<th>@@due_date@@</th>
 											<!--<th>@@library@@</th>-->
 										</tr>
@@ -72,6 +74,8 @@
 												<td><xsl:value-of select="title"/></td>
 												<!--<td><xsl:value-of select="description"/></td>-->
 												<td><xsl:value-of select="author"/></td>
+												<td><xsl:value-of select="call_number"/></td>
+												<td><xsl:value-of select="barcode"/></td>
 												<td><xsl:value-of select="due_date"/></td>
 												<!--<td><xsl:value-of select="library_name"/></td>-->
 											</tr>
@@ -93,7 +97,8 @@
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
-				<!-- footer.xsl --><!--
+				<!-- footer.xsl -->
+				<!--
 				<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
