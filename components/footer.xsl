@@ -51,7 +51,7 @@
 		<table align="left">
 			<tr>
 				<td align="left">If you have questions or need mailing instructions, please contact
-					us at fstcirc@princeton.edu </td>
+					us at libcir@princeton.edu </td>
 				<td height="10em"/>
 			</tr>
 			<tr>
