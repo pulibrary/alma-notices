@@ -16,7 +16,7 @@
 			<head>
 				<title>
 					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
-					<xsl:text>Recall notice</xsl:text>
+					<xsl:text>Recall Notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -36,7 +36,10 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td><xsl:text> The following item with a previous due date of </xsl:text>
+								<td>The following item, currently charged to you, is needed by
+									another patron. The new due date is 
+									<xsl:value-of select="notification_data/item_loan/due_date"/>.</td>
+								<!--<td><xsl:text> The following item with a previous due date of </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/old_due_date"
 									/> @@due_back@@ <xsl:value-of
 										select="notification_data/item_loan/due_date"/>
@@ -44,12 +47,14 @@
 									<xsl:value-of
 										select="notification_data/item_loan/shortened_due_date_reason"/>
 									<br/><br/>
-								</td>
+								</td>-->
 							</tr>
 							<tr>
 								<td>
-									<strong><xsl:value-of select="notification_data/item_loan/author"/>: 
-									<xsl:value-of select="notification_data/item_loan/title"/></strong>
+									<strong><xsl:value-of
+											select="notification_data/item_loan/author"/>:
+											<xsl:value-of select="notification_data/item_loan/title"
+										/></strong>
 									<br/>
 									<br/>
 								</td>
