@@ -51,20 +51,20 @@
 		<table align="left">
 			<tr>
 				<td align="left">If you have questions or need mailing instructions, please contact
-					us at fstcirc@princeton.edu </td>
+					us at libcir@princeton.edu </td>
 				<td height="10em"/>
 			</tr>
 			<tr>
 				<td height="10em"/>
 			</tr>
-			<tr>
+			<!--<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"
 							>https://library.princeton.edu/services/access/circulation-policies</xsl:attribute>
 						About Us</a>
 				</td>
-			</tr>
+			</tr>-->
 			<tr>
 				<td align="left">
 					<a>

@@ -205,7 +205,7 @@
     <address_from>Your.Department@mainlib.org</address_from>
     <current_date>18/11/2019</current_date>
     <letter_channel_info></letter_channel_info>
-    <letter_name>Shortened Due Date Letter</letter_name>
+    <letter_name>Recall Notice</letter_name>
     <letter_type>FulShortenedDueDateLetter</letter_type>
     <subject>Subject</subject>
   </general_data>
