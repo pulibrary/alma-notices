@@ -57,14 +57,14 @@
 			<tr>
 				<td height="10em"/>
 			</tr>
-			<tr>
+			<!--<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"
 							>https://library.princeton.edu/services/access/circulation-policies</xsl:attribute>
 						About Us</a>
 				</td>
-			</tr>
+			</tr>-->
 			<tr>
 				<td align="left">
 					<a>
