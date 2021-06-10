@@ -37,8 +37,8 @@
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
 								<td>The following item, currently charged to you, is needed by
-									another patron. The new due date is 
-									<xsl:value-of select="notification_data/item_loan/due_date"/>.</td>
+									another patron. The new due date is <xsl:value-of
+										select="notification_data/item_loan/due_date"/>.</td>
 								<!--<td><xsl:text> The following item with a previous due date of </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/old_due_date"
 									/> @@due_back@@ <xsl:value-of
@@ -55,10 +55,27 @@
 											select="notification_data/item_loan/author"/>:
 											<xsl:value-of select="notification_data/item_loan/title"
 										/></strong>
-									<br/>
-									<br/>
 								</td>
 							</tr>
+							<tr>
+								<td>
+									<strong>Barcode: </strong>
+									<xsl:value-of select="notification_data/item_loan/barcode"/>
+								</td>
+							</tr>
+							<xsl:if test="notification_data/item_loan/shortened_due_date_reason">
+								<tr>
+									<td>
+										<strong>
+											<xsl:text>Reason for recall: </xsl:text>
+										</strong>
+										<xsl:value-of
+											select="notification_data/item_loan/shortened_due_date_reason"/>
+										<br/>
+										<br/>
+									</td>
+								</tr>
+							</xsl:if>
 							<tr>
 								<td>
 									<xsl:text>Fines for overdue recalled items are $1 per day. Please return the urgently needed items before </xsl:text>
@@ -86,7 +103,7 @@
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->
-			<!--	<xsl:call-template name="lastFooter"/>-->
+				<!--	<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>

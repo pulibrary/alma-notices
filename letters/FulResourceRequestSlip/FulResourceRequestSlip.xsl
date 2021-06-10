@@ -64,8 +64,8 @@
 								<tr>
 									<td>
 										<strong>@@item_barcode@@: </strong>
-										<!--<img src="cid:item_id_barcode.png" alt="Item Barcode"/>-->
-										<span>
+										<img src="cid:item_id_barcode.png" alt="Item Barcode"/>
+										<!--<span>
 											<xsl:attribute name="style">
 												<xsl:call-template name="barcodeCss"/>
 											</xsl:attribute>
@@ -73,7 +73,7 @@
 											<xsl:value-of
 												select="//notification_data/phys_item_display/available_items/available_item/barcode"/>
 											<xsl:text>*</xsl:text>
-										</span>
+										</span>-->
 										<br/>
 										<xsl:value-of
 											select="//notification_data/phys_item_display/available_items/available_item/barcode"

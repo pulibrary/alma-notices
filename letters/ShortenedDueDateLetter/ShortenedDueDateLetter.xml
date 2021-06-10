@@ -177,7 +177,7 @@
         <user_web_address_list></user_web_address_list>
         <web_site_url></web_site_url>
       </author>
-      <create_date>18/11/2019</create_date>
+      <create_date>11/18/2019</create_date>
       <entity_action></entity_action>
       <library_id>31589510000123</library_id>
       <library_unit_id></library_unit_id>
@@ -203,7 +203,7 @@
     <address_c>;</address_c>
     <address_c>;</address_c>
     <address_from>Your.Department@mainlib.org</address_from>
-    <current_date>18/11/2019</current_date>
+    <current_date>11/18/2019</current_date>
     <letter_channel_info></letter_channel_info>
     <letter_name>Recall Notice</letter_name>
     <letter_type>FulShortenedDueDateLetter</letter_type>
@@ -2494,7 +2494,7 @@
         <edi_code>BOC-BLO</edi_code>
         <edi_type>091</edi_type>
         <email>
-          <create_date>18/11/2019</create_date>
+          <create_date>11/18/2019</create_date>
           <description></description>
           <email>amanager.manager@example.com</email>
           <entity_action></entity_action>
@@ -3138,16 +3138,16 @@
   <item_loan>
     <accession_number></accession_number>
     <alternative_call_number></alternative_call_number>
-    <author>Name, Author</author>
+    <author>Miller, John</author>
     <barcode>1234567890</barcode>
     <booking_request_id></booking_request_id>
     <calculated_due_date></calculated_due_date>
     <call_number></call_number>
-    <create_date>25/11/2019</create_date>
+    <create_date>11/25/2019</create_date>
     <delivery_address></delivery_address>
     <description></description>
     <description_for_display></description_for_display>
-    <due_date>27/11/2019</due_date>
+    <due_date>11/27/2019</due_date>
     <due_date_shortened_reason></due_date_shortened_reason>
     <due_date_start_calculation_date></due_date_start_calculation_date>
     <entity_action></entity_action>
@@ -3306,7 +3306,7 @@
     <return_date_str></return_date_str>
     <returned_by></returned_by>
   	<shortened_due_date_reason>Recalled</shortened_due_date_reason>
-    <title>The Title</title>
+    <title>A Wonderful Book</title>
     <user>
       <birth_date></birth_date>
       <birth_date_dummy>
@@ -3598,7 +3598,7 @@
             <edi_code>BOC-BLO</edi_code>
             <edi_type>091</edi_type>
             <email>
-              <create_date>18/11/2019</create_date>
+              <create_date>11/18/2019</create_date>
               <description></description>
               <email>amanager.manager@example.com</email>
               <entity_action></entity_action>
@@ -3750,7 +3750,7 @@
             <edi_code>BOC-BLO</edi_code>
             <edi_type>091</edi_type>
             <email>
-              <create_date>18/11/2019</create_date>
+              <create_date>11/18/2019</create_date>
               <description></description>
               <email>amanager.manager@example.com</email>
               <entity_action></entity_action>
@@ -3902,7 +3902,7 @@
             <edi_code>BOC-BLO</edi_code>
             <edi_type>091</edi_type>
             <email>
-              <create_date>18/11/2019</create_date>
+              <create_date>11/18/2019</create_date>
               <description></description>
               <email>amanager.manager@example.com</email>
               <entity_action></entity_action>
@@ -4936,7 +4936,7 @@
     </user_address_list>
     <user_email_list>
       <user_email>
-        <create_date>18/11/2019</create_date>
+        <create_date>11/18/2019</create_date>
         <description></description>
         <email>shira.ginzburg@example.com</email>
         <entity_action></entity_action>
@@ -6112,7 +6112,7 @@
     <assertion_list>
       <assertion>
         <code>CLAIM_P_CO_INFORMATION</code>
-        <create_date>18/11/2019</create_date>
+        <create_date>11/18/2019</create_date>
         <entity_action></entity_action>
         <entity_id>18212632320000123</entity_id>
         <entity_id_code_string_key>18212632320000123_CLAIM_P_CO_INFORMATION</entity_id_code_string_key>
@@ -6126,7 +6126,7 @@
       </assertion>
       <assertion>
         <code>CLAIM_P_CO_INFORMATION</code>
-        <create_date>18/11/2019</create_date>
+        <create_date>11/18/2019</create_date>
         <entity_action></entity_action>
         <entity_id>18212632320000123</entity_id>
         <entity_id_code_string_key>18212632320000123_CLAIM_P_CO_INFORMATION</entity_id_code_string_key>
@@ -6230,7 +6230,7 @@
       </assertion>
       <assertion>
         <code>OVERDUE_POLINE</code>
-        <create_date>18/11/2019</create_date>
+        <create_date>11/18/2019</create_date>
         <entity_action></entity_action>
         <entity_id>18212632320000123</entity_id>
         <entity_id_code_string_key>18212632320000123_OVERDUE_POLINE</entity_id_code_string_key>
@@ -6519,7 +6519,7 @@
     <not_network_poline>true</not_network_poline>
     <not_sent>false</not_sent>
     <note_list></note_list>
-    <notification_claim_date>18/11/2019</notification_claim_date>
+    <notification_claim_date>11/18/2019</notification_claim_date>
     <number_of_item_recieved>0</number_of_item_recieved>
     <number_of_items_ordered>0</number_of_items_ordered>
     <originating_resource_id></originating_resource_id>
