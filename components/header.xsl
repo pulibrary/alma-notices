@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template name="html_head">
+		<head>
+			<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Barcode+39"/>-->
+			<title>
+				<xsl:value-of select="notification_data/general_data/subject"/>
+			</title>
+			<xsl:call-template name="generalStyle"/>
+		</head>
+	</xsl:template>
 	<xsl:template name="head">
 		<table cellspacing="0" cellpadding="5" border="0">
 			<xsl:attribute name="style">
