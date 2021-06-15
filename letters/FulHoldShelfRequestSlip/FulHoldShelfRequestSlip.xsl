@@ -19,12 +19,12 @@
 						<xsl:value-of select="notification_data/user_for_printing/name"/>
 					</b>
 				</h1>
-				<h1>
+				<h2>
 					<xsl:value-of
 						select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
 					/>
-				</h1>
-				<h1>
+				</h2>
+				<h2>
 					<span>
 						<xsl:attribute name="style">
 							<xsl:call-template name="barcodeCss"/>
@@ -34,7 +34,7 @@
 							select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"/>
 						<xsl:text>*</xsl:text>
 					</span>
-				</h1>
+				</h2>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<div class="messageArea">
