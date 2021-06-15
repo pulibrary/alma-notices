@@ -60,11 +60,15 @@
 									</h2>
 								</td>
 							</tr>
+						</table>
+						<table cellspacing="0" cellpadding="5" border="0">
 							<xsl:if
 								test="notification_data/request/selected_inventory_type = 'ITEM'">
 								<tr>
-									<td>
+									<td valign="top" style="width:10%;">
 										<strong>@@item_barcode@@: </strong>
+									</td>
+									<td align="left" style="text-align:left; width:50%;">
 										<img src="cid:item_id_barcode.png" alt="Item Barcode"/>
 										<!--<span>
 											<xsl:attribute name="style">
@@ -76,6 +80,14 @@
 											<xsl:text>*</xsl:text>
 										</span>-->
 										<br/>
+										<br/>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:10%;">
+										<b>@@item_barcode@@ (numeric): </b>
+									</td>
+									<td align="left" style="text-align:left; width:50%;">
 										<xsl:value-of
 											select="//notification_data/phys_item_display/available_items/available_item/barcode"
 										/>

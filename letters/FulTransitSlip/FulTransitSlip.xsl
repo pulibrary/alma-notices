@@ -35,24 +35,38 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<tr>
-								<td>
-									<b>@@item_barcode@@: </b>
-									<img src="cid:item_id_barcode.png" alt="Item Barcode"/>
-									<!--<span>
-										<xsl:attribute name="style"><xsl:call-template name="barcodeCss"/></xsl:attribute>
-										
-										<xsl:text>*</xsl:text>
+							<xsl:if
+								test="notification_data/request/selected_inventory_type = 'ITEM'">
+								<tr>
+									<td valign="top" style="width:20%;">
+										<strong>@@item_barcode@@: </strong>
+									</td>
+									<td align="left" style="text-align:left; width:50%;">
+										<img src="cid:item_id_barcode.png" alt="Item Barcode"/>
+										<!--<span>
+											<xsl:attribute name="style">
+												<xsl:call-template name="barcodeCss"/>
+											</xsl:attribute>
+											<xsl:text>*</xsl:text>
+											<xsl:value-of
+												select="//notification_data/phys_item_display/available_items/available_item/barcode"/>
+											<xsl:text>*</xsl:text>
+										</span>-->
+										<br/>
+										<br/>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:20%;">
+										<b>@@item_barcode@@ (numeric): </b>
+									</td>
+									<td align="left" style="text-align:left; width:50%;">
 										<xsl:value-of
-											select="//notification_data/phys_item_display/available_items/available_item/barcode"/>
-										<xsl:text>*</xsl:text>
-									</span>-->
-									<br/>
-									<xsl:value-of
-										select="//notification_data/phys_item_display/available_items/available_item/barcode"
-									/>
-								</td>
-							</tr>
+											select="//notification_data/phys_item_display/available_items/available_item/barcode"
+										/>
+									</td>
+								</tr></xsl:if></table>
+						<table cellspacing="0" cellpadding="5" border="0">
 							<!--							<tr>
 								<td>@@we_are_transferring_item_below@@</td>
 							</tr>-->
