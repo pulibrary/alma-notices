@@ -8,9 +8,10 @@
 	<xsl:include href="recordTitle.xsl"/>
 	<xsl:template match="/">
 		<html>
-			<head>
+			<!--<head>
 				<xsl:call-template name="generalStyle"/>
-			</head>
+			</head>-->
+			<xsl:call-template name="html_head"> </xsl:call-template>
 			<body>
 				<h1 style="font-size: 500%;">
 					<b>
@@ -81,11 +82,10 @@
 							<xsl:if test="notification_data/phys_item_display/call_number != ''">
 								<tr>
 									<td>
-											<b>@@call_number@@: </b>
-											<xsl:value-of
-												select="notification_data/phys_item_display/call_number"
-											/>
-										
+										<b>@@call_number@@: </b>
+										<xsl:value-of
+											select="notification_data/phys_item_display/call_number"
+										/>
 									</td>
 								</tr>
 							</xsl:if>
@@ -97,7 +97,6 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							
 							<xsl:if test="notification_data/request/manual_description != ''">
 								<tr>
 									<td><b>@@please_note@@: </b>@@manual_description_note@@ -

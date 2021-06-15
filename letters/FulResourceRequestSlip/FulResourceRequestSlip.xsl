@@ -13,12 +13,13 @@
 					<xsl:value-of select="notification_data/languages/string"/>
 				</xsl:attribute>
 			</xsl:if>
-			<head>
+			<!--<head>
 				<title>
 					<xsl:value-of select="notification_data/general_data/subject"/>
 				</title>
 				<xsl:call-template name="generalStyle"/>
-			</head>
+			</head>-->
+			<xsl:call-template name="html_head"/>
 			<body>
 				<h1 style="font-size: 500%;">
 					<b>
@@ -138,7 +139,6 @@
 								</tr>
 							</xsl:if>
 							<strong/>-->
-							
 							<!--<xsl:if test="notification_data/phys_item_display/call_number != ''">
 								<tr>
 									<td>
