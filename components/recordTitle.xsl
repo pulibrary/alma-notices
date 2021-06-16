@@ -24,13 +24,13 @@
 		</xsl:if>-->
 	</xsl:template>
 	<xsl:template name="recordTitle_table">
-		<td width="15%">
+		<td width="15%" valign="top">
 			<b>Title: </b>
 		</td>
-		<td valign="top">
+		<td>
 			<xsl:value-of select="notification_data/phys_item_display/title"/>
 			<xsl:if test="notification_data/phys_item_display/author != ''">
-				<xsl:text>by: </xsl:text>
+				<xsl:text> By: </xsl:text>
 				<xsl:value-of select="notification_data/phys_item_display/author"/>
 			</xsl:if>
 		</td>
