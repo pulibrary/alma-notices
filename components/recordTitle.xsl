@@ -31,8 +31,8 @@
 			<xsl:value-of select="notification_data/phys_item_display/title"/>
 		</td>
 		<xsl:if test="notification_data/phys_item_display/author != ''">
-			<td>by: <xsl:value-of select="notification_data/phys_item_display/author"/>
-			</td>
+			<xsl:value-of select="notification_data/phys_item_display/author"/>
+			
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
