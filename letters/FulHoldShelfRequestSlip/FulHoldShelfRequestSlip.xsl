@@ -13,7 +13,7 @@
 			</head>-->
 			<xsl:call-template name="html_head"> </xsl:call-template>
 			<body>
-				<h1 style="font-size: 500%;">
+				<h1 style="font-size: 300%;">
 					<b>
 						<!--@@requested_for@@ : -->
 						<xsl:value-of select="notification_data/user_for_printing/name"/>

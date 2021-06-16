@@ -21,7 +21,7 @@
 			</head>-->
 			<xsl:call-template name="html_head"/>
 			<body>
-				<h1 style="font-size: 500%;">
+				<h1 style="font-size: 300%;">
 					<b>
 						<xsl:value-of select="notification_data/request/calculated_destination_name"
 						/>
