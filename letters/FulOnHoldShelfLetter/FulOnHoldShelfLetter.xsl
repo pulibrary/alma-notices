@@ -25,7 +25,7 @@
 					<xsl:call-template name="bodyStyleCss"/>
 					<!-- style.xsl -->
 				</xsl:attribute>
-				<!--<xsl:call-template name="head"/>-->
+				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
@@ -35,9 +35,9 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>@@following_item_requested_on@@ <xsl:value-of
-									select="notification_data/request/create_date"/>
-									@@can_picked_at@@ <xsl:value-of
+								<td><!--@@following_item_requested_on@@ <xsl:value-of
+									select="notification_data/request/create_date"/>-->
+									The following item(s) @@can_picked_at@@ <xsl:value-of
 										select="notification_data/request/assigned_unit_name"/>
 									<xsl:text>.</xsl:text>
 									<!--@@circulation_desk@@--></td>
@@ -46,17 +46,25 @@
 								test="notification_data/request/work_flow_entity/expiration_date">
 								<tr>
 									<td> @@note_item_held_until@@ <xsl:value-of
-										select="notification_data/request/work_flow_entity/expiration_date"
-									/>. </td>
+											select="notification_data/request/work_flow_entity/expiration_date"
+										/>. </td>
 								</tr>
 							</xsl:if>
+						</table>
+						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>
-									<xsl:call-template name="recordTitle"/>
-									<!-- recordTitle.xsl -->
+								<xsl:call-template name="recordTitle_table"/>
+								<!-- recordTitle.xsl -->
+							</tr>
+							<tr>
+								<td style="width:15%;"><b>Barcode: </b></td>
+								<td align="left" style="text-align:left;">
+									<xsl:value-of
+										select="//notification_data/phys_item_display/available_items/available_item/barcode"
+									/>
 								</td>
 							</tr>
-							<xsl:if test="notification_data/request/system_notes[. != '']">
+							<!--<xsl:if test="notification_data/request/system_notes[. != '']">
 								<tr>
 									<td>
 										<strong>@@notes_affect_loan@@:</strong>
@@ -68,7 +76,7 @@
 											select="notification_data/request/system_notes"/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 						</table>
 					</div>
 				</div>
