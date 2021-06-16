@@ -18,6 +18,6 @@
 		text-shadow:1px 1px 1px #fff; </xsl:template>
 	<xsl:template name="footerTableStyleCss"> background-color:#444; width:100%; text-shadow:1px 1px
 		1px #333; color:#fff; margin-top:1em; font-weight:700; line-height:2em; font-size:150%;</xsl:template>
-	<xsl:template name="barcodeCss"> font-family:'Bcc3of9'; </xsl:template>
-	
+	<!--<xsl:template name="barcodeCss"> font-family:'Barcode39'; </xsl:template>-->
+	<xsl:template name="barcodeCss"> font-family:'Barcode 3 of 9', '3OF9_NEW', 'BarCode Normal', '3 of 9 Barcode Regular', 'Barcode39', 'Bcc3of9'; </xsl:template>
 </xsl:stylesheet>
