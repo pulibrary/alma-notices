@@ -19,7 +19,6 @@
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
-			<xsl:call-template name="html_head"/>
 			<body>
 				<h1 style="font-size: 300%;">
 					<b>
@@ -29,7 +28,7 @@
 							select="notification_data/user_for_printing/name"/>
 					</strong>-->
 				</h1>
-				<xsl:call-template name="head"/>
+				<!--<xsl:call-template name="head"/>-->
 				<!-- header.xsl -->
 				<div class="messageArea">
 					<div class="messageBody">

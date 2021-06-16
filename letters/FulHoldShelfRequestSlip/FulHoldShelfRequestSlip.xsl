@@ -11,7 +11,7 @@
 			<!--<head>
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
-			<xsl:call-template name="html_head"> </xsl:call-template>
+			
 			<body>
 				<h1 style="font-size: 300%;">
 					<b>
@@ -35,7 +35,7 @@
 						<xsl:text>*</xsl:text>
 					</span>
 				</h2>
-				<xsl:call-template name="head"/>
+				<!--<xsl:call-template name="head"/>-->
 				<!-- header.xsl -->
 				<div class="messageArea">
 					<div class="messageBody">

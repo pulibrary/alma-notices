@@ -19,7 +19,7 @@
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
-			<xsl:call-template name="html_head"/>
+			
 			<body>
 				<h1 style="font-size: 300%;">
 					<b>

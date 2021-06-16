@@ -25,7 +25,7 @@
 					<xsl:call-template name="bodyStyleCss"/>
 					<!-- style.xsl -->
 				</xsl:attribute>
-				<xsl:call-template name="head"/>
+				<!--<xsl:call-template name="head"/>-->
 				<!-- header.xsl -->
 				<xsl:call-template name="senderReceiver"/>
 				<!-- SenderReceiver.xsl -->
