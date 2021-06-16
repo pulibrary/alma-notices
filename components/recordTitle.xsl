@@ -29,10 +29,10 @@
 		</td>
 		<td>
 			<xsl:value-of select="notification_data/phys_item_display/title"/>
-		</td>
-		<xsl:if test="notification_data/phys_item_display/author != ''">
+		
+		<xsl:if test="notification_data/phys_item_display/author != ''"><xsl:text> </xsl:text>
 			<xsl:value-of select="notification_data/phys_item_display/author"/>
 			
-		</xsl:if>
+		</xsl:if></td>
 	</xsl:template>
 </xsl:stylesheet>
