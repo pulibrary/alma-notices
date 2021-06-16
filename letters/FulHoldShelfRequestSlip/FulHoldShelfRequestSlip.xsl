@@ -12,6 +12,7 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
 			<body>
+				<b><xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/></b>
 				<h1 style="font-size: 300%;">
 					<b>
 						<!--@@requested_for@@ : -->
