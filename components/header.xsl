@@ -31,7 +31,7 @@
 				</td>
 			</tr>
 			<!-- END OF LOGO INSERT -->
-			<tr>
+			<!--<tr>
 				<xsl:for-each select="notification_data/general_data">
 					<td valign="middle">
 						<h1>
@@ -44,7 +44,7 @@
 						</h1>
 					</td>
 				</xsl:for-each>
-			</tr>
+			</tr>-->
 		</table>
 	</xsl:template>
 </xsl:stylesheet>
