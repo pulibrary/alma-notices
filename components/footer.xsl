@@ -111,6 +111,6 @@
 	</xsl:template>-->
 	<xsl:template name="myAccount">
 		<a>
-			<xsl:attribute name="href">https://catalog.princeton.edu/account</xsl:attribute>here</a>
+			<xsl:attribute name="href">https://catalog.princeton.edu/account</xsl:attribute></a>
 	</xsl:template>
 </xsl:stylesheet>
