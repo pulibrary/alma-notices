@@ -51,7 +51,7 @@
 		<table align="left">
 			<tr>
 				<td align="left">If you have questions or need mailing instructions, please contact
-					us at libcir@princeton.edu </td>
+					us at fstcirc@princeton.edu </td>
 				<td height="10em"/>
 			</tr>
 			<tr>
@@ -65,7 +65,7 @@
 						About Us</a>
 				</td>
 			</tr>-->
-			<tr>
+			<!--<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"> @@email_contact_us@@ </xsl:attribute>
@@ -74,7 +74,7 @@
 			</tr>
 			<tr>
 				<td height="10em"/>
-			</tr>
+			</tr>-->
 		</table>
 	</xsl:template>
 	<xsl:template name="protocols">
