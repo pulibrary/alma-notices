@@ -97,7 +97,7 @@
 				<!-- footer.xsl -->
 				<xsl:call-template name="myAccount"/>
 				<xsl:call-template name="contactUs"/>
-				<xsl:call-template name="lastFooter"/>
+				<!--<xsl:call-template name="lastFooter"/>-->
 			</body>
 		</html>
 	</xsl:template>

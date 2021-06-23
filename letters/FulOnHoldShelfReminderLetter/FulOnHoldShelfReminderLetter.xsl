@@ -150,7 +150,7 @@
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
-				<xsl:call-template name="lastFooter"/>
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!--<xsl:call-template name="myAccount" />-->
 			</body>
 		</html>
