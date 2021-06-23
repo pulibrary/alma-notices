@@ -111,7 +111,7 @@
 										</table>
 									</td>
 								</tr>
-								<hr/><br/>
+								<br/><br/>
 							</xsl:for-each>
 							<xsl:if
 								test="notification_data/overdue_notification_fee_amount/sum != ''">

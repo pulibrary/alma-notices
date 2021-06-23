@@ -42,12 +42,15 @@
 									<xsl:text>.</xsl:text>
 									<!--@@circulation_desk@@--></td>
 							</tr>
+							<tr>
+								<xsl:text>Book pick-up hours at Firestone are Monday - Friday 11a-5p and Saturday - Sunday 12p-3p. Branch pick-up hours may differ.</xsl:text>
+							</tr>
 							<xsl:if
 								test="notification_data/request/work_flow_entity/expiration_date">
 								<tr>
 									<td><strong>@@note_item_held_until@@ <xsl:value-of
-											select="notification_data/request/work_flow_entity/expiration_date"/></strong>
-										. <br/><br/></td>
+												select="notification_data/request/work_flow_entity/expiration_date"
+											/></strong>. <br/><br/></td>
 								</tr>
 							</xsl:if>
 							<tr>
@@ -63,8 +66,7 @@
 											<th>Call Number</th>
 											<th>Barcode</th>
 										</tr>
-										<xsl:for-each
-											select="notification_data/phys_item_display">
+										<xsl:for-each select="notification_data/phys_item_display">
 											<tr>
 												<td>
 												<xsl:value-of select="title"/>

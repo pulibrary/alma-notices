@@ -25,11 +25,11 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
-							<tr>
+							<!--<tr>
 								<td>
 									<h>@@message@@</h>
 								</td>
-							</tr>
+							</tr>-->
 							<tr>
 								<td>
 									<h>@@following_items_awaiting_pickup@@</h><br/><br/>

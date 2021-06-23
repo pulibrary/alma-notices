@@ -38,7 +38,7 @@
 							<tr>
 								<td>The following item, currently charged to you, has been recalled by
 									another patron or course reserve. The new due date is <xsl:value-of
-										select="notification_data/item_loan/due_date"/>.</td>
+										select="notification_data/item_loan/due_date"/>.<br/><br/></td>
 								<!--<td><xsl:text> The following item with a previous due date of </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/old_due_date"
 									/> @@due_back@@ <xsl:value-of
