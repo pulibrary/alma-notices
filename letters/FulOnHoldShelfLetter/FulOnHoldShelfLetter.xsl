@@ -45,9 +45,9 @@
 							<xsl:if
 								test="notification_data/request/work_flow_entity/expiration_date">
 								<tr>
-									<td> @@note_item_held_until@@ <xsl:value-of
-											select="notification_data/request/work_flow_entity/expiration_date"
-										/>. <br/><br/></td>
+									<td><strong>@@note_item_held_until@@ <xsl:value-of
+											select="notification_data/request/work_flow_entity/expiration_date"/></strong>
+										. <br/><br/></td>
 								</tr>
 							</xsl:if>
 							<tr>
