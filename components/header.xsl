@@ -33,11 +33,11 @@
 			<!-- END OF LOGO INSERT -->
 			<tr>
 				<xsl:for-each select="notification_data/general_data">
-					<!--<td valign="middle">
+					<td valign="middle">
 						<h1>
 							<xsl:value-of select="letter_name"/>
 						</h1>
-					</td>-->
+					</td>
 					<td valign="middle" align="right">
 						<h1>
 							<xsl:value-of select="current_date"/>
