@@ -43,8 +43,11 @@
 									<xsl:if test="notification_data/short_loans='false'">
 										<strong>@@message@@</strong>
 									</xsl:if>-->
-									<xsl:text>This notice is to remind you that the following item(s) will be due soon. Please return or renew the item(s) by the due date indicated below. Online renewal is available for most items. To renew, log into your account </xsl:text>
-									<xsl:call-template name="myAccount"/>. <br/><br/>
+									<xsl:text>This notice is to remind you that the following item(s) will be due soon. 
+												Please return or renew the item(s) by the due date indicated below. 
+												Online renewal is available for most items.
+									</xsl:text>
+									<br/><br/>
 								</td>
 							</tr>
 							<tr>
@@ -98,8 +101,7 @@
 				<!-- footer.xsl -->
 				<xsl:call-template name="contactUs"/>
 				<!-- footer.xsl -->
-				<!--
-				<xsl:call-template name="lastFooter"/>-->
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>

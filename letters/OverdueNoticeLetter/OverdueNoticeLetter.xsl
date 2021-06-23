@@ -51,8 +51,7 @@
 									liable for overdue fines, remember that the fine increases the
 									longer you keep the item. You may also be charged replacement
 									and processing fees if the item is not returned. Online renewal
-									is available for most items.To renew, log in to
-										<xsl:call-template name="myAccount"/>. <br/>
+									is available for most items.Online renewal is available for most items. <br/>
 									<br/>
 								</td></tr>
 							<tr>
@@ -64,7 +63,7 @@
 										</xsl:attribute>
 										<tr>
 											<th>@@title@@</th>
-											<th>@@description@@</th>
+											<!--<th>@@description@@</th>-->
 											<th>@@author@@</th>
 											<th>@@due_date@@</th>
 											<th>@@library@@</th>
@@ -73,7 +72,7 @@
 											select="notification_data/item_loans/item_loan">
 											<tr>
 												<td><xsl:value-of select="title"/></td>
-												<td><xsl:value-of select="description"/></td>
+												<!--<td><xsl:value-of select="description"/></td>-->
 												<td><xsl:value-of select="author"/></td>
 												<td><xsl:value-of select="due_date"/></td>
 												<td><xsl:value-of select="library_name"/></td>
