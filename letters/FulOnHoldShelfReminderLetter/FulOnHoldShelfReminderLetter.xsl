@@ -32,7 +32,7 @@
 							</tr>
 							<tr>
 								<td>
-									<h>@@following_items_awaiting_pickup@@</h>
+									<h>@@following_items_awaiting_pickup@@</h><br/><br/>
 								</td>
 							</tr>
 							<xsl:for-each

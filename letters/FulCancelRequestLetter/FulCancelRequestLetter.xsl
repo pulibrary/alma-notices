@@ -41,8 +41,9 @@
 										select="notification_data/request/create_date"/>
 									@@detailed_below@@ : </td>-->
 								<td>
-									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. Cancellations can occur for several reasons. Your recall request may have expired after 30 days, the item available for you was not picked up, or the item you requested was needed for course reserve. If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
-								</td>
+									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. Cancellations can occur for several reasons. The item available for you was not picked up, or the item you requested was needed for course reserve. If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
+<br/><br/>								
+</td>
 							</tr>
 							<tr>
 								<td>
@@ -57,25 +58,22 @@
 											<th>Call Number</th>
 											<th>Barcode</th>
 										</tr>
-										<xsl:for-each
-											select="notification_data/phys_item_display">
+										<xsl:for-each select="notification_data/phys_item_display">
 											<tr>
 												<td>
-													<xsl:value-of select="title" />
+												<xsl:value-of select="title"/>
 												</td>
 												<td>
-													<xsl:value-of select="author"/>
+												<xsl:value-of select="author"/>
 												</td>
 												<td>
-													<xsl:value-of select="call_number"/>
+												<xsl:value-of select="call_number"/>
 												</td>
 												<td>
-													<xsl:value-of select="barcode"/>
+												<xsl:value-of select="barcode"/>
 												</td>
-												
 											</tr>
 										</xsl:for-each>
-										
 									</table>
 								</td>
 							</tr>
@@ -337,10 +335,17 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							<tr><td><xsl:call-template name="contactUs"/></td></tr>
-							<tr><td><xsl:call-template name="signed"/></td></tr>
-
-						<!--<table role="presentation">
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
+							<!--<table role="presentation">
 							<tr>
 								<td>@@sincerely@@</td>
 							</tr>
@@ -353,7 +358,6 @@
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				
 				<!-- footer.xsl -->
 				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
