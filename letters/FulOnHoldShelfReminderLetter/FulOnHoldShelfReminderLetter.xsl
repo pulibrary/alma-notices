@@ -143,13 +143,14 @@
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
+						<xsl:call-template name="contactUs"/>
 						<xsl:call-template name="signed"/>
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				<xsl:call-template name="contactUs"/>
+				
 				<!--<xsl:call-template name="lastFooter"/>-->
 				<!--<xsl:call-template name="myAccount" />-->
 			</body>

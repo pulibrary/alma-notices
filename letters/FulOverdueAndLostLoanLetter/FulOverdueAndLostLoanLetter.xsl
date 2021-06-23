@@ -128,13 +128,12 @@
 					</table>-->
 				</table>
 				<br/>
+				<xsl:call-template name="contactUs"/>
 				<xsl:call-template name="signed"/>
 				<!-- footer.xsl -->
 				
 				<xsl:call-template name="protocols"/> 
-				<!-- footer.xsl -->
-				<xsl:call-template name="contactUs"/>
-				<!-- footer.xsl -->
+				<!-- footer.xsl -->>
 				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
