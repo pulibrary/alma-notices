@@ -27,7 +27,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<xsl:call-template name="senderReceiver"/>
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<br/>
 				<xsl:call-template name="toWhomIsConcerned"/>
@@ -43,8 +43,12 @@
 									<xsl:if test="notification_data/short_loans='false'">
 										<strong>@@message@@</strong>
 									</xsl:if>-->
-									<xsl:text>This notice is to remind you that the following item(s) will be due soon. Please return or renew the item(s) by the due date indicated below. Online renewal is available for most items. To renew, log into your account </xsl:text>
-									<xsl:call-template name="myAccount"/>. <br/><br/>
+									<xsl:text>This notice is to remind you that the following item(s) will be due soon. 
+												Please return or renew the item(s) by the due date indicated below. 
+												Online renewal is available for most items.
+									</xsl:text>
+									<br/>
+									<br/>
 								</td>
 							</tr>
 							<tr>
@@ -71,35 +75,46 @@
 										<xsl:for-each
 											select="notification_data/item_loans/item_loan">
 											<tr>
-												<td><xsl:value-of select="title"/></td>
+												<td>
+												<xsl:value-of select="title"/>
+												</td>
 												<!--<td><xsl:value-of select="description"/></td>-->
-												<td><xsl:value-of select="author"/></td>
-												<td><xsl:value-of select="call_number"/></td>
-												<td><xsl:value-of select="barcode"/></td>
-												<td><xsl:value-of select="due_date"/></td>
+												<td>
+												<xsl:value-of select="author"/>
+												</td>
+												<td>
+												<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="barcode"/>
+												</td>
+												<td>
+												<xsl:value-of select="due_date"/>
+												</td>
 												<!--<td><xsl:value-of select="library_name"/></td>-->
 											</tr>
 										</xsl:for-each>
+
 									</table>
 								</td>
 							</tr>
+							<tr><td><xsl:call-template name="contactUs"/></td></tr>
+							<tr><td><xsl:call-template name="signed"/></td></tr>
 						</table>
-						<br/>
-						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>
+						<!--<br/>
+						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>-->
 						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						<xsl:call-template name="signed"/>
+						
+						
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				<xsl:call-template name="contactUs"/>
-				<!-- footer.xsl -->
-				<!--
-				<xsl:call-template name="lastFooter"/>-->
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>

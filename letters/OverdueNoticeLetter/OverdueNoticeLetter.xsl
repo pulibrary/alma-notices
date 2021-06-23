@@ -27,7 +27,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<xsl:call-template name="senderReceiver"/>
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<br/>
 				<xsl:call-template name="toWhomIsConcerned"/>
@@ -51,8 +51,7 @@
 									liable for overdue fines, remember that the fine increases the
 									longer you keep the item. You may also be charged replacement
 									and processing fees if the item is not returned. Online renewal
-									is available for most items.To renew, log in to
-										<xsl:call-template name="myAccount"/>. <br/>
+									is available for most items.<br/>
 									<br/>
 								</td></tr>
 							<tr>
@@ -63,42 +62,53 @@
 											<!-- style.xsl -->
 										</xsl:attribute>
 										<tr>
-											<th>@@title@@</th>
-											<th>@@description@@</th>
-											<th>@@author@@</th>
-											<th>@@due_date@@</th>
-											<th>@@library@@</th>
+											<th>Title</th>
+											<th>Author</th>
+											<th>Call Number</th>
+											<th>Barcode</th>
+											<th>Due date</th>
 										</tr>
 										<xsl:for-each
 											select="notification_data/item_loans/item_loan">
 											<tr>
 												<td><xsl:value-of select="title"/></td>
-												<td><xsl:value-of select="description"/></td>
+												<!--<td><xsl:value-of select="description"/></td>-->
 												<td><xsl:value-of select="author"/></td>
+												<td><xsl:value-of select="call_number"/></td>
+												<td><xsl:value-of select="barcode"/></td>
 												<td><xsl:value-of select="due_date"/></td>
-												<td><xsl:value-of select="library_name"/></td>
+												
 											</tr>
 										</xsl:for-each>
 									</table>
 								</td>
 							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
+						
 						</table>
-						<br/>
-						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>
+						
 						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						<xsl:call-template name="signed"/>
+						
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				<!-- footer.xsl -->
-				<xsl:call-template name="myAccount"/>
-				<xsl:call-template name="contactUs"/>
-				<xsl:call-template name="lastFooter"/>
+				<!--<xsl:call-template name="myAccount"/>-->
+				
+				<!--<xsl:call-template name="lastFooter"/>-->
 			</body>
 		</html>
 	</xsl:template>

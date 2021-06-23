@@ -2602,11 +2602,11 @@
     <item_loan>
       <accession_number></accession_number>
       <alternative_call_number></alternative_call_number>
-      <author>The Title Author</author>
-      <barcode>The Title </barcode>
+      <author>The Author</author>
+      <barcode>12345667890 </barcode>
       <booking_request_id></booking_request_id>
       <calculated_due_date></calculated_due_date>
-      <call_number></call_number>
+      <call_number>The Call Number</call_number>
       <create_date>02/12/2019</create_date>
       <delivery_address></delivery_address>
       <description></description>

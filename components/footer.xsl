@@ -26,38 +26,18 @@
 		</table>
 	</xsl:template>
 	<xsl:template name="signed">
-		<xsl:attribute name="style">
-			<xsl:call-template name="listStyleCss"/>
-			<!-- style.xsl -->
-		</xsl:attribute>
-		<table role="presentation">
-			<tr>
-				<td>
-					<strong>Sincerely,</strong>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<strong>Firestone Circulation Services</strong>
-				</td>
-			</tr>
-		</table>
+		<br/>
+		<strong>Sincerely,</strong>
+		<br/>
+		<br/>
+		<strong>Firestone Circulation Services</strong>
+		<br/>
 	</xsl:template>
 	<xsl:template name="contactUs">
-		<xsl:attribute name="style">
-			<xsl:call-template name="listStyleCss"/>
-			<!-- style.xsl -->
-		</xsl:attribute>
-		<table align="left">
-			<tr>
-				<td align="left">If you have questions or need mailing instructions, please contact
-					us at libcir@princeton.edu </td>
-				<td height="10em"/>
-			</tr>
-			<tr>
-				<td height="10em"/>
-			</tr>
-			<!--<tr>
+		<br/>
+		<xsl:text>If you have questions or need mailing instructions, please contact
+					us at fstcirc@princeton.edu.</xsl:text>
+		<!--<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"
@@ -65,7 +45,7 @@
 						About Us</a>
 				</td>
 			</tr>-->
-			<tr>
+		<!--<tr>
 				<td align="left">
 					<a>
 						<xsl:attribute name="href"> @@email_contact_us@@ </xsl:attribute>
@@ -74,8 +54,7 @@
 			</tr>
 			<tr>
 				<td height="10em"/>
-			</tr>
-		</table>
+			</tr>-->
 	</xsl:template>
 	<xsl:template name="protocols">
 		<xsl:attribute name="style">
@@ -84,7 +63,7 @@
 		</xsl:attribute>
 		<table align="left">
 			<tr>
-				<td height="10em"/>
+				<td height="20em"/>
 			</tr>
 			<tr>
 				<td align="left">Mandatory COVID-19 training must be completed before picking up a
@@ -111,6 +90,7 @@
 	</xsl:template>-->
 	<xsl:template name="myAccount">
 		<a>
-			<xsl:attribute name="href">https://catalog.princeton.edu/account</xsl:attribute>here</a>
+			<xsl:attribute name="href">https://catalog.princeton.edu/account</xsl:attribute>
+		</a>
 	</xsl:template>
 </xsl:stylesheet>

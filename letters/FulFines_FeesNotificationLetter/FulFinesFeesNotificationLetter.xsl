@@ -26,11 +26,13 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<xsl:call-template name="senderReceiver"/>
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
 				<!--<br />-->
+				<div class="messageArea">
+					<div class="messageBody">
 				<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 					<tr>
 						<td>
@@ -49,12 +51,8 @@
 							</h>
 						</td>
 					</tr>
-				</table>
-				<table role="presentation" cellpadding="5" class="listing">
-					<xsl:attribute name="style">
-						<xsl:call-template name="mainTableStyleCss"/>
-						<!-- style.xsl -->
-					</xsl:attribute>
+					<tr>
+						<td>
 					<table cellpadding="5" class="listing">
 						<xsl:attribute name="style">
 							<xsl:call-template name="mainTableStyleCss"/>
@@ -78,8 +76,7 @@
 								</td>
 							</tr>
 						</xsl:for-each>
-					</table>
-					<br/>
+					</table></td></tr>
 					<xsl:if test="notification_data/fine_fee_notification_fee_amount/sum != ''">
 						<tr>
 							<td>
@@ -95,21 +92,22 @@
 					<!--<h>
 						<strong>@@please_settle@@</strong>
 					</h>-->
-					<br/>
-					<br/>
 					<!--<table role='presentation' >
 						<tr><td>@@sincerely@@</td></tr>
 						<tr><td>@@department@@</td></tr>
 					</table>-->
+					<tr><td><xsl:call-template name="contactUs"/></td></tr>
+					<tr><td><xsl:call-template name="signed"/></td></tr>
 				</table>
-				<br/>
-				<xsl:call-template name="signed"/>
+					</div>
+				</div>
+				
 				<!-- footer.xsl -->
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				<xsl:call-template name="contactUs"/>
+				
 				<!-- footer.xsl -->
-				<xsl:call-template name="lastFooter"/>
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
