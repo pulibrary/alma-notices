@@ -47,7 +47,7 @@
 								<tr>
 									<td> @@note_item_held_until@@ <xsl:value-of
 											select="notification_data/request/work_flow_entity/expiration_date"
-										/>. <br/></td>
+										/>. <br/><br/></td>
 								</tr>
 							</xsl:if>
 							<tr>
