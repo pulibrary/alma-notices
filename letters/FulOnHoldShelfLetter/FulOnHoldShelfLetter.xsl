@@ -27,7 +27,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<!--<xsl:call-template name="senderReceiver"/>-->
+				<!--<!--<xsl:call-template name="senderReceiver"/>-->-->
 				<!-- SenderReceiver.xsl -->
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
