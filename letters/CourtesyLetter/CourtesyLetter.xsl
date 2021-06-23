@@ -87,8 +87,8 @@
 								</td>
 							</tr>
 						</table>
-						<br/>
-						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>
+						<!--<br/>
+						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>-->
 						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
