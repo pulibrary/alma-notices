@@ -27,7 +27,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<!--<!--<xsl:call-template name="senderReceiver"/>-->-->
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
@@ -47,24 +47,52 @@
 								<tr>
 									<td> @@note_item_held_until@@ <xsl:value-of
 											select="notification_data/request/work_flow_entity/expiration_date"
-										/>. </td>
+										/>. <br/></td>
 								</tr>
 							</xsl:if>
-						</table>
-						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
+								<td>
+									<table cellpadding="5" class="listing">
+										<xsl:attribute name="style">
+											<xsl:call-template name="mainTableStyleCss"/>
+											<!-- style.xsl -->
+										</xsl:attribute>
+										<tr>
+											<th>Title</th>
+											<th>Author</th>
+											<th>Call Number</th>
+											<th>Barcode</th>
+										</tr>
+										<xsl:for-each
+											select="notification_data/phys_item_display">
+											<tr>
+												<td>
+												<xsl:value-of select="title"/>
+												</td>
+												<td>
+												<xsl:value-of select="author"/>
+												</td>
+												<td>
+												<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="barcode"/>
+												</td>
+											</tr>
+										</xsl:for-each>
+										<!--<tr>
 								<xsl:call-template name="recordTitle_table"/>
-								<!-- recordTitle.xsl -->
-							</tr>
-							<tr>
+								<!-\- recordTitle.xsl -\->
+							</tr>-->
+										<!--<tr>
 								<td style="width:15%;"><b>Barcode: </b></td>
 								<td align="left" style="text-align:left;">
 									<xsl:value-of
 										select="//notification_data/phys_item_display/available_items/available_item/barcode"
 									/>
 								</td>
-							</tr>
-							<!--<xsl:if test="notification_data/request/system_notes[. != '']">
+							</tr>-->
+										<!--<xsl:if test="notification_data/request/system_notes[. != '']">
 								<tr>
 									<td>
 										<strong>@@notes_affect_loan@@:</strong>
@@ -77,6 +105,19 @@
 									</td>
 								</tr>
 							</xsl:if>-->
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
 						</table>
 					</div>
 				</div>
@@ -89,9 +130,6 @@
 						<td>@@department@@</td>
 					</tr>
 				</table>-->
-				<xsl:call-template name="contactUs"/>
-				<xsl:call-template name="signed"/>
-				<!-- footer.xsl -->
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<!--<xsl:call-template name="lastFooter"/>-->

@@ -43,7 +43,7 @@
 											<xsl:attribute name="style">
 												<xsl:call-template name="mainTableStyleCss"/>
 											</xsl:attribute>
-<!--											<tr align="center" bgcolor="#f5f5f5">
+											<!--											<tr align="center" bgcolor="#f5f5f5">
 												<td colspan="4">
 												<h3>
 												<xsl:value-of select="organization_unit/name"/>
@@ -51,10 +51,11 @@
 												</td>
 											</tr>-->
 											<tr>
-												<th>@@title@@</th>
-												<th>@@author@@</th>
-												<th>@@can_picked_at@@</th>
-												<th>@@note_item_held_until@@</th>
+												<th>Title</th>
+												<th>Author</th>
+												<th>Call Number</th>
+												<th>Barcode</th>
+												<th>Pick up by</th>
 											</tr>
 											<xsl:for-each select="requests/request_for_display">
 												<tr>
@@ -65,8 +66,11 @@
 												<xsl:value-of select="phys_item_display/author"/>
 												</td>
 												<td>
-												<xsl:value-of select="request/assigned_unit_name"
-												/>
+												<xsl:value-of
+												select="phys_item_display/call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="phys_item_display/barcode"/>
 												</td>
 												<td>
 												<xsl:value-of
@@ -137,20 +141,26 @@
 									</td>
 								</tr>
 							</xsl:if>
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
 						</table>
-						<br/>
 						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						<xsl:call-template name="contactUs"/>
-						<xsl:call-template name="signed"/>
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				
 				<!--<xsl:call-template name="lastFooter"/>-->
 				<!--<xsl:call-template name="myAccount" />-->
 			</body>

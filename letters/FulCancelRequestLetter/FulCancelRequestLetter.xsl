@@ -27,7 +27,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<!--<!--<xsl:call-template name="senderReceiver"/>-->-->
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
@@ -44,11 +44,40 @@
 									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. Cancellations can occur for several reasons. Your recall request may have expired after 30 days, the item available for you was not picked up, or the item you requested was needed for course reserve. If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
 								</td>
 							</tr>
-						</table>
-						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<xsl:call-template name="recordTitle_table"/>
-								<!-- recordTitle.xsl -->
+								<td>
+									<table cellpadding="5" class="listing">
+										<xsl:attribute name="style">
+											<xsl:call-template name="mainTableStyleCss"/>
+											<!-- style.xsl -->
+										</xsl:attribute>
+										<tr>
+											<th>@@title@@</th>
+											<th>@@author@@</th>
+											<th>Call Number</th>
+											<th>Barcode</th>
+										</tr>
+										<xsl:for-each
+											select="notification_data/phys_item_display">
+											<tr>
+												<td>
+													<xsl:value-of select="title" />
+												</td>
+												<td>
+													<xsl:value-of select="author"/>
+												</td>
+												<td>
+													<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+													<xsl:value-of select="barcode"/>
+												</td>
+												
+											</tr>
+										</xsl:for-each>
+										
+									</table>
+								</td>
 							</tr>
 							<!-- <xsl:if test="notification_data/metadata/title != ''">
 								<tr>
@@ -266,7 +295,7 @@
 									</td>
 								</tr>
 							</xsl:if> -->
-							<xsl:if test="notification_data/request/start_time != ''">
+							<!--<xsl:if test="notification_data/request/start_time != ''">
 								<tr>
 									<td style="width:20%;">
 										<strong> @@start_time@@: </strong></td><td>
@@ -283,22 +312,22 @@
 											select="notification_data/booking_end_time_str"/>
 									</td>
 								</tr>
-							</xsl:if>
-							<xsl:if test="notification_data/request/note != ''">
+							</xsl:if>-->
+							<!--<xsl:if test="notification_data/request/note != ''">
 								<tr>
 									<td style="width:20%;">
 										<strong> @@request_note@@: </strong></td><td>
 										<xsl:value-of select="notification_data/request/note"/>
 									</td>
 								</tr>
-							</xsl:if>
-							<tr>
+							</xsl:if>-->
+							<!--<tr>
 								<td style="width:20%;">
 									<strong> @@reason_deleting_request@@: </strong></td><td>
 									<xsl:value-of
 										select="notification_data/request/status_note_display"/>
 								</td>
-							</tr>
+							</tr>-->
 							<!--<xsl:if test="notification_data/request/cancel_reason != ''">
 								<tr>
 									<td style="width:20%;">
@@ -308,8 +337,9 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-						</table>
-						<br/>
+							<tr><td><xsl:call-template name="contactUs"/></td></tr>
+							<tr><td><xsl:call-template name="signed"/></td></tr>
+
 						<!--<table role="presentation">
 							<tr>
 								<td>@@sincerely@@</td>
@@ -318,9 +348,7 @@
 								<td>@@department@@</td>
 							</tr>
 						</table>-->
-						<xsl:call-template name="contactUs"/>
-						<xsl:call-template name="signed"/>
-						<!-- footer.xsl -->
+						</table>
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>

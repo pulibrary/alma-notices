@@ -51,19 +51,41 @@
 							</tr>
 							<tr>
 								<td>
-									<strong><xsl:value-of
-											select="notification_data/item_loan/author"/>:
-											<xsl:value-of select="notification_data/item_loan/title"
-										/></strong>
+									<table cellpadding="5" class="listing">
+										<xsl:attribute name="style">
+											<xsl:call-template name="mainTableStyleCss"/>
+											<!-- style.xsl -->
+										</xsl:attribute>
+										<tr>
+											<th>Title</th>
+											<th>Author</th>
+											<th>Call Number</th>
+											<th>Barcode</th>
+											<th>Due date</th>
+										</tr>
+										<tr>
+											<xsl:for-each select="notification_data/item_loan">
+												<td>
+												<xsl:value-of select="title"/>
+												</td>
+												<td>
+												<xsl:value-of select="author"/>
+												</td>
+												<td>
+												<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="barcode"/>
+												</td>
+												<td>
+												<xsl:value-of select="due_date"/>
+												</td>
+											</xsl:for-each>
+										</tr>
+									</table>
 								</td>
 							</tr>
-							<tr>
-								<td>
-									<strong>Barcode: </strong>
-									<xsl:value-of select="notification_data/item_loan/barcode"/>
-								</td>
-							</tr>
-							<xsl:if test="notification_data/item_loan/shortened_due_date_reason">
+							<!--<xsl:if test="notification_data/item_loan/shortened_due_date_reason">
 								<tr>
 									<td>
 										<strong>
@@ -75,19 +97,16 @@
 										<br/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<tr>
-								<td>
+								<td><br/>
 									<xsl:text>Fines for overdue recalled items are $1 per day. Please return the urgently needed items before </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/due_date"/>
 									<xsl:text>.</xsl:text>
 									<br/>
-									<br/>
 								</td>
 							</tr>
-						</table>
-						<br/>
-						<!--<table role="presentation">
+							<!--<table role="presentation">
 							<tr>
 								<td>@@sincerely@@</td>
 							</tr>
@@ -95,8 +114,17 @@
 								<td>@@department@@</td>
 							</tr>
 						</table>-->
-						<xsl:call-template name="contactUs"/>
-						<xsl:call-template name="signed"/>
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
+						</table>
 						<!-- footer.xsl -->
 					</div>
 				</div>

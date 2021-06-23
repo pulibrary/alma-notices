@@ -47,7 +47,8 @@
 												Please return or renew the item(s) by the due date indicated below. 
 												Online renewal is available for most items.
 									</xsl:text>
-									<br/><br/>
+									<br/>
+									<br/>
 								</td>
 							</tr>
 							<tr>
@@ -74,18 +75,31 @@
 										<xsl:for-each
 											select="notification_data/item_loans/item_loan">
 											<tr>
-												<td><xsl:value-of select="title"/></td>
+												<td>
+												<xsl:value-of select="title"/>
+												</td>
 												<!--<td><xsl:value-of select="description"/></td>-->
-												<td><xsl:value-of select="author"/></td>
-												<td><xsl:value-of select="call_number"/></td>
-												<td><xsl:value-of select="barcode"/></td>
-												<td><xsl:value-of select="due_date"/></td>
+												<td>
+												<xsl:value-of select="author"/>
+												</td>
+												<td>
+												<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="barcode"/>
+												</td>
+												<td>
+												<xsl:value-of select="due_date"/>
+												</td>
 												<!--<td><xsl:value-of select="library_name"/></td>-->
 											</tr>
 										</xsl:for-each>
+
 									</table>
 								</td>
 							</tr>
+							<tr><td><xsl:call-template name="contactUs"/></td></tr>
+							<tr><td><xsl:call-template name="signed"/></td></tr>
 						</table>
 						<!--<br/>
 						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>-->
@@ -93,16 +107,14 @@
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						<xsl:call-template name="contactUs"/>
-						<xsl:call-template name="signed"/>
+						
+						
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
-				
-				<!-- footer.xsl -->
-				<!--<!--<xsl:call-template name="lastFooter"/>-->-->
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
