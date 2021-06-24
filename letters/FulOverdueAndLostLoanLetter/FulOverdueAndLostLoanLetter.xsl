@@ -99,7 +99,7 @@
 												<xsl:value-of
 												select="fine_fee_type_display"/>:
 												<xsl:value-of
-												select="fine_fee_ammount/normalized_sum"
+												select="fine_fee_ammount/sum"
 												/>&#160;<xsl:value-of
 												select="fine_fee_ammount/currency"
 												/>&#160;<xsl:value-of select="ff"/>
