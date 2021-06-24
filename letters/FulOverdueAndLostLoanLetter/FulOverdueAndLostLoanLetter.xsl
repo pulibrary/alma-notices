@@ -25,7 +25,7 @@
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<!--<xsl:call-template name="senderReceiver"/>-->
-				<!-- SenderReceiver.xsl -->
+				<!-- SenderReceiver.xsl --><br/><br/>
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
 				<!--<br />-->
@@ -52,16 +52,16 @@
 											<xsl:attribute name="style">
 												<xsl:call-template name="mainTableStyleCss"/>
 											</xsl:attribute>
-											<tr align="center" bgcolor="#f5f5f5">
+											<!--<tr align="center" bgcolor="#f5f5f5">
 												<td colspan="8">
 												<h3><xsl:value-of select="organization_unit/name"
 												/></h3>
 												</td>
-											</tr>
+											</tr>-->
 											<tr>
 												<th>@@lost_item@@</th>
 												<!--<th>@@description@@</th>-->
-												<th>@@library@@</th>
+												<!--<th>@@library@@</th>-->
 												<th>@@loan_date@@</th>
 												<th>@@due_date@@</th>
 												<th>@@barcode@@</th>
@@ -73,21 +73,21 @@
 												<tr>
 												<td><xsl:value-of select="item_loan/title"/></td>
 												<!--<td><xsl:value-of select="item_loan/description"/></td>-->
-												<td><xsl:value-of
+												<!--<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
-												/></td>
+												/></td>-->
 												<td><xsl:value-of select="item_loan/loan_date"
 												/></td>
 												<td><xsl:value-of select="item_loan/due_date"
 												/></td>
-												<td><span>
+												<td><!--<span>
 												<xsl:attribute name="style"><xsl:call-template
 												name="barcodeCss"/></xsl:attribute>
 												<xsl:text>*</xsl:text>
 												<xsl:value-of select="item_loan/barcode"/>
 												<xsl:text>*</xsl:text>
 												</span>
-												<br/>
+												<br/>-->
 												<xsl:value-of select="item_loan/barcode"/>
 												<br/></td>
 												<td><xsl:value-of
@@ -96,10 +96,8 @@
 												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
-												<strong><xsl:value-of
-												select="fine_fee_type_display"/>:
-												</strong><xsl:value-of
-												select="fine_fee_ammount/normalized_sum"
+												<xsl:value-of select="fine_fee_type_display"/>:
+												<xsl:value-of select="fine_fee_ammount/sum"
 												/>&#160;<xsl:value-of
 												select="fine_fee_ammount/currency"
 												/>&#160;<xsl:value-of select="ff"/>
@@ -143,7 +141,7 @@
 						</table>
 					</div></div>
 				<xsl:call-template name="protocols"/>
-				<!-- footer.xsl -->> <!--<xsl:call-template name="lastFooter"/>-->
+				<!-- footer.xsl --> <!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>

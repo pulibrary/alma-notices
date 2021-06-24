@@ -43,7 +43,9 @@
 									<!--@@circulation_desk@@--></td>
 							</tr>
 							<tr>
-								<xsl:text>Book pick-up hours at Firestone are Monday - Friday 11a-5p and Saturday - Sunday 12p-3p. Branch pick-up hours may differ.</xsl:text>
+								<td>
+									<xsl:text>Book pick-up hours at Firestone are Monday - Friday 11a-5p and Saturday - Sunday 12p-3p. Branch pick-up hours may differ.</xsl:text>
+								</td>
 							</tr>
 							<xsl:if
 								test="notification_data/request/work_flow_entity/expiration_date">
