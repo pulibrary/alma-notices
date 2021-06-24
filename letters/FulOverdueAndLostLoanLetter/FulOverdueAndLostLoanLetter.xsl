@@ -96,9 +96,9 @@
 												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
-												<strong><xsl:value-of
+												<xsl:value-of
 												select="fine_fee_type_display"/>:
-												</strong><xsl:value-of
+												<xsl:value-of
 												select="fine_fee_ammount/normalized_sum"
 												/>&#160;<xsl:value-of
 												select="fine_fee_ammount/currency"
