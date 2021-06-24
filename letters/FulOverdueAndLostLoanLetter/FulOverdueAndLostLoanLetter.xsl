@@ -96,10 +96,8 @@
 												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
-												<xsl:value-of
-												select="fine_fee_type_display"/>:
-												<xsl:value-of
-												select="fine_fee_ammount/sum"
+												<xsl:value-of select="fine_fee_type_display"/>:
+												<xsl:value-of select="fine_fee_ammount/sum"
 												/>&#160;<xsl:value-of
 												select="fine_fee_ammount/currency"
 												/>&#160;<xsl:value-of select="ff"/>
@@ -143,7 +141,7 @@
 						</table>
 					</div></div>
 				<xsl:call-template name="protocols"/>
-				<!-- footer.xsl -->> <!--<xsl:call-template name="lastFooter"/>-->
+				<!-- footer.xsl --> <!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
