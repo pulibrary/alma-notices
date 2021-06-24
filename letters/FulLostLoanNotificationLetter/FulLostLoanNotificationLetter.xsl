@@ -25,7 +25,7 @@
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<!--<xsl:call-template name="senderReceiver"/>-->
-				<!-- SenderReceiver.xsl -->
+				<!-- SenderReceiver.xsl --><br/><br/>
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
 				<!--<br />-->
@@ -33,9 +33,10 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>
+								<td> 
 									<h>@@inform_you_item_below@@ </h>
 									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>
+<br/><br/>
 								</td>
 							</tr>
 							<tr>
