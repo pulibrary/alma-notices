@@ -52,16 +52,16 @@
 											<xsl:attribute name="style">
 												<xsl:call-template name="mainTableStyleCss"/>
 											</xsl:attribute>
-											<tr align="center" bgcolor="#f5f5f5">
+											<!--<tr align="center" bgcolor="#f5f5f5">
 												<td colspan="8">
 												<h3><xsl:value-of select="organization_unit/name"
 												/></h3>
 												</td>
-											</tr>
+											</tr>-->
 											<tr>
 												<th>@@lost_item@@</th>
 												<!--<th>@@description@@</th>-->
-												<th>@@library@@</th>
+												<!--<th>@@library@@</th>-->
 												<th>@@loan_date@@</th>
 												<th>@@due_date@@</th>
 												<th>@@barcode@@</th>
@@ -73,9 +73,9 @@
 												<tr>
 												<td><xsl:value-of select="item_loan/title"/></td>
 												<!--<td><xsl:value-of select="item_loan/description"/></td>-->
-												<td><xsl:value-of
+												<!--<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
-												/></td>
+												/></td>-->
 												<td><xsl:value-of select="item_loan/loan_date"
 												/></td>
 												<td><xsl:value-of select="item_loan/due_date"
