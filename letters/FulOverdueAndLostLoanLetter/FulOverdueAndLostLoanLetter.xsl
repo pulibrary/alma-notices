@@ -80,14 +80,14 @@
 												/></td>
 												<td><xsl:value-of select="item_loan/due_date"
 												/></td>
-												<td><span>
+												<td><!--<span>
 												<xsl:attribute name="style"><xsl:call-template
 												name="barcodeCss"/></xsl:attribute>
 												<xsl:text>*</xsl:text>
 												<xsl:value-of select="item_loan/barcode"/>
 												<xsl:text>*</xsl:text>
 												</span>
-												<br/>
+												<br/>-->
 												<xsl:value-of select="item_loan/barcode"/>
 												<br/></td>
 												<td><xsl:value-of
