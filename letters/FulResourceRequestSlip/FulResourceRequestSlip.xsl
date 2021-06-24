@@ -294,6 +294,18 @@
 									<xsl:value-of select="notification_data/request_id"/>
 								</td>
 							</tr>
+							<xsl:if test="//notification_data/phys_item_display/available_items/available_item/inventory_number">
+							<tr>
+								<td style="width:15%;">
+									<b>Inventory Number: </b>
+								</td><br/><br/>
+								<td align="left" style="text-align:left; width:50%;"><b>
+									<xsl:value-of
+										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
+									/></b>
+								</td>
+							</tr>
+							</xsl:if>
 						</table>
 					</div>
 				</div>
