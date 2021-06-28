@@ -25,7 +25,9 @@
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
 				<!--<xsl:call-template name="senderReceiver"/>-->
-				<!-- SenderReceiver.xsl --><br/><br/>
+				<!-- SenderReceiver.xsl -->
+				<br/>
+				<br/>
 				<xsl:call-template name="toWhomIsConcerned"/>
 				<!-- mailReason.xsl -->
 				<!--<br />-->
@@ -33,9 +35,12 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>
-									<h>@@inform_you_item_below@@ </h>
-									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>
+								<td>This is to inform you that item(s) listed below are long overdue
+									and lost fees have been applied. The Library reserves the right
+									to adjust the fee upward if it does not cover the cost of
+									replacement.
+									<!--<h>@@inform_you_item_below@@ </h>
+									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>-->
 								</td>
 							</tr>
 						</table>
@@ -71,16 +76,21 @@
 											<xsl:for-each
 												select="item_loans/overdue_and_lost_loan_notification_display">
 												<tr>
-												<td><xsl:value-of select="item_loan/title"/></td>
+												<td>
+												<xsl:value-of select="item_loan/title"/>
+												</td>
 												<!--<td><xsl:value-of select="item_loan/description"/></td>-->
 												<!--<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
 												/></td>-->
-												<td><xsl:value-of select="item_loan/loan_date"
-												/></td>
-												<td><xsl:value-of select="item_loan/due_date"
-												/></td>
-												<td><!--<span>
+												<td>
+												<xsl:value-of select="item_loan/loan_date"/>
+												</td>
+												<td>
+												<xsl:value-of select="item_loan/due_date"/>
+												</td>
+												<td>
+												<!--<span>
 												<xsl:attribute name="style"><xsl:call-template
 												name="barcodeCss"/></xsl:attribute>
 												<xsl:text>*</xsl:text>
@@ -89,10 +99,13 @@
 												</span>
 												<br/>-->
 												<xsl:value-of select="item_loan/barcode"/>
-												<br/></td>
-												<td><xsl:value-of
+												<br/>
+												</td>
+												<td>
+												<xsl:value-of
 												select="physical_item_display_for_printing/call_number"
-												/></td>
+												/>
+												</td>
 												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
@@ -109,7 +122,8 @@
 										</table>
 									</td>
 								</tr>
-								<br/><br/>
+								<br/>
+								<br/>
 							</xsl:for-each>
 							<xsl:if
 								test="notification_data/overdue_notification_fee_amount/sum != ''">
@@ -139,9 +153,11 @@
 						<tr><td>@@department@@</td></tr>
 					</table>-->
 						</table>
-					</div></div>
+					</div>
+				</div>
 				<xsl:call-template name="protocols"/>
-				<!-- footer.xsl --> <!--<xsl:call-template name="lastFooter"/>-->
+				<!-- footer.xsl -->
+				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
 			</body>
 		</html>
