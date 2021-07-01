@@ -36,9 +36,16 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>The following item, currently charged to you, has been recalled by
-									another patron or course reserve. The new due date is <xsl:value-of
-										select="notification_data/item_loan/due_date"/>.<br/><br/></td>
+								<td>The following item(s), currently charged to you, have been
+									recalled by another patron or course reserve.</td>
+							</tr>
+							<tr>
+								<td>
+									<b>Please return the item(s) by <xsl:value-of
+											select="notification_data/item_loan/due_date"/>.</b>
+									<br/>
+									<br/>
+								</td>
 								<!--<td><xsl:text> The following item with a previous due date of </xsl:text>
 									<xsl:value-of select="notification_data/item_loan/old_due_date"
 									/> @@due_back@@ <xsl:value-of
@@ -49,6 +56,12 @@
 									<br/><br/>
 								</td>-->
 							</tr>
+							<!--<tr>
+								<td><br/>
+									<xsl:text>Fines for overdue recalled items are $1 per day.</xsl:text>
+									<br/>
+								</td>
+							</tr>-->
 							<tr>
 								<td>
 									<table cellpadding="5" class="listing">
@@ -98,14 +111,6 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							<tr>
-								<td><br/>
-									<xsl:text>Fines for overdue recalled items are $1 per day. Please return the items by </xsl:text>
-									<xsl:value-of select="notification_data/item_loan/due_date"/>
-									<xsl:text>.</xsl:text>
-									<br/>
-								</td>
-							</tr>
 							<!--<table role="presentation">
 							<tr>
 								<td>@@sincerely@@</td>
