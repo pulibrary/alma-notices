@@ -337,7 +337,7 @@
 							</xsl:if>-->
 							<tr>
 								<td>
-									<xsl:call-template name="contactUs"/>
+									<xsl:call-template name="contactUs_brief"/>
 								</td>
 							</tr>
 							<tr>
