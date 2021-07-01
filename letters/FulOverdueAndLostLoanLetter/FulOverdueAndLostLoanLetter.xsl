@@ -36,7 +36,7 @@
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
 								<td>This is to inform you that item(s) listed below are long overdue
-									and lost fees have been applied. The Library reserves the right
+									and replacement fees have been applied. The Library reserves the right
 									to adjust the fee upward if it does not cover the cost of
 									replacement.
 									<!--<h>@@inform_you_item_below@@ </h>
@@ -67,7 +67,7 @@
 												<th>@@lost_item@@</th>
 												<!--<th>@@description@@</th>-->
 												<!--<th>@@library@@</th>-->
-												<th>@@loan_date@@</th>
+												<!--<th>@@loan_date@@</th>-->
 												<th>@@due_date@@</th>
 												<th>@@barcode@@</th>
 												<th>@@call_number@@</th>
@@ -83,9 +83,9 @@
 												<!--<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
 												/></td>-->
-												<td>
+												<!--<td>
 												<xsl:value-of select="item_loan/loan_date"/>
-												</td>
+												</td>-->
 												<td>
 												<xsl:value-of select="item_loan/due_date"/>
 												</td>
