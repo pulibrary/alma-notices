@@ -37,9 +37,7 @@
 							<tr>
 								<td><!--@@following_item_requested_on@@ <xsl:value-of
 									select="notification_data/request/create_date"/>-->
-									The following item(s) @@can_picked_at@@ <xsl:value-of
-										select="notification_data/request/assigned_unit_name"/>
-									<xsl:text>.</xsl:text>
+									The following item(s) are available for pickup.
 									<!--@@circulation_desk@@--></td>
 							</tr>
 							<tr>
@@ -67,6 +65,7 @@
 											<th>Author</th>
 											<th>Call Number</th>
 											<th>Barcode</th>
+<th>Pick up at</th>
 										</tr>
 										<xsl:for-each select="notification_data/phys_item_display">
 											<tr>
@@ -82,6 +81,9 @@
 												<td>
 												<xsl:value-of select="barcode"/>
 												</td>
+												<td><xsl:value-of
+													select="../request/assigned_unit_name"/>
+													</td>
 											</tr>
 										</xsl:for-each>
 										<!--<tr>

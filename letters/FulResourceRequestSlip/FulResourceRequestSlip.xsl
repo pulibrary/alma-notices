@@ -93,7 +93,8 @@
 									</td>
 								</tr>
 							</xsl:if>
-							<xsl:if test="notification_data/external_id != ''">
+						
+							<!--<xsl:if test="notification_data/external_id != ''">
 								<tr>
 									<td style="width:15%;">
 										<strong>@@external_id@@: </strong>
@@ -102,7 +103,7 @@
 										<xsl:value-of select="notification_data/external_id"/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<xsl:if test="notification_data/user_for_printing/name">
 								<tr>
 									<td style="width:15%;">
@@ -113,6 +114,19 @@
 											select="notification_data/user_for_printing/name"/>
 									</td>
 								</tr>
+							</xsl:if>
+							
+							<xsl:if test="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']">
+							<tr>
+								<td style="width:15%;">
+									<b>Requested for patron barcode: </b>
+								</td>
+								<td align="left" style="text-align:left; width:50%;">
+									<xsl:value-of
+										select="//notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
+									/>
+								</td>
+							</tr>
 							</xsl:if>
 							<tr>
 								<xsl:call-template name="recordTitle_table"/>
@@ -294,12 +308,12 @@
 									<xsl:value-of select="notification_data/request_id"/>
 								</td>
 							</tr>
-							<xsl:if test="//notification_data/phys_item_display/available_items/available_item/inventory_number">
+							<xsl:if test="//notification_data/phys_item_display/available_items/available_item/inventory_number[.!='']">
 							<tr>
-								<td style="width:15%;"><br/><br/>
+								<td style="width:15%;"><br/>
 									<b>Inventory Number: </b>
 								</td>
-								<td align="left" style="text-align:left; width:50%;"><b>
+								<td align="left" style="text-align:left; width:50%;"><br/><b>
 									<xsl:value-of
 										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
 									/></b>

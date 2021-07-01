@@ -32,7 +32,9 @@
 							</tr>-->
 							<tr>
 								<td>
-									<h>@@following_items_awaiting_pickup@@</h><br/><br/>
+									<h>@@following_items_awaiting_pickup@@</h>
+									<br/>
+									<br/>
 								</td>
 							</tr>
 							<xsl:for-each
@@ -51,14 +53,24 @@
 												</td>
 											</tr>-->
 											<tr>
+												<th>Pick up by</th>
+												<th>Pick up at</th>
 												<th>Title</th>
 												<th>Author</th>
 												<th>Call Number</th>
 												<th>Barcode</th>
-												<th>Pick up by</th>
 											</tr>
 											<xsl:for-each select="requests/request_for_display">
 												<tr>
+												<td>
+												<xsl:value-of
+												select="request/work_flow_entity/expiration_date"
+												/>
+												</td>
+												<td>
+												<xsl:value-of select="request/assigned_unit_name"
+												/>
+												</td>
 												<td>
 												<xsl:value-of select="phys_item_display/title"/>
 												</td>
@@ -71,11 +83,6 @@
 												</td>
 												<td>
 												<xsl:value-of select="phys_item_display/barcode"/>
-												</td>
-												<td>
-												<xsl:value-of
-												select="request/work_flow_entity/expiration_date"
-												/>
 												</td>
 												</tr>
 											</xsl:for-each>

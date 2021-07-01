@@ -56,6 +56,12 @@
 				<td height="10em"/>
 			</tr>-->
 	</xsl:template>
+	<xsl:template name="contactUs_brief">
+		<br/>
+		<xsl:text>If you have questions, please contact
+					us at fstcirc@princeton.edu.</xsl:text>
+		
+	</xsl:template>
 	<xsl:template name="protocols">
 		<xsl:attribute name="style">
 			<xsl:call-template name="listStyleCss"/>

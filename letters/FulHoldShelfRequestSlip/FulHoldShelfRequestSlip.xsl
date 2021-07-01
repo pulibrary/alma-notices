@@ -12,7 +12,7 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
 			<body>
-				<b><xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/></b>
+				<h2>Expires: <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/></h2>
 				<h1 style="font-size: 300%;">
 					<b>
 						<!--@@requested_for@@ : -->
@@ -40,7 +40,7 @@
 				<div class="messageArea">
 					<div class="messageBody">
 						<table cellspacing="0" cellpadding="5" border="0">
-							<tr>
+							<!--<tr>
 								<td>
 									<h2>
 										<b>@@location@@: </b>
@@ -49,7 +49,7 @@
 										/>
 									</h2>
 								</td>
-							</tr>
+							</tr>-->
 							<tr>
 								<td>
 									<h2>
@@ -129,7 +129,7 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							<xsl:if test="notification_data/user_for_printing/name">
+							<!--<xsl:if test="notification_data/user_for_printing/name">
 								<tr>
 									<td style="width:15%;">
 										<b>@@requested_for@@: </b>
@@ -139,7 +139,7 @@
 											select="notification_data/user_for_printing/name"/>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<tr>
 								<xsl:call-template name="recordTitle_table"/>
 							</tr>
