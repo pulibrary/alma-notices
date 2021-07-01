@@ -21,9 +21,17 @@
 			</head>-->
 			<body>
 				<h1 style="font-size: 300%;">
-					<b>
-						<xsl:value-of select="notification_data/phys_item_display/call_number"/>
-					</b>
+					<xsl:choose>
+						<xsl:when
+							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
+							<xsl:value-of
+								select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
+							/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="notification_data/phys_item_display/call_number"/>
+						</xsl:otherwise>
+					</xsl:choose>
 					<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
 					</strong>-->
@@ -93,7 +101,6 @@
 									</td>
 								</tr>
 							</xsl:if>
-						
 							<!--<xsl:if test="notification_data/external_id != ''">
 								<tr>
 									<td style="width:15%;">
@@ -115,18 +122,18 @@
 									</td>
 								</tr>
 							</xsl:if>
-							
-							<xsl:if test="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']">
-							<tr>
-								<td style="width:15%;">
-									<b>Requested for patron barcode: </b>
-								</td>
-								<td align="left" style="text-align:left; width:50%;">
-									<xsl:value-of
-										select="//notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
-									/>
-								</td>
-							</tr>
+							<xsl:if
+								test="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']">
+								<tr>
+									<td style="width:15%;">
+										<b>Requested for patron barcode: </b>
+									</td>
+									<td align="left" style="text-align:left; width:50%;">
+										<xsl:value-of
+											select="//notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
+										/>
+									</td>
+								</tr>
 							</xsl:if>
 							<tr>
 								<xsl:call-template name="recordTitle_table"/>
@@ -309,16 +316,16 @@
 								</td>
 							</tr>
 							<xsl:if test="//notification_data/phys_item_display/available_items/available_item/inventory_number[.!='']">
-							<tr>
-								<td style="width:15%;"><br/>
-									<b>Inventory Number: </b>
-								</td>
-								<td align="left" style="text-align:left; width:50%;"><br/><b>
-									<xsl:value-of
-										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
-									/></b>
-								</td>
-							</tr>
+								<tr>
+									<td style="width:15%;"><br/>
+										<b>Call Number: </b>
+									</td>
+									<td align="left" style="text-align:left; width:50%;"><br/>
+										<xsl:value-of
+											select="//notification_data/phys_item_display/call_number"
+										/>
+									</td>
+								</tr>
 							</xsl:if>
 						</table>
 					</div>
@@ -329,3 +336,4 @@
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
+
