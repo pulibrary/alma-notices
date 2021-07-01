@@ -20,11 +20,12 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
 			<body>
-				<h1 style="font-size: 300%;">
-					<b>
+<div styele="padding-bottom: 50%;"><b>Transit to: </b></div>
+				<h1 style="font-size: 300%; line-height: 30%">
+
 						<xsl:value-of select="notification_data/request/calculated_destination_name"
 						/>
-					</b>
+
 					<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
 					</strong>-->
@@ -90,7 +91,7 @@
 									/>
 								</td>
 							</tr>
-							<tr>
+							<!--<tr>
 								<td style="width:20%;">
 									<b>@@transfer_date@@: </b>
 								</td>
@@ -105,7 +106,7 @@
 								<td>
 									<xsl:value-of select="notification_data/request/create_time"/>
 								</td>
-							</tr>
+							</tr>-->
 							<!--<xsl:if test="notification_data/request/material_type_display">
 								<tr>
 									<td><b>@@material_type@@: </b>
@@ -241,13 +242,12 @@
 									</td>
 								</tr>
 							</xsl:if>
-							
 						</table>
-						
 					</div>
 				</div>
-				<div><br/><br/>@@print_date@@: <xsl:value-of select="notification_data/request/create_date"/>-
-					<xsl:value-of select="notification_data/request/create_time"/></div>
+				<div><br/><br/>@@print_date@@: <xsl:value-of
+						select="notification_data/request/create_date"/>- <xsl:value-of
+						select="notification_data/request/create_time"/></div>
 				<!-- recordTitle.xsl -->
 				<!--<xsl:call-template name="lastFooter" />-->
 				<!-- footer.xsl -->

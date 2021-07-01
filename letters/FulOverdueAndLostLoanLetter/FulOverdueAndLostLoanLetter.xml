@@ -2967,9 +2967,9 @@
 		<address_from>notices@bc.edu</address_from>
 		<current_date>19/03/2017</current_date>
 		<letter_channel_info/>
-		<letter_name>Bill for Library Material</letter_name>
+		<letter_name>Lost Library Books</letter_name>
 		<letter_type>FulOverdueAndLostLoanLetter</letter_type>
-		<subject>Bill for Library Material</subject>
+		<subject>Lost Library Books</subject>
 	</general_data>
 	<languages>
 		<string>en</string>
