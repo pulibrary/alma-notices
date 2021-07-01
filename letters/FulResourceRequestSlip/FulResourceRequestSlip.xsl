@@ -313,7 +313,7 @@
 								<td style="width:15%;"><br/>
 									<b>Inventory Number: </b>
 								</td>
-								<td align="left" style="text-align:left; width:50%;"><b>
+								<td align="left" style="text-align:left; width:50%;"><br/><b>
 									<xsl:value-of
 										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
 									/></b>
