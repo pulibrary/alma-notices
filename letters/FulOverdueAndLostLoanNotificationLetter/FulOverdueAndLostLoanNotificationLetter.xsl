@@ -37,7 +37,7 @@
 								<td>The following item(s), currently charged to you, are long
 									overdue. Please return or renew them as soon as possible to
 									avoid lost replacement fees. Online renewal is available for
-									most items, however please note that when an item(s) is declared
+									most items, however please note that when an item is declared
 									lost, it may no longer be renewed online.
 									<!--<h>@@inform_you_item_below@@ </h>
 									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>-->
@@ -67,11 +67,11 @@
 												<th>@@lost_item@@</th>
 												<!--<th>@@description@@</th>-->
 												<!--<th>@@library@@</th>-->
-												<th>@@loan_date@@</th>
+												<!--<th>@@loan_date@@</th>-->
 												<th>@@due_date@@</th>
 												<th>@@barcode@@</th>
 												<th>@@call_number@@</th>
-												<th>@@charged_with_fines_fees@@</th>
+												<!--<th>@@charged_with_fines_fees@@</th>-->
 											</tr>
 											<xsl:for-each
 												select="item_loans/overdue_and_lost_loan_notification_display">
@@ -83,9 +83,9 @@
 												<!--<td><xsl:value-of
 												select="physical_item_display_for_printing/library_name"
 												/></td>-->
-												<td>
+												<!--<td>
 												<xsl:value-of select="item_loan/loan_date"/>
-												</td>
+												</td>-->
 												<td>
 												<xsl:value-of select="item_loan/due_date"/>
 												</td>
@@ -106,7 +106,7 @@
 												select="physical_item_display_for_printing/call_number"
 												/>
 												</td>
-												<td>
+												<!--<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
 												<xsl:value-of select="fine_fee_type_display"/>:
@@ -116,7 +116,7 @@
 												/>&#160;<xsl:value-of select="ff"/>
 												<br/>
 												</xsl:for-each>
-												</td>
+												</td>-->
 												</tr>
 											</xsl:for-each>
 										</table>
