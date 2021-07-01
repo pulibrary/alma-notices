@@ -21,17 +21,9 @@
 			</head>-->
 			<body>
 				<h1 style="font-size: 300%;">
-					<xsl:choose>
-						<xsl:when
-							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
-							<xsl:value-of
-								select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
-							/>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="notification_data/phys_item_display/call_number"/>
-						</xsl:otherwise>
-					</xsl:choose>
+					<b>
+						<xsl:value-of select="notification_data/phys_item_display/call_number"/>
+					</b>
 					<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
 					</strong>-->
@@ -315,19 +307,23 @@
 									<xsl:value-of select="notification_data/request_id"/>
 								</td>
 							</tr>
-							<xsl:if test="//notification_data/phys_item_display/available_items/available_item/inventory_number[.!='']">
-								<tr>
-									<td style="width:15%;"><br/>
-										<b>Call Number: </b>
-									</td>
-									<td align="left" style="text-align:left; width:50%;"><br/>
-										<xsl:value-of
-											select="//notification_data/phys_item_display/call_number"
-										/>
-									</td>
-								</tr>
-							</xsl:if>
 						</table>
+						<xsl:if
+							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
+							<div style="font-size:300%;">
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+								<b>Inventory Number: <xsl:value-of
+										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
+									/></b>
+							</div>
+						</xsl:if>
 					</div>
 				</div>
 				<!--	<xsl:call-template name="lastFooter"/>-->
@@ -336,4 +332,3 @@
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
-
