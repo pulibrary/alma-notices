@@ -46,14 +46,13 @@
 									<strong>@@loans@@</strong>
 								</td>
 							</tr>-->
-							<tr><td>The following item(s), currently charged to you, are overdue.
-									Please return or renew them as soon as possible. If you are
-									liable for overdue fines, remember that the fine increases the
-									longer you keep the item. You may also be charged replacement
-									and processing fees if the item is not returned. Online renewal
-									is available for most items.<br/>
+							<tr>
+								<td>The following item(s), currently charged to you, are overdue. To
+									avoid replacement fees, please return or renew them as soon as
+									possible. Online renewal is available for most items.<br/>
 									<br/>
-								</td></tr>
+								</td>
+							</tr>
 							<tr>
 								<td>
 									<table role="presentation" cellpadding="5" class="listing">
@@ -71,13 +70,22 @@
 										<xsl:for-each
 											select="notification_data/item_loans/item_loan">
 											<tr>
-												<td><xsl:value-of select="title"/></td>
+												<td>
+												<xsl:value-of select="title"/>
+												</td>
 												<!--<td><xsl:value-of select="description"/></td>-->
-												<td><xsl:value-of select="author"/></td>
-												<td><xsl:value-of select="call_number"/></td>
-												<td><xsl:value-of select="barcode"/></td>
-												<td><xsl:value-of select="due_date"/></td>
-												
+												<td>
+												<xsl:value-of select="author"/>
+												</td>
+												<td>
+												<xsl:value-of select="call_number"/>
+												</td>
+												<td>
+												<xsl:value-of select="barcode"/>
+												</td>
+												<td>
+												<xsl:value-of select="due_date"/>
+												</td>
 											</tr>
 										</xsl:for-each>
 									</table>
@@ -93,21 +101,17 @@
 									<xsl:call-template name="signed"/>
 								</td>
 							</tr>
-						
 						</table>
-						
 						<!--<table role='presentation' >
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						
 						<!-- footer.xsl -->
 					</div>
 				</div>
 				<xsl:call-template name="protocols"/>
 				<!-- footer.xsl -->
 				<!--<xsl:call-template name="myAccount"/>-->
-				
 				<!--<xsl:call-template name="lastFooter"/>-->
 			</body>
 		</html>
