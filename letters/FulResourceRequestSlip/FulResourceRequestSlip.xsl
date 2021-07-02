@@ -22,7 +22,17 @@
 			<body>
 				<h1 style="font-size: 300%;">
 					<b>
-						<xsl:value-of select="notification_data/phys_item_display/call_number"/>
+						<xsl:choose>
+							<xsl:when
+								test="notification_data/phys_item_display/call_number[. != '']">
+								<xsl:value-of
+									select="notification_data/phys_item_display/call_number"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<br/>
+							</xsl:otherwise>
+						</xsl:choose>
+						<!-- adding an ugly hack to keep the line even when no value is present -->
 					</b>
 					<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
@@ -128,9 +138,56 @@
 								</tr>
 							</xsl:if>
 							<tr>
-								<xsl:call-template name="recordTitle_table"/>
+								<div style="position:relative;">
+									<td width="15%" valign="top">
+										<b>Title: </b>
+									</td>
+									<td>
+										<div>
+											<xsl:attribute name="style">
+												<xsl:call-template name="text-wrap"/>
+												
+											</xsl:attribute>
+											<xsl:value-of
+												select="notification_data/phys_item_display/title"/>
+											<xsl:if
+												test="notification_data/phys_item_display/author != ''">
+												<xsl:text> By: </xsl:text>
+												<xsl:value-of
+												select="notification_data/phys_item_display/author"
+												/>
+											</xsl:if>
+										</div>
+										<xsl:choose>
+											<xsl:when
+												test="string-length(concat(notification_data/phys_item_display/title, ' by: ', notification_data/phys_item_display/author)) > 165"/>
+											<xsl:otherwise>
+												<div
+												style="height: 0;
+												overflow: hidden;"/>
+												<span>&#160;</span>
+											</xsl:otherwise>
+										</xsl:choose>
+									</td>
+								</div>
 							</tr>
-							<xsl:if test="notification_data/request/manual_description != ''">
+							<tr>
+								<td style="width:15%;">
+									<strong>@@request_id@@: </strong>
+								</td>
+								<td>
+									<!--<img src="cid:request_id_barcode.png" alt="Request Barcode"/>-->
+									<!--<span>
+										<xsl:attribute name="style"><xsl:call-template
+											name="barcodeCss"/></xsl:attribute>
+										<xsl:text>*</xsl:text>
+										<xsl:value-of select="notification_data/request_id"/>
+										<xsl:text>*</xsl:text>
+									</span>-->
+									<xsl:value-of select="notification_data/request_id"/>
+								</td>
+							</tr>
+							<!--<xsl:if test="notification_data/request/manual_description != ''">
 								<tr>
 									<td style="width:15%;"><strong>@@please_note@@:
 										</strong>@@manual_description_note@@ - </td>
@@ -138,8 +195,8 @@
 										<xsl:value-of
 											select="notification_data/request/manual_description"/>
 									</td>
-								</tr>
-							</xsl:if>
+								</tr>-->
+							<!--</xsl:if>-->
 							<!--<xsl:if test="notification_data/phys_item_display/isbn != ''">
 								<tr>
 									<td>@@isbn@@: <xsl:value-of
@@ -205,7 +262,7 @@
 										</td>
 									</tr>
 								</xsl:if>-->
-							<xsl:if
+							<!--	<xsl:if
 								test="notification_data/request/selected_inventory_type = 'HOLDING'">
 								<tr>
 									<td style="width:15%;">
@@ -217,7 +274,7 @@
 											<xsl:value-of select="."/> &#160; </xsl:for-each>
 									</td>
 								</tr>
-							</xsl:if>
+							</xsl:if>-->
 							<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
@@ -230,7 +287,7 @@
 									</tr>
 								</xsl:if>-->
 							<!--</xsl:if>-->
-							<xsl:if
+							<!--<xsl:if
 								test="notification_data/phys_item_display/display_alt_call_numbers/string">
 								<xsl:if
 									test="notification_data/request/selected_inventory_type = 'ITEM'">
@@ -244,8 +301,8 @@
 												<xsl:value-of select="."/> &#160; </xsl:for-each>
 										</td>
 									</tr>
-								</xsl:if>
-								<!--<xsl:if
+								</xsl:if>-->
+							<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'HOLDING'">
 									<tr>
 										<td>
@@ -256,7 +313,7 @@
 										</td>
 									</tr>
 								</xsl:if>-->
-								<!--<xsl:if
+							<!--<xsl:if
 									test="notification_data/request/selected_inventory_type = 'VIRTUAL_HOLDING'">
 									<tr>
 										<td>
@@ -267,7 +324,7 @@
 										</td>
 									</tr>
 								</xsl:if>-->
-							</xsl:if>
+							<!--</xsl:if>-->
 							<!--<tr>
 								<td>
 									<strong>@@request_type@@: </strong>
@@ -291,37 +348,21 @@
 									</td>
 								</tr>
 							</xsl:if>-->
-							<tr>
-								<td style="width:15%;">
-									<strong>@@request_id@@: </strong>
-								</td>
-								<td>
-									<!--<img src="cid:request_id_barcode.png" alt="Request Barcode"/>-->
-									<!--<span>
-										<xsl:attribute name="style"><xsl:call-template
-											name="barcodeCss"/></xsl:attribute>
-										<xsl:text>*</xsl:text>
-										<xsl:value-of select="notification_data/request_id"/>
-										<xsl:text>*</xsl:text>
-									</span>-->
-									<xsl:value-of select="notification_data/request_id"/>
-								</td>
-							</tr>
 						</table>
 						<xsl:if
 							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
-							<div style="font-size:300%;">
+							<div style="margin-top:400px; text-align:right;">
+								<b>Inventory Number: </b>
 								<br/>
 								<br/>
-								<br/>
-								<br/>
-								<br/>
-								<br/>
-								<br/>
-								<br/>
-								<b>Inventory Number: <xsl:value-of
-										select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
-									/></b>
+							</div>
+							<div>
+								<xsl:attribute name="style">
+									<xsl:call-template name="flip-text"/>
+								</xsl:attribute>
+								<xsl:value-of
+									select="//notification_data/phys_item_display/available_items/available_item/inventory_number"
+								/>
 							</div>
 						</xsl:if>
 					</div>
