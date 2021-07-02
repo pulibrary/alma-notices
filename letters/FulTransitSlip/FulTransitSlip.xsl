@@ -20,15 +20,17 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
 			<body>
-<div styele="padding-bottom: 50%;"><b>Transit to: </b></div>
-				<h1 style="font-size: 300%; line-height: 30%">
-
-						<xsl:value-of select="notification_data/request/calculated_destination_name"
-						/>
-
-					<!--<strong>@@requested_for@@ : <xsl:value-of
+				<div styele="padding-bottom: 40%;">
+					<b>Transit to: </b>
+				</div>
+				<h1 style="font-size: 300%;">
+					<div>
+						<xsl:attribute name="style"><xsl:call-template name="text-wrap"/></xsl:attribute>
+						<xsl:value-of select="notification_data/request/calculated_destination_name"/>
+						<!--<strong>@@requested_for@@ : <xsl:value-of
 							select="notification_data/user_for_printing/name"/>
 					</strong>-->
+					</div>
 				</h1>
 				<!--<xsl:call-template name="head"/>-->
 				<!-- header.xsl -->
