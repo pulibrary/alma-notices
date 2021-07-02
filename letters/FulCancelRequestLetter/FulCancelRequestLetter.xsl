@@ -356,7 +356,7 @@
 						</table>
 					</div>
 				</div>
-				<xsl:call-template name="protocols"/>
+				<!--<xsl:call-template name="protocols"/>-->
 				<!-- footer.xsl -->
 				<!-- footer.xsl -->
 				<!--<xsl:call-template name="lastFooter"/>-->

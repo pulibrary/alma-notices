@@ -37,8 +37,8 @@
 								<td>The following item(s), currently charged to you, are long
 									overdue. Please return or renew them as soon as possible to
 									avoid lost replacement fees. Online renewal is available for
-									most items, however please note that when an item is declared
-									lost, it may no longer be renewed online.
+									most items, however please note that once an item is declared
+									lost, it can no longer be renewed online.
 									<!--<h>@@inform_you_item_below@@ </h>
 									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>-->
 								</td>
@@ -155,7 +155,7 @@
 						</table>
 					</div>
 				</div>
-				<xsl:call-template name="protocols"/>
+				<!--<xsl:call-template name="protocols"/>-->
 				<!-- footer.xsl -->
 				<!--<xsl:call-template name="lastFooter"/>-->
 				<!-- footer.xsl -->
