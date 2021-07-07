@@ -14,7 +14,20 @@
 			</xsl:if>
 			<head>
 				<title>
-					<xsl:value-of select="notification_data/general_data/subject"/>
+					<xsl:choose>
+						<xsl:when
+							test="notification_data/notification_type = 'OverdueNotificationType1'"
+							>">Overdue Library Books</xsl:when>
+						<xsl:when
+							test="notification_data/notification_type = 'OverdueNotificationType2'"
+							>">Long Overdue Library Books</xsl:when>
+						<xsl:when
+							test="notification_data/notification_type = 'OverdueNotificationType3'"
+							>">Lost Library Books</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="notification_data/general_data/subject"/>
+						</xsl:otherwise>
+					</xsl:choose>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -37,13 +50,19 @@
 								<td>
 									<xsl:if
 										test="/notification_data/notification_type = 'OverdueNotificationType1'"
+										> The following item(s), currently charged to you, are
+										overdue. To avoid replacement fees, please return or renew
+										them as soon as possible. Online renewal is available for
+										most items.<br/></xsl:if>
+									<xsl:if
+										test="/notification_data/notification_type = 'OverdueNotificationType2'"
 										>The following item(s), currently charged to you, are long
 										overdue. Please return or renew them as soon as possible to
 										avoid lost replacement fees. Online renewal is available for
 										most items, however please note that once an item is
 										declared lost, it can no longer be renewed online.</xsl:if>
 									<xsl:if
-										test="/notification_data/notification_type = 'OverdueNotificationType2'"
+										test="/notification_data/notification_type = 'OverdueNotificationType3'"
 										>This is to inform you that item(s) listed below are long
 										overdue and replacement fees have been applied. The Library
 										reserves the right to adjust the fee upward if it does not
@@ -83,7 +102,7 @@
 												<th>@@barcode@@</th>
 												<th>@@call_number@@</th>
 												<xsl:if
-												test="/notification_data/notification_type = 'OverdueNotificationType2'">
+												test="/notification_data/notification_type = 'OverdueNotificationType3'">
 												<th>@@charged_with_fines_fees@@</th>
 												</xsl:if>
 											</tr>
@@ -121,7 +140,7 @@
 												/>
 												</td>
 												<xsl:if
-												test="/notification_data/notification_type = 'OverdueNotificationType2'">
+												test="/notification_data/notification_type = 'OverdueNotificationType3'">
 												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
