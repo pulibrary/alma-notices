@@ -35,7 +35,20 @@
 				<xsl:for-each select="notification_data/general_data">
 					<td valign="middle">
 						<h1>
-							<xsl:value-of select="letter_name"/>
+							<xsl:choose>
+								<xsl:when
+									test="notification_data/notification_type = 'OverdueNotificationType1'"
+									>">Overdue Library Books</xsl:when>
+								<xsl:when
+									test="notification_data/notification_type = 'OverdueNotificationType2'"
+									>">Long Overdue Library Books</xsl:when>
+								<xsl:when
+									test="notification_data/notification_type = 'OverdueNotificationType3'"
+									>">Lost Library Books</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="letter_name"/>
+								</xsl:otherwise>
+							</xsl:choose>
 						</h1>
 					</td>
 					<td valign="middle" align="right">
