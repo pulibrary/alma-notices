@@ -34,11 +34,22 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>The following item(s), currently charged to you, are long
-									overdue. Please return or renew them as soon as possible to
-									avoid lost replacement fees. Online renewal is available for
-									most items, however please note that once an item is declared
-									lost, it can no longer be renewed online.
+								<td>
+									<xsl:if
+										test="/notification_data/notification_type = 'OverdueNotificationType1'"
+										>The following item(s), currently charged to you, are long
+										overdue. Please return or renew them as soon as possible to
+										avoid lost replacement fees. Online renewal is available for
+										most items, however please note that once an item is
+										declared lost, it can no longer be renewed online.</xsl:if>
+									<xsl:if
+										test="/notification_data/notification_type = 'OverdueNotificationType2'"
+										>This is to inform you that item(s) listed below are long
+										overdue and replacement fees have been applied. The Library
+										reserves the right to adjust the fee upward if it does not
+										cover the cost of replacement. Please return these items as
+										soon as possible or contact us at
+										fstcirc@princeton.edu.</xsl:if>
 									<!--<h>@@inform_you_item_below@@ </h>
 									<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>-->
 								</td>
@@ -71,7 +82,10 @@
 												<th>@@due_date@@</th>
 												<th>@@barcode@@</th>
 												<th>@@call_number@@</th>
-												<!--<th>@@charged_with_fines_fees@@</th>-->
+												<xsl:if
+												test="/notification_data/notification_type = 'OverdueNotificationType2'">
+												<th>@@charged_with_fines_fees@@</th>
+												</xsl:if>
 											</tr>
 											<xsl:for-each
 												select="item_loans/overdue_and_lost_loan_notification_display">
@@ -106,7 +120,9 @@
 												select="physical_item_display_for_printing/call_number"
 												/>
 												</td>
-												<!--<td>
+												<xsl:if
+												test="/notification_data/notification_type = 'OverdueNotificationType2'">
+												<td>
 												<xsl:for-each
 												select="fines_fees_list/user_fines_fees">
 												<xsl:value-of select="fine_fee_type_display"/>:
@@ -116,7 +132,8 @@
 												/>&#160;<xsl:value-of select="ff"/>
 												<br/>
 												</xsl:for-each>
-												</td>-->
+												</td>
+												</xsl:if>
 												</tr>
 											</xsl:for-each>
 										</table>
