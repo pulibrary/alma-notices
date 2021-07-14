@@ -229,11 +229,10 @@
 										<b>@@order_notes@@: </b>
 									</td>
 								</tr>
-								<tr>
+								<!--<tr>
 									<table cellpadding="5" class="listing">
 										<xsl:attribute name="style">
 											<xsl:call-template name="mainTableStyleCss"/>
-											<!-- style.xsl -->
 										</xsl:attribute>
 										<tr>
 											<th>@@note@@</th>
@@ -250,7 +249,7 @@
 											</tr>
 										</xsl:for-each>
 									</table>
-								</tr>
+								</tr>-->
 							</xsl:if>
 						</table>
 					</div>
