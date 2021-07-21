@@ -21,7 +21,7 @@
 				</xsl:attribute>
 				<xsl:call-template name="head"/>
 				<!-- header.xsl -->
-				<xsl:call-template name="senderReceiver"/>
+				<!--<xsl:call-template name="senderReceiver"/>-->
 				<!-- SenderReceiver.xsl -->
 				<!--<h4>@@vendor_name@@: <xsl:value-of select="/notification_data/vendor/name"/></h4>-->
 				<div class="messageArea">
@@ -30,14 +30,14 @@
 							<tr>
 								<td style="width: 100%"><b><br/><xsl:value-of
 											select="notification_data/receivers/receiver/vendor/name"
-										/>:</b><br/> The following item(s) are no longer needed.
+										/>:</b><br/><br/>The following item(s) are no longer needed.
 									Please cancel the order(s) listed. Direct questions to the
 									location shown below. <br/><br/>
 									<br/></td>
 							</tr>
 						</table>
-						<table cellspacing="0" cellpadding="5" border="" style="text-size:120%; border-collapse: collapse;">
-							<tr style="border-bottom: 1pt solid black;">
+						<table cellspacing="0" cellpadding="5" style="text-size:120%;">
+							<tr>
 								<td style="width: 65%">
 									<b>Purchase Order: <xsl:value-of
 											select="notification_data/po/number"/></b>
@@ -47,8 +47,9 @@
 											select="notification_data/line/send_date"/></b>
 								</td>
 							</tr>
+
 							<tr>
-								<table cellspacing="0" cellpadding="5" border="0">
+								<table cellspacing="0" cellpadding="5" border="0"><hr/>
 									<xsl:for-each select="notification_data/po/po_line_list/po_line">
 										<tr><td style="padding-left:20px;">
 											<br/>
