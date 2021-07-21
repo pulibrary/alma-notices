@@ -302,8 +302,21 @@
 							</td>
 						</tr>
 					</xsl:for-each>
+					<tr >
+						<td/>
+						<td/>
+						<td/>
+						<td/>
+						<td/>
+						<td style="background-color:#e9e9e9;">
+							<b>Total: </b>
+							<xsl:value-of select="notification_data/po/currency"/>
+							<xsl:value-of select="notification_data/po/total_price"/>
+						</td>
+					</tr>
 				</table>
-				<br/><br/>
+				<br/>
+				<br/>
 				<table width="100%">
 					<tr>
 						<td>
