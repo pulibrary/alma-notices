@@ -185,7 +185,7 @@
 										/>
 									</td>
 								</tr>
-								<xsl:if test="/notification_data/po/erp_number != ''">
+								<!--<xsl:if test="/notification_data/po/erp_number != ''">
 									<tr>
 										<td>
 											<b>@@erp_number@@: </b>
@@ -193,7 +193,7 @@
 											/>
 										</td>
 									</tr>
-								</xsl:if>
+								</xsl:if>-->
 							</table>
 						</td>
 					</tr>
