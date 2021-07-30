@@ -51,11 +51,11 @@
 									<br/>
 								</td>
 							</tr>
-							<tr>
+							<!--<tr>
 								<td>
 									<strong>@@loans@@</strong>
 								</td>
-							</tr>
+							</tr>-->
 							<tr>
 								<td>
 									<table cellpadding="5" class="listing">
