@@ -2,7 +2,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template name="html_head">
 		<head>
-			<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Barcode+39"/>-->
 			<title>
 				<xsl:value-of select="notification_data/general_data/subject"/>
 			</title>
@@ -37,14 +36,14 @@
 						<h1>
 							<xsl:choose>
 								<xsl:when
-									test="notification_data/notification_type = 'OverdueNotificationType1'"
-									>">Overdue Library Books</xsl:when>
+									test="//notification_data/notification_type = 'OverdueNotificationType1'"
+									>Overdue Library Books</xsl:when>
 								<xsl:when
-									test="notification_data/notification_type = 'OverdueNotificationType2'"
-									>">Long Overdue Library Books</xsl:when>
+									test="//notification_data/notification_type = 'OverdueNotificationType2'"
+									>Long Overdue Library Books</xsl:when>
 								<xsl:when
-									test="notification_data/notification_type = 'OverdueNotificationType3'"
-									>">Lost Library Books</xsl:when>
+									test="//notification_data/notification_type = 'OverdueNotificationType3'"
+									>Lost Library Books</xsl:when>
 								<xsl:otherwise>
 									<xsl:value-of select="letter_name"/>
 								</xsl:otherwise>
