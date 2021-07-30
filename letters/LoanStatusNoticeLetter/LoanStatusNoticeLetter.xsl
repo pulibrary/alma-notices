@@ -16,7 +16,7 @@
 			<head>
 				<title>
 					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
-					<xsl:text>Courtesy notice</xsl:text>
+					<xsl:text>Recall Notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -36,26 +36,19 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>
-									<!--<xsl:if test="notification_data/short_loans='true'">
-										<strong>@@short_loans_message@@</strong>
-									</xsl:if>
-									<xsl:if test="notification_data/short_loans='false'">
-										<strong>@@message@@</strong>
-									</xsl:if>-->
-									<xsl:text>This notice is to remind you that the following item(s) will be due soon. 
-												Please return or renew the item(s) by the due date indicated below. 
-												Online renewal is available for most items.
-									</xsl:text>
-									<br/>
-									<br/>
-								</td>
+								<td>The following item(s), currently charged to you, have been
+									recalled by another patron or course reserve.</td>
 							</tr>
-							<!--<tr>
+							<tr>
 								<td>
-									<strong>@@loans@@</strong>
+									<b>Please return the item(s) by <xsl:value-of
+										select="notification_data/item_loan/due_date"/>.</b>
+									<br/>
+									<br/>
 								</td>
-							</tr>-->
+								
+							</tr>
+							
 							<tr>
 								<td>
 									<table cellpadding="5" class="listing">
@@ -64,51 +57,66 @@
 											<!-- style.xsl -->
 										</xsl:attribute>
 										<tr>
-											<th>@@title@@</th>
-											<!--<th>@@description@@</th>-->
-											<th>@@author@@</th>
+											<th>Title</th>
+											<th>Author</th>
 											<th>Call Number</th>
 											<th>Barcode</th>
-											<th>@@due_date@@</th>
-											<!--<th>@@library@@</th>-->
+											<th>Due date</th>
 										</tr>
-										<xsl:for-each
-											select="notification_data/item_loans/item_loan">
-											<tr>
+										<tr>
+											<xsl:for-each select="notification_data/item_loan">
 												<td>
-												<xsl:value-of select="title"/>
-												</td>
-												<!--<td><xsl:value-of select="description"/></td>-->
-												<td>
-												<xsl:value-of select="author"/>
+													<xsl:value-of select="title"/>
 												</td>
 												<td>
-												<xsl:value-of select="call_number"/>
+													<xsl:value-of select="author"/>
 												</td>
 												<td>
-												<xsl:value-of select="barcode"/>
+													<xsl:value-of select="call_number"/>
 												</td>
 												<td>
-												<xsl:value-of select="due_date"/>
+													<xsl:value-of select="barcode"/>
 												</td>
-												<!--<td><xsl:value-of select="library_name"/></td>-->
-											</tr>
-										</xsl:for-each>
-
+												<td>
+													<xsl:value-of select="due_date"/>
+												</td>
+											</xsl:for-each>
+										</tr>
 									</table>
 								</td>
 							</tr>
-							<tr><td><xsl:call-template name="contactUs"/></td></tr>
-							<tr><td><xsl:call-template name="signed"/></td></tr>
-						</table>
-						<!--<br/>
-						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>-->
-						<!--<table role='presentation' >
-							<tr><td>@@sincerely@@</td></tr>
-							<tr><td>@@department@@</td></tr>
+							<!--<xsl:if test="notification_data/item_loan/shortened_due_date_reason">
+								<tr>
+									<td>
+										<strong>
+											<xsl:text>Reason for recall: </xsl:text>
+										</strong>
+										<xsl:value-of
+											select="notification_data/item_loan/shortened_due_date_reason"/>
+										<br/>
+										<br/>
+									</td>
+								</tr>
+							</xsl:if>-->
+							<!--<table role="presentation">
+							<tr>
+								<td>@@sincerely@@</td>
+							</tr>
+							<tr>
+								<td>@@department@@</td>
+							</tr>
 						</table>-->
-						
-						
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
+						</table>
 						<!-- footer.xsl -->
 					</div>
 				</div>
