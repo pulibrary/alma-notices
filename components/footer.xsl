@@ -27,7 +27,7 @@
 	</xsl:template>
 	<xsl:template name="signed">
 		<br/>
-		<strong>Sincerely,</strong>
+		<strong>Thank you,</strong>
 		<br/>
 		<br/>
 		<strong>Firestone Circulation Services</strong>
