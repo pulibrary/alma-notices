@@ -42,7 +42,7 @@
 							<tr>
 								<td>
 									<b>Please return the item(s) by <xsl:value-of
-										select="notification_data/item_loan/due_date"/>.</b>
+										select="/notification_data/item_loans/item_loan/due_date"/>.</b>
 									<br/>
 									<br/>
 								</td>
@@ -64,7 +64,7 @@
 											<th>Due date</th>
 										</tr>
 										<tr>
-											<xsl:for-each select="notification_data/item_loan">
+											<xsl:for-each select="notification_data/item_loans/item_loan">
 												<td>
 													<xsl:value-of select="title"/>
 												</td>
