@@ -90,16 +90,31 @@
 												</td>
 												<td>
 												<xsl:value-of select="due_date"/>
+												<!--<xsl:value-of
+												select="
+															concat(
+															substring(due_date, 4, 3),
+															substring(due_date, 1, 3),
+															substring(due_date, 7, 4)
+															)"
+												/>-->
 												</td>
 												<!--<td><xsl:value-of select="library_name"/></td>-->
 											</tr>
 										</xsl:for-each>
-
 									</table>
 								</td>
 							</tr>
-							<tr><td><xsl:call-template name="contactUs"/></td></tr>
-							<tr><td><xsl:call-template name="signed"/></td></tr>
+							<tr>
+								<td>
+									<xsl:call-template name="contactUs"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:call-template name="signed"/>
+								</td>
+							</tr>
 						</table>
 						<!--<br/>
 						<br/> @@additional_info_1@@ <br/> @@additional_info_2@@ <br/>-->
@@ -107,8 +122,6 @@
 							<tr><td>@@sincerely@@</td></tr>
 							<tr><td>@@department@@</td></tr>
 						</table>-->
-						
-						
 						<!-- footer.xsl -->
 					</div>
 				</div>

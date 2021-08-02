@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	
 	<xsl:template name="html_head">
 		<head>
 			<title>
@@ -53,6 +54,11 @@
 					<td valign="middle" align="right">
 						<h1>
 							<xsl:value-of select="current_date"/>
+							<!--<xsl:value-of select="concat(
+								substring(current_date, 4, 3),
+								substring(current_date, 1, 3),
+								substring(current_date, 7, 4)
+								)"/>-->
 						</h1>
 					</td>
 				</xsl:for-each>

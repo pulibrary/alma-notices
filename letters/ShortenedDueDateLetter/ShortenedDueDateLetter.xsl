@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:local="http://www.princeton.edu">
 	<xsl:include href="header.xsl"/>
 	<xsl:include href="senderReceiver.xsl"/>
 	<xsl:include href="mailReason.xsl"/>
@@ -41,18 +41,22 @@
 							</tr>
 							<tr>
 								<td>
-									<b>Please return the item(s) by <xsl:value-of
-											select="notification_data/item_loan/due_date"/>.</b>
+									<b>Please return the item(s) by <xsl:value-of select="notification_data/item_loans/item_loan/due_date"/><!--<xsl:value-of
+											select="concat(
+											substring(notification_data/item_loans/item_loan/due_date, 4, 3),
+											substring(notification_data/item_loans/item_loan/due_date, 1, 3),
+											substring(notification_data/item_loans/item_loan/due_date, 7, 4)
+											)"/>-->.</b>
 									<br/>
 									<br/>
 								</td>
 								<!--<td><xsl:text> The following item with a previous due date of </xsl:text>
-									<xsl:value-of select="notification_data/item_loan/old_due_date"
+									<xsl:value-of select="notification_data/item_loans/item_loan/old_due_date"
 									/> @@due_back@@ <xsl:value-of
-										select="notification_data/item_loan/due_date"/>
+										select="notification_data/item_loans/item_loan/due_date"/>
 									<xsl:text> owing to: </xsl:text>
 									<xsl:value-of
-										select="notification_data/item_loan/shortened_due_date_reason"/>
+										select="notification_data/item_loans/item_loan/shortened_due_date_reason"/>
 									<br/><br/>
 								</td>-->
 							</tr>
@@ -77,7 +81,7 @@
 											<th>Due date</th>
 										</tr>
 										<tr>
-											<xsl:for-each select="notification_data/item_loan">
+											<xsl:for-each select="notification_data/item_loans/item_loan">
 												<td>
 												<xsl:value-of select="title"/>
 												</td>
@@ -91,21 +95,27 @@
 												<xsl:value-of select="barcode"/>
 												</td>
 												<td>
-												<xsl:value-of select="due_date"/>
+													<xsl:value-of select="due_date"/>
+												<!--<xsl:value-of select="
+													concat(
+													substring(due_date, 4, 3),
+													substring(due_date, 1, 3),
+													substring(due_date, 7, 4)
+													)"/>-->
 												</td>
 											</xsl:for-each>
 										</tr>
 									</table>
 								</td>
 							</tr>
-							<!--<xsl:if test="notification_data/item_loan/shortened_due_date_reason">
+							<!--<xsl:if test="notification_data/item_loans/item_loan/shortened_due_date_reason">
 								<tr>
 									<td>
 										<strong>
 											<xsl:text>Reason for recall: </xsl:text>
 										</strong>
 										<xsl:value-of
-											select="notification_data/item_loan/shortened_due_date_reason"/>
+											select="notification_data/item_loans/item_loan/shortened_due_date_reason"/>
 										<br/>
 										<br/>
 									</td>

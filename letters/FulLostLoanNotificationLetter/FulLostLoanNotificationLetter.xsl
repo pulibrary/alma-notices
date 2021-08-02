@@ -66,7 +66,7 @@
 											<th>Fee Type</th>
 											<th>Fee Amount</th>
 										</tr>
-										<xsl:for-each select="notification_data/item_loan">
+										<xsl:for-each select="notification_data/item_loans/item_loan">
 											<tr>
 												<!--<td>
 												<xsl:value-of select="author"/>
