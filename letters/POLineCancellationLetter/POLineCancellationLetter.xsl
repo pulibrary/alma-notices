@@ -53,7 +53,7 @@
 									<xsl:for-each select="notification_data/po/po_line_list/po_line">
 										<tr><td style="padding-left:20px;">
 											<br/>
-											<b>Line Reference: </b>
+											<b>PO Line Reference Number: </b>
 											<xsl:value-of select="line_reference"/>
 											<br/>
 											<br/>
@@ -71,6 +71,10 @@
 											<br/>
 											<b>Invoice Number: </b>
 											<xsl:value-of select="vendor_invoice_number"/>
+											<br/>
+											<br/>
+											<b>Vendor Reference Number: </b>
+											<xsl:value-of select="vendor_reference_number"/>
 											<br/>
 											<br/>
 											<b>Invoice Status: </b>
