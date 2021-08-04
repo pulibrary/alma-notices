@@ -37,8 +37,8 @@
 					<div class="messageBody">
 						<table role="presentation" cellspacing="0" cellpadding="5" border="0">
 							<tr>
-								<td>This is to inform you that item(s) listed below are long overdue
-									and replacement fees have been applied. The Library reserves the right
+								<td>This is to inform you that item(s) listed below are long overdue and are marked "lost".
+									Replacement fees have been applied. The Library reserves the right
 									to adjust the fee upward if it does not cover the cost of
 									replacement. Please return these items as soon as possible or contact us at fstcirc@princeton.edu.
 									<!--<h>@@inform_you_item_below@@ </h>

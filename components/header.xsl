@@ -44,7 +44,7 @@
 									>Long Overdue Library Books</xsl:when>
 								<xsl:when
 									test="//notification_data/notification_type = 'OverdueNotificationType3'"
-									>Lost Library Books</xsl:when>
+									>Long Overdue Library Books</xsl:when>
 								<xsl:otherwise>
 									<xsl:value-of select="letter_name"/>
 								</xsl:otherwise>
