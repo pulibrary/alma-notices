@@ -1,0 +1,1145 @@
+<notification_data>
+	<ckb_id>0</ckb_id>
+	<general_data>
+		<address_c>None;None</address_c>
+		<address_c>None;None</address_c>
+		<address_from>orderdiv@princeton.edu</address_from>
+		<current_date>08/03/2021</current_date>
+		<letter_channel_info/>
+		<letter_name>Order Now Notification</letter_name>
+		<letter_type>OrderNowLetter</letter_type>
+		<subject>Order Now Notification</subject>
+	</general_data>
+	<identifier>9781612192642</identifier>
+	<languages>
+		<string>en</string>
+	</languages>
+	<letter_params/>
+	<letter_texts/>
+	<mms_id>9981384533506421</mms_id>
+	<need_review_entity>Order</need_review_entity>
+	<normalize_sum_strategy/>
+	<order_now_succed>false</order_now_succed>
+	<organization_unit>
+		<address>
+			<city>Princeton</city>
+			<country/>
+			<country_display/>
+			<create_date>12/23/2020</create_date>
+			<entity_action/>
+			<library_id/>
+			<library_unit_id/>
+			<line1>Princeton University Library</line1>
+			<line2/>
+			<line3/>
+			<line4/>
+			<line5/>
+			<note/>
+			<originating_id/>
+			<postal_code>08544</postal_code>
+			<preferred>true</preferred>
+			<segment_types_display>
+				<string>Primary</string>
+			</segment_types_display>
+			<state_province>NJ</state_province>
+			<user_address_types_display/>
+		</address>
+		<automatic_creation>false</automatic_creation>
+		<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+		<automatically_locate_resource>false</automatically_locate_resource>
+		<bibliographic_titles/>
+		<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+		<code>techserv</code>
+		<code_rfid/>
+		<country/>
+		<create_date>12/02/2020</create_date>
+		<data_encryption_type/>
+		<default_acq_loctaion_id>124300450006421</default_acq_loctaion_id>
+		<default_item_loctaion_id/>
+		<default_move_loctaion_id/>
+		<default_pickup_loctaion_id/>
+		<default_printer/>
+		<description/>
+		<digital_objects/>
+		<digital_storage_size/>
+		<disable_call_number_calculation>false</disable_call_number_calculation>
+		<edi_code/>
+		<edi_type/>
+		<email>
+			<create_date>12/23/2020</create_date>
+			<description/>
+			<email>almacirc@princeton.edu</email>
+			<entity_action/>
+			<esploro_display_email/>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<preferred>true</preferred>
+		</email>
+		<entity_action/>
+		<hold_shelf_email_delay/>
+		<ignore_electronic>false</ignore_electronic>
+		<inactive_dates_end_bor/>
+		<inactive_dates_end_lend/>
+		<inactive_dates_start_bor/>
+		<inactive_dates_start_lend/>
+		<isil_code/>
+		<itemless_library/>
+		<leader_institution_id/>
+		<library_id/>
+		<library_unit_id/>
+		<name>Technical Services</name>
+		<named_users/>
+		<org_scope>
+			<customer_id>6420</customer_id>
+			<institution_id>6421</institution_id>
+			<library_id>124284710006421</library_id>
+			<library_unit_id/>
+		</org_scope>
+		<organization_id>124284710006421</organization_id>
+		<organization_path>6420.6421.124284710006421</organization_path>
+		<organization_type>LIBRARY</organization_type>
+		<parent_org_id>6421</parent_org_id>
+		<path>01PRI.01PRI_INST.techserv</path>
+		<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+		<phone>
+			<create_date>12/02/2020</create_date>
+			<entity_action/>
+			<esploro_display_phone>0</esploro_display_phone>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<phone/>
+			<preferred>true</preferred>
+			<preferred_phone/>
+			<preferred_sms/>
+		</phone>
+		<premium_sandbox/>
+		<prod_instance_name/>
+		<rapido_symbol/>
+		<reject_not_available>false</reject_not_available>
+		<reject_not_requestable>false</reject_not_requestable>
+		<reject_on_locate_failure>false</reject_on_locate_failure>
+		<reject_only_electronic>false</reject_only_electronic>
+		<reshelf_period/>
+		<resource_sharing_library>false</resource_sharing_library>
+		<extend_due_date/>
+		<uresolver_locate>false</uresolver_locate>
+		<serves_other_institutions>false</serves_other_institutions>
+		<standard_sandbox/>
+		<status>ACTIVE</status>
+		<support_code/>
+		<temp_inactive_borrowing>false</temp_inactive_borrowing>
+		<temp_inactive_lending>false</temp_inactive_lending>
+		<unique_ejournal_titles/>
+		<url_mapping_prefix/>
+	</organization_unit>
+	<line_reference>POL-3919</line_reference>
+	<line_title>A highly unlikely scenario, or a Neetsa Pizza employee's guide to saving the world /
+		Rachel Cantor.</line_title>
+	<number>PO-48001</number>
+	<publication_date>2014</publication_date>
+	<publication_place>Brooklyn :</publication_place>
+	<publisher>Melville House,</publisher>
+	<receivers>
+		<receiver>
+			<address_types/>
+			<attached_to_entity_id>2684395180006421</attached_to_entity_id>
+			<email_types/>
+			<params/>
+			<preferred_language>en</preferred_language>
+			<receiver_id/>
+			<receiver_type/>
+			<receiver_type_class>com.exlibris.core.infra.model.HFrUser</receiver_type_class>
+			<user_address>
+				<city>Princeton</city>
+				<country>USA</country>
+				<country_display/>
+				<create_date>07/27/2021</create_date>
+				<entity_action/>
+				<library_id/>
+				<library_unit_id/>
+				<line1>Tech Services</line1>
+				<line2>693 Alexander Rd, Fl. 2C Wi</line2>
+				<line3/>
+				<line4/>
+				<line5/>
+				<note/>
+				<originating_id/>
+				<postal_code/>
+				<preferred>true</preferred>
+				<state_province>NJ</state_province>
+			</user_address>
+			<user_email>
+				<create_date>07/27/2021</create_date>
+				<description/>
+				<email>pdiskin@Princeton.EDU</email>
+				<entity_action/>
+				<esploro_display_email/>
+				<external_id>SIS</external_id>
+				<library_id/>
+				<library_unit_id/>
+				<originating_id/>
+				<preferred>true</preferred>
+			</user_email>
+			<user_phone/>
+			<user>
+				<addresses_mask>$preferredlabel$ $false$,
+					::enc::5B96CACBB5230F96C2829764072FE6EB715BB3836EA02AF28064FFBAB37F8920::enc::,
+					::enc::7755A5D163C220B31E49235AFA7F9965::enc::,
+					::enc::144FED54D08F6445C1E125C1A66031F6::enc::,
+					::enc::9938EF26E365D8F77555879462341EDB::enc::, $addresstypeslabel$
+					::ctvs::home::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::,
+					$enddatelabel$ ::date::::date::&lt;br&gt;$preferredlabel$ $true$,
+					::enc::0ECAA22BEE9743EEEB5D12D3F239C6D4::enc::,
+					::enc::8052D0E5B776D13CE66A1392F31B6AC2E2FEAF2B7219448E0BEFEF7EB181F311::enc::,
+					::enc::AE61603E9A203EE26EB299975F0C5E90::enc::,
+					::enc::2CDB12BBA6A8C8FAF1E59FAC646859FF::enc::,
+					::enc::9938EF26E365D8F77555879462341EDB::enc::, $addresstypeslabel$
+					::ctvs::work::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::,
+					$enddatelabel$ ::date::::date::&lt;br&gt;</addresses_mask>
+				<birth_date/>
+				<birth_date_dummy>
+					<calendar>12/31/1969</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>0</default_value_for_with_validation>
+					<full_date/>
+					<full_date_from_ui/>
+					<input_date_tag_format>00.00.0</input_date_tag_format>
+					<month>0</month>
+					<month_ui/>
+					<date>true</date>
+					<year>1970</year>
+					<year_ui/>
+				</birth_date_dummy>
+				<blocks_mask/>
+				<campus_code/>
+				<campus_code_original_value/>
+				<cataloger_level>00</cataloger_level>
+				<cataloger_level_original_value>00</cataloger_level_original_value>
+				<checksum/>
+				<copied_from_z>false</copied_from_z>
+				<create_date>02/08/2002</create_date>
+				<default_language>en</default_language>
+				<duplicate_user_name>710108709</duplicate_user_name>
+				<emails_mask>$preferredlabel$ $true$,
+					::enc::1C8E1006AAA4F1E9F0AA60EB503F1BFA39B7CC7C4D1D6028BF4400BE500D423A::enc::,
+					$emailtypeslabel$ ::ctvs::work::ctvs::, $descriptionlabel$
+					&lt;br&gt;</emails_mask>
+				<encrypted_pin_number/>
+				<encrypted_pin_number_original_value/>
+				<entity_action/>
+				<expiry_date>10/31/2023</expiry_date>
+				<expiry_date_dummy>
+					<calendar>10/31/2023</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>1698811199999</default_value_for_with_validation>
+					<full_date>2023-11-01</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>01.11.2023</input_date_tag_format>
+					<month>10</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2023</year>
+					<year_ui/>
+				</expiry_date_dummy>
+				<external_id>SIS</external_id>
+				<failed_authentication>0</failed_authentication>
+				<first_name>Paul</first_name>
+				<force_password_change>false</force_password_change>
+				<force_update_external>false</force_update_external>
+				<force_update_external_original_fields>false</force_update_external_original_fields>
+				<from_register_new_user>false</from_register_new_user>
+				<gender/>
+				<identifiers_mask>$isactive$ $true$, $typelabel$ ::ctvs::BARCODE::ctvs::,
+					$valuelabel$ ::enc::40A2F19E6D63ECC852425C929E2F2A9E::enc::, $notelabel$
+					&lt;br&gt;$isactive$ $true$, $typelabel$ ::ctvs::NET_ID::ctvs::, $valuelabel$
+					::enc::0FEB0F717793EAF7CB19908FC65707DC::enc::, $notelabel$
+					&lt;br&gt;</identifiers_mask>
+				<from_external_system>true</from_external_system>
+				<researcher/>
+				<job_description/>
+				<job_title/>
+				<job_title_original_value/>
+				<last_name>Diskin</last_name>
+				<last_patron_activity_date/>
+				<last_patron_activity_date_dummy>
+					<calendar>12/31/1969</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>0</default_value_for_with_validation>
+					<full_date/>
+					<full_date_from_ui/>
+					<input_date_tag_format>00.00.0</input_date_tag_format>
+					<month>0</month>
+					<month_ui/>
+					<date>true</date>
+					<year>1970</year>
+					<year_ui/>
+				</last_patron_activity_date_dummy>
+				<library_id/>
+				<library_unit_id/>
+				<linked_account>false</linked_account>
+				<linking_id/>
+				<locked_out>false</locked_out>
+				<locked_out_date/>
+				<login_restriction_exception/>
+				<lti_course_code/>
+				<middle_name>D.</middle_name>
+				<notes_mask/>
+				<distributed>false</distributed>
+				<original_id>29755-princetondb</original_id>
+				<originating_id/>
+				<password_expiry_date/>
+				<password_in_idp/>
+				<phones_mask/>
+				<pin_number/>
+				<pin_number_for_display/>
+				<pin_number_original_value/>
+				<pin_number_salt/>
+				<ppr_libraries_d/>
+				<preferred_first_name/>
+				<preferred_first_name_orig_value/>
+				<preferred_first_name_set_by/>
+				<preferred_first_name_set_by_enum/>
+				<preferred_last_name/>
+				<preferred_last_name_orig_value/>
+				<preferred_last_name_set_by/>
+				<preferred_last_name_set_by_enum/>
+				<preferred_middle_name/>
+				<preferred_middle_name_orig_value/>
+				<preferred_middle_name_set_by/>
+				<preferred_middle_name_set_by_enum/>
+				<preferred_name_suffix/>
+				<preferred_name_suffix_orig_value/>
+				<product_name/>
+				<proxy_for_mask/>
+				<purge_date>10/31/2022</purge_date>
+				<purge_date_dummy>
+					<calendar>10/31/2022</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>1667275199999</default_value_for_with_validation>
+					<full_date>2022-11-01</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>01.11.2022</input_date_tag_format>
+					<month>10</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2022</year>
+					<year_ui/>
+				</purge_date_dummy>
+				<record_type>PUBLIC</record_type>
+				<registration_key/>
+				<roles_mask>$rolename$ ::ctvs::0::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::1::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::2::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::204::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::205::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::206::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::208::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::209::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::21::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::21::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					$serviceunit$ - digitization&lt;br&gt;$rolename$ ::ctvs::214::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					digitization&lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$
+					::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::216::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::216::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::217::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::217::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::218::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::218::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::220::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2200::ctvs::,
+					$rolescope$ ::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK, false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - recap_RD,
+					DEFAULT_CIRC_DESK, false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false, firestone_RD&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$
+					::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - RES_DESK,
+					false&lt;br&gt;$rolename$ ::ctvs::222::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::222::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::224::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::227::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::228::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::229::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::232::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::238::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::244::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::244::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::246::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::246::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::247::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::247::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::250::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::250::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::26::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::300::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::301::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::33::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::33::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::34::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::36::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptmendel&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptplasma&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptarch,
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDepttechserv&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDepttechserv&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptresshare&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptmarquand&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptengineer,
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptmudd&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptzobsolete&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptonline&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptrecap,
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDepteastasian&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptlewis&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptfirestone,
+					AcqDeptrare&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptannex,
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ - AcqDeptstokes,
+					AcqDeptfirestone&lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::41::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::41::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::427::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::427::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::428::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::428::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::44::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::45::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124283950006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124284330006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124285090006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124285470006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124286230006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124286610006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124287370006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124287750006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124288510006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124288890006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.124289650006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::,
+					$rolescope$ ::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::47::ctvs::, $rolescope$ ::msvs::6420.6421.12900830000231::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::48::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::50::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::50::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - recap_RD,
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ - DEFAULT_CIRC_DESK,
+					firestone_RD&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					RES_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$
+					::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $circulationdesk$ -
+					RES_DESK&lt;br&gt;$rolename$ ::ctvs::52::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::53::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::53::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124283950006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124284330006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124285090006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124285470006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124286230006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124286610006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124287370006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124287750006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124288510006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124288890006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.124289650006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::,
+					$rolescope$ ::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::54::ctvs::, $rolescope$ ::msvs::6420.6421.12900830000231::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124283570006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124283950006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124283950006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284330006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124284330006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124285090006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124285090006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285470006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124285470006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124285850006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124286230006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124286230006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286610006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124286610006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124286990006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124287370006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124287370006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124287750006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124287750006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288130006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124288510006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124288510006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124288890006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124288890006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.124289270006421::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.124289650006421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$
+					::msvs::6420.6421.124289650006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::,
+					$rolescope$ ::msvs::6420.6421.12900830000231::msvs::, $isactive$ $true$,
+					$expirydate$ ::date::::date::, $parameterslabel$ &lt;br&gt;$rolename$
+					::ctvs::55::ctvs::, $rolescope$ ::msvs::6420.6421.12900830000231::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::56::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::57::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::57::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;</roles_mask>
+				<library_code/>
+				<library_code_original_value/>
+				<secret_key/>
+				<selected_patron_letters/>
+				<selected_patron_letters_original_value/>
+				<source_institution_id/>
+				<source_institution_name/>
+				<source_link_id/>
+				<status>ACTIVE</status>
+				<status_date>07/27/2021</status_date>
+				<status_date_dummy>
+					<calendar>07/27/2021</calendar>
+					<calendar_ui/>
+					<day>27</day>
+					<day_ui/>
+					<default_value_for_with_validation>1627389538041</default_value_for_with_validation>
+					<full_date>2021-07-27</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>27.07.2021</input_date_tag_format>
+					<month>6</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2021</year>
+					<year_ui/>
+				</status_date_dummy>
+				<temp_generated_password/>
+				<update_source/>
+				<user_address_list>
+					<user_address>
+						<city>Princeton</city>
+						<country>USA</country>
+						<country_display/>
+						<create_date>07/27/2021</create_date>
+						<entity_action/>
+						<library_id/>
+						<library_unit_id/>
+						<line1>Tech Services</line1>
+						<line2>693 Alexander Rd, Fl. 2C Wi</line2>
+						<line3/>
+						<line4/>
+						<line5/>
+						<note/>
+						<originating_id/>
+						<postal_code/>
+						<preferred>true</preferred>
+						<state_province>NJ</state_province>
+					</user_address>
+					<user_address>
+						<city>Yardley</city>
+						<country>USA</country>
+						<country_display/>
+						<create_date>07/27/2021</create_date>
+						<entity_action/>
+						<library_id/>
+						<library_unit_id/>
+						<line1>14 Morningside Drive</line1>
+						<line2/>
+						<line3/>
+						<line4/>
+						<line5/>
+						<note/>
+						<originating_id/>
+						<postal_code/>
+						<preferred>false</preferred>
+						<state_province>PA</state_province>
+					</user_address>
+				</user_address_list>
+				<user_email_list>
+					<user_email>
+						<create_date>07/27/2021</create_date>
+						<description/>
+						<email>pdiskin@Princeton.EDU</email>
+						<entity_action/>
+						<esploro_display_email/>
+						<external_id>SIS</external_id>
+						<library_id/>
+						<library_unit_id/>
+						<originating_id/>
+						<preferred>true</preferred>
+					</user_email>
+				</user_email_list>
+				<user_gender/>
+				<user_group>P</user_group>
+				<user_group_original_value>P</user_group_original_value>
+				<user_name>710108709</user_name>
+				<user_phone_list/>
+				<user_preferred_language>en</user_preferred_language>
+				<user_preferred_language_original_value>en</user_preferred_language_original_value>
+				<user_record_type>PUBLIC</user_record_type>
+				<user_status>ACTIVE</user_status>
+				<user_title/>
+				<user_title_original_value/>
+				<user_type>EXTERNAL</user_type>
+				<user_user_type>EXTERNAL</user_user_type>
+				<user_web_address_list/>
+				<web_site_url/>
+			</user>
+		</receiver>
+	</receivers>
+	<rush>false</rush>
+	<send_after_commit>false</send_after_commit>
+	<sms_content/>
+	<throw_exceptions>false</throw_exceptions>
+	<vendor/>
+	<vendor_note/>
+	<webhook_data>
+		<fees/>
+		<items/>
+		<loans/>
+		<outgoing_resource_sharing_requests/>
+		<receivers/>
+		<smss_content/>
+		<user_requests/>
+	</webhook_data>
+</notification_data>

@@ -1,0 +1,1494 @@
+<notification_data>
+	<additional_id>143-517-082-5</additional_id>
+	<attachments_list/>
+	<call_number_from_borrowing/>
+	<destination>East Asian Library</destination>
+	<external_id/>
+	<general_data>
+		<address_c>None;None</address_c>
+		<address_c>None;None</address_c>
+		<address_from>Princeton University Library &lt;libcir@princeton.edu&gt;</address_from>
+		<current_date>08/03/2021</current_date>
+		<letter_channel_info/>
+		<letter_name>Hold Shelf Request Slip</letter_name>
+		<letter_type>FulHoldShelfRequestSlipLetter</letter_type>
+		<subject>Hold Shelf Request Slip</subject>
+	</general_data>
+	<incoming_request/>
+	<languages>
+		<string>en</string>
+	</languages>
+	<letter_params/>
+	<letter_texts/>
+	<loans_by_library/>
+	<metadata/>
+	<normalize_sum_strategy/>
+	<operator_user_name>960773107</operator_user_name>
+	<organization_unit>
+		<address>
+			<city>Princeton</city>
+			<country/>
+			<country_display/>
+			<create_date>12/23/2020</create_date>
+			<entity_action/>
+			<library_id/>
+			<library_unit_id/>
+			<line1>Princeton University Library</line1>
+			<line2/>
+			<line3/>
+			<line4/>
+			<line5/>
+			<note/>
+			<originating_id/>
+			<postal_code>08544</postal_code>
+			<preferred>true</preferred>
+			<segment_types_display>
+				<string>Primary</string>
+			</segment_types_display>
+			<state_province>NJ</state_province>
+			<user_address_types_display/>
+		</address>
+		<automatic_creation>false</automatic_creation>
+		<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+		<automatically_locate_resource>false</automatically_locate_resource>
+		<bibliographic_titles/>
+		<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+		<code>eastasian</code>
+		<code_rfid/>
+		<country/>
+		<create_date>12/02/2020</create_date>
+		<data_encryption_type/>
+		<default_acq_loctaion_id>124295160006421</default_acq_loctaion_id>
+		<default_item_loctaion_id/>
+		<default_move_loctaion_id/>
+		<default_pickup_loctaion_id/>
+		<default_printer/>
+		<description/>
+		<digital_objects/>
+		<digital_storage_size/>
+		<disable_call_number_calculation>false</disable_call_number_calculation>
+		<edi_code/>
+		<edi_type/>
+		<email>
+			<create_date>12/23/2020</create_date>
+			<description/>
+			<email>almacirc@princeton.edu</email>
+			<entity_action/>
+			<esploro_display_email/>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<preferred>true</preferred>
+		</email>
+		<entity_action/>
+		<hold_shelf_email_delay/>
+		<ignore_electronic>false</ignore_electronic>
+		<inactive_dates_end_bor/>
+		<inactive_dates_end_lend/>
+		<inactive_dates_start_bor/>
+		<inactive_dates_start_lend/>
+		<isil_code/>
+		<itemless_library/>
+		<leader_institution_id/>
+		<library_id/>
+		<library_unit_id/>
+		<name>East Asian Library</name>
+		<named_users/>
+		<org_scope>
+			<customer_id>6420</customer_id>
+			<institution_id>6421</institution_id>
+			<library_id>124287750006421</library_id>
+			<library_unit_id/>
+		</org_scope>
+		<organization_id>124287750006421</organization_id>
+		<organization_path>6420.6421.124287750006421</organization_path>
+		<organization_type>LIBRARY</organization_type>
+		<parent_org_id>6421</parent_org_id>
+		<path>01PRI.01PRI_INST.eastasian</path>
+		<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+		<phone>
+			<create_date>12/02/2020</create_date>
+			<entity_action/>
+			<esploro_display_phone>0</esploro_display_phone>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<phone/>
+			<preferred>true</preferred>
+			<preferred_phone/>
+			<preferred_sms/>
+		</phone>
+		<premium_sandbox/>
+		<prod_instance_name/>
+		<rapido_symbol/>
+		<reject_not_available>false</reject_not_available>
+		<reject_not_requestable>false</reject_not_requestable>
+		<reject_on_locate_failure>false</reject_on_locate_failure>
+		<reject_only_electronic>false</reject_only_electronic>
+		<reshelf_period/>
+		<resource_sharing_library>false</resource_sharing_library>
+		<extend_due_date/>
+		<uresolver_locate>false</uresolver_locate>
+		<serves_other_institutions>false</serves_other_institutions>
+		<standard_sandbox/>
+		<status>ACTIVE</status>
+		<support_code/>
+		<temp_inactive_borrowing>false</temp_inactive_borrowing>
+		<temp_inactive_lending>false</temp_inactive_lending>
+		<unique_ejournal_titles/>
+		<url_mapping_prefix/>
+	</organization_unit>
+	<partner_shipping_info_list/>
+	<phys_item_display>
+		<accession_number/>
+		<alt_call_number_type/>
+		<attachments/>
+		<author>Rea, Christopher G.</author>
+		<available_items>
+			<available_item>
+				<barcode>32101095802482</barcode>
+				<call_number>PL2403 .R43 2015</call_number>
+				<inventory_number/>
+				<item_policy>Gen</item_policy>
+				<library_code>eastasian</library_code>
+				<library_name>East Asian Library</library_name>
+				<location_code>gest</location_code>
+				<location_name>gest: East Asian Library Western Lang</location_name>
+				<material_type>BOOK</material_type>
+				<public_note/>
+				<shelving_location/>
+			</available_item>
+		</available_items>
+		<barcode>32101095802482</barcode>
+		<call_number>PL2403 .R43 2015</call_number>
+		<call_number_type>0</call_number_type>
+		<chron_i/>
+		<chron_j/>
+		<chron_k/>
+		<chron_l/>
+		<chron_m/>
+		<copy_id>1</copy_id>
+		<destination_name/>
+		<display_alt_call_numbers/>
+		<edition/>
+		<enum_a/>
+		<enum_b/>
+		<enum_c/>
+		<enum_d/>
+		<enum_e/>
+		<enum_f/>
+		<enum_g/>
+		<enum_h/>
+		<fulfillment_note/>
+		<imprint>Oakland, California : University of California Press, [2015]</imprint>
+		<internal_note1/>
+		<internal_note2/>
+		<internal_note3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 |
+			HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note3>
+		<inventory_material_type>Book</inventory_material_type>
+		<isbn>0520283848 (hardcover : alk. paper)</isbn>
+		<issn/>
+		<issue_level_description/>
+		<item_pid>23718660340006421</item_pid>
+		<item_policy>Gen</item_policy>
+		<library_code>eastasian</library_code>
+		<library_name>East Asian Library</library_name>
+		<location_code>gest</location_code>
+		<location_name>gest: East Asian Library Western Lang</location_name>
+		<material_type>BOOK</material_type>
+		<optional_barcodes>
+			<string>32101095802482</string>
+		</optional_barcodes>
+		<owning_library_details>
+			<address1>Princeton University Library</address1>
+			<address2/>
+			<address3/>
+			<address4/>
+			<address5/>
+			<blocks/>
+			<city>Princeton</city>
+			<country/>
+			<email>almacirc@princeton.edu</email>
+			<first_name/>
+			<identifiers>
+				<code_value>
+					<code>Primary Identifier</code>
+					<value/>
+				</code_value>
+			</identifiers>
+			<last_name/>
+			<middle_name/>
+			<name>East Asian Library</name>
+			<phone/>
+			<postal_code>08544</postal_code>
+			<preferred_first_name/>
+			<preferred_last_name/>
+			<preferred_middle_name/>
+			<state>NJ</state>
+			<title/>
+			<user_group/>
+			<user_title/>
+		</owning_library_details>
+		<owning_library_id>124287750006421</owning_library_id>
+		<owning_library_name>East Asian Library</owning_library_name>
+		<parsed_alt_call_number/>
+		<parsed_call_number/>
+		<parsed_issue_level_description/>
+		<permanent_library/>
+		<permanent_location/>
+		<profile_names/>
+		<public_note/>
+		<publication_date>[2015]</publication_date>
+		<publication_place>Oakland, California :</publication_place>
+		<publisher>University of California Press,</publisher>
+		<row_call_number>$$h PL2403 $$i .R43 2015 </row_call_number>
+		<shelving_location/>
+		<statistics_note1/>
+		<statistics_note2/>
+		<statistics_note3/>
+		<summary_holding_infos/>
+		<suppressed>false</suppressed>
+		<title>The age of irreverence : a new history of laughter in China /</title>
+		<title_abcnph>The age of irreverence : a new history of laughter in China / Christopher
+			Rea.</title_abcnph>
+	</phys_item_display>
+	<proxy_requester/>
+	<receivers>
+		<receiver>
+			<attached_to_entity_id>3908368260006421</attached_to_entity_id>
+			<entity_id/>
+			<entity_type/>
+			<params/>
+			<preferred_language/>
+			<printer>
+				<code>eaprint</code>
+				<create_date>12/23/2020</create_date>
+				<description>Printing</description>
+				<email/>
+				<entity_action/>
+				<library_id>124287750006421</library_id>
+				<library_unit_id/>
+				<name>almacirc@princeton.edu</name>
+				<printout_queue_indicator>true</printout_queue_indicator>
+			</printer>
+			<receiver_id/>
+			<receiver_type/>
+			<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+		</receiver>
+	</receivers>
+	<request>
+		<active>true</active>
+		<additional_id/>
+		<all_org_fields/>
+		<all_previous_locations_used>false</all_previous_locations_used>
+		<approval_entity/>
+		<approval_management/>
+		<assigned_unit_name>East Asian Library - East Asian Library Circulation
+			Desk</assigned_unit_name>
+		<author/>
+		<author_display/>
+		<booking_resolution/>
+		<bulk_request>false</bulk_request>
+		<calculated_destination_name>East Asian Library - East Asian Library Circulation
+			Desk</calculated_destination_name>
+		<cancel_reason/>
+		<cause_for_recalled_item>false</cause_for_recalled_item>
+		<chapter_article_author/>
+		<chapter_article_title/>
+		<citation_upload_file_status/>
+		<convertable_to_resource_sharing>false</convertable_to_resource_sharing>
+		<copyright_declaration_signed/>
+		<copyright_source/>
+		<create_date>08/03/2021</create_date>
+		<create_time>15:11:46 EDT</create_time>
+		<date_available_from/>
+		<date_available_from_dummy>
+			<calendar>12/31/1969</calendar>
+			<calendar_ui/>
+			<day>1</day>
+			<day_ui/>
+			<default_value_for_with_validation>0</default_value_for_with_validation>
+			<full_date/>
+			<full_date_from_ui/>
+			<input_date_tag_format>00.00.0</input_date_tag_format>
+			<month>0</month>
+			<month_ui/>
+			<date>true</date>
+			<year>1970</year>
+			<year_ui/>
+		</date_available_from_dummy>
+		<date_available_to/>
+		<date_available_to_dummy>
+			<calendar>12/31/1969</calendar>
+			<calendar_ui/>
+			<day>1</day>
+			<day_ui/>
+			<default_value_for_with_validation>0</default_value_for_with_validation>
+			<full_date/>
+			<full_date_from_ui/>
+			<input_date_tag_format>00.00.0</input_date_tag_format>
+			<month>0</month>
+			<month_ui/>
+			<date>true</date>
+			<year>1970</year>
+			<year_ui/>
+		</date_available_to_dummy>
+		<delivery_address>East Asian Library</delivery_address>
+		<deposit_indicator/>
+		<document_delivery_email/>
+		<document_delivery_file_name/>
+		<document_delivery_indicator/>
+		<document_delivery_link_indicator/>
+		<document_delivery_max_num_of_views/>
+		<document_delivery_user_name/>
+		<due_back_date_updated>false</due_back_date_updated>
+		<end_time/>
+		<end_time_dummy/>
+		<entity_action/>
+		<expiry_by_date_needed_by>false</expiry_by_date_needed_by>
+		<from_another_inst/>
+		<from_another_inst_circ_desk/>
+		<from_another_inst_library/>
+		<fulfill_network_borrowing_id/>
+		<fulfill_network_inst_code/>
+		<hold_shelf_letter_sent>true</hold_shelf_letter_sent>
+		<hold_shelf_reminder_date/>
+		<hold_shelf_slip_printed>true</hold_shelf_slip_printed>
+		<image_included>false</image_included>
+		<initiated_from/>
+		<full_chapter/>
+		<out_of_institution_pickup/>
+		<issue/>
+		<keep_copyright>false</keep_copyright>
+		<last_interest_date/>
+		<library_id>124287750006421</library_id>
+		<library_unit_id/>
+		<manual_description/>
+		<material_type_display>Book</material_type_display>
+		<needs_hold_shelf_processing>false</needs_hold_shelf_processing>
+		<ngrs_rapido>false</ngrs_rapido>
+		<pickup>false</pickup>
+		<note/>
+		<note1/>
+		<note2/>
+		<note3/>
+		<notes/>
+		<num_copies_for_staff/>
+		<num_copies_for_students/>
+		<num_of_students/>
+		<num_of_total_pages/>
+		<original_end_time/>
+		<original_start_time/>
+		<originating_mms_key/>
+		<originating_user_key/>
+		<out_of_inst_library_id/>
+		<out_of_institution_owner_institution_name/>
+		<out_of_institution_owner_library_name/>
+		<out_of_institution_owner_location_name/>
+		<out_of_institution_requester/>
+		<pages/>
+		<part/>
+		<partial_digitization/>
+		<pickup_inst_code/>
+		<pickup_location_display/>
+		<place_in_queue/>
+		<previous_locations>22718660360006421</previous_locations>
+		<print_transit_slip>true</print_transit_slip>
+		<publication_date/>
+		<reading_list_citation_id/>
+		<reading_list_name/>
+		<recall_loan>true</recall_loan>
+		<record_display_section>
+			<isbn/>
+			<isbn_list/>
+			<isbn_or_isbn>0520283848 (hardcover : alk. paper)</isbn_or_isbn>
+			<issn/>
+			<issn_list/>
+			<location_and_access/>
+			<titles/>
+			<accession_number/>
+			<titles/>
+			<alternate_titles/>
+			<author>Rea, Christopher G. author.</author>
+			<author_list>
+				<string>Rea, Christopher G. author.</string>
+			</author_list>
+			<begin_pub_date>2015</begin_pub_date>
+			<bib_id>2015010050</bib_id>
+			<bib_level>m</bib_level>
+			<binding_information/>
+			<call_number/>
+			<call_number_prefix/>
+			<call_number_suffix/>
+			<category_of_material/>
+			<complete_edition/>
+			<complete_title>The age of irreverence : a new history of laughter in China /
+				Christopher Rea.</complete_title>
+			<complete_title_reversed>The age of irreverence : a new history of laughter in China /
+				Christopher Rea.</complete_title_reversed>
+			<completeness/>
+			<copy_number/>
+			<copy_version_ident_note/>
+			<creator>Rea, Christopher G. author.</creator>
+			<date>2015</date>
+			<date_of_publication>[2015]</date_of_publication>
+			<date_of_report/>
+			<license/>
+			<rights/>
+			<description>&quot;The Age of Irreverence tells the story of why China's entry into the
+				modern age was not just traumatic, but uproarious. As the Qing dynasty slumped
+				toward extinction, prominent writers compiled jokes into collections they called
+				&quot;histories of laughter.&quot; During the first years of the Republic,
+				novelists, essayists and illustrators used humorous allegories to make veiled
+				critiques of the new government. But political and cultural discussion repeatedly
+				erupted into invective, as critics jeered and derided rivals in public. Farceurs
+				drew followings in the popular press, promoting a culture of practical joking and
+				buffoonery. Eventually, these various expressions of hilarity proved so offensive to
+				high-brow writers that they launched a campaign to transform the tone of public
+				discourse, hoping to displace the old forms of mirth with a new one they called
+				youmo (humor). Christopher Rea argues that this era--from the 1890s up to the
+				1930s--transformed how Chinese people thought and talked about what is funny.
+				Focusing on five cultural expressions of laughter--jokes, play, mockery, farce, and
+				humor--he reveals the textures of comedy that were a part of everyday life during
+				modern China's first &quot;age of irreverence.&quot; This new history offers an
+				unprecedented and up-close look at a neglected facet of Chinese cultural modernity,
+				and discusses its legacy in the language and styles of Chinese humor
+				today.--Provided by publisher.</description>
+			<description_list>
+				<string>&quot;The Age of Irreverence tells the story of why China's entry into the
+					modern age was not just traumatic, but uproarious. As the Qing dynasty slumped
+					toward extinction, prominent writers compiled jokes into collections they called
+					&quot;histories of laughter.&quot; During the first years of the Republic,
+					novelists, essayists and illustrators used humorous allegories to make veiled
+					critiques of the new government. But political and cultural discussion
+					repeatedly erupted into invective, as critics jeered and derided rivals in
+					public. Farceurs drew followings in the popular press, promoting a culture of
+					practical joking and buffoonery. Eventually, these various expressions of
+					hilarity proved so offensive to high-brow writers that they launched a campaign
+					to transform the tone of public discourse, hoping to displace the old forms of
+					mirth with a new one they called youmo (humor). Christopher Rea argues that this
+					era--from the 1890s up to the 1930s--transformed how Chinese people thought and
+					talked about what is funny. Focusing on five cultural expressions of
+					laughter--jokes, play, mockery, farce, and humor--he reveals the textures of
+					comedy that were a part of everyday life during modern China's first &quot;age
+					of irreverence.&quot; This new history offers an unprecedented and up-close look
+					at a neglected facet of Chinese cultural modernity, and discusses its legacy in
+					the language and styles of Chinese humor today.--Provided by publisher.</string>
+				<string>Breaking into laughter -- Jokes -- Play -- Mockery -- Farce -- The invention
+					of humor.</string>
+			</description_list>
+			<encoding_level/>
+			<end_pub_date>2015</end_pub_date>
+			<format>xvi, 335 pages :;illustrations ;;24 cm</format>
+			<free_access/>
+			<general_retention/>
+			<holdings/>
+			<id>9992374553506421</id>
+			<identifier35/>
+			<immediate_source_of_acq_note/>
+			<isbn>0520283848 (hardcover : alk. paper)</isbn>
+			<isbn_az>9780520283848 (hardcover : alk. paper)</isbn_az>
+			<isbn_list>
+				<string>0520283848 (hardcover : alk. paper)</string>
+				<string>9780520283848 (hardcover : alk. paper)</string>
+			</isbn_list>
+			<isbn_or_eisbn>0520283848 (hardcover : alk. paper)</isbn_or_eisbn>
+			<issn/>
+			<issn_a/>
+			<issn_list/>
+			<issn_and_eissn_list/>
+			<issn_az/>
+			<issn_list/>
+			<issn_or_eissn/>
+			<language>eng</language>
+			<lccn>2015010050</lccn>
+			<local_location/>
+			<local_notes/>
+			<local_notes_list/>
+			<local_subjects/>
+			<local_subjects_list/>
+			<local_subjects_list_reversed/>
+			<location/>
+			<material_type>BK</material_type>
+			<material_type_list>
+				<string>BK</string>
+			</material_type_list>
+			<medium_type/>
+			<method_of_acquisition/>
+			<monograph_edition/>
+			<monograph_editor/>
+			<monograph_volume/>
+			<network_number>
+				<string>(NjP)9237455-princetondb</string>
+				<string>9237455</string>
+				<string>(OCoLC)ocn894745480</string>
+				<string>(OCoLC)894745480</string>
+			</network_number>
+			<network_number_a>
+				<string>(NjP)9237455-princetondb</string>
+				<string>9237455</string>
+				<string>(OCoLC)ocn894745480</string>
+				<string>(OCoLC)894745480</string>
+			</network_number_a>
+			<non_public_location_note/>
+			<normalized_title/>
+			<notes>Includes bibliographical references and index.</notes>
+			<notes_list>
+				<string>Includes bibliographical references and index.</string>
+				<string>Includes glossary of Chinese names and terms.</string>
+			</notes_list>
+			<nuc_code/>
+			<operational_sec>
+				<elm/>
+				<elms/>
+				<elms_list/>
+				<fld/>
+				<flds>
+					<map_entry>
+						<date>
+							<value>
+								<operational_fld>
+									<name>date</name>
+									<value>2015</value>
+								</operational_fld>
+							</value>
+						</date>
+					</map_entry>
+					<map_entry>
+						<complete_title>
+							<value>
+								<operational_fld>
+									<name>complete_title</name>
+									<value>The age of irreverence : a new history of laughter in
+										China / Christopher Rea.</value>
+								</operational_fld>
+							</value>
+						</complete_title>
+					</map_entry>
+					<map_entry>
+						<notes>
+							<value>
+								<operational_fld>
+									<name>notes</name>
+									<value>Includes bibliographical references and index.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>notes</name>
+									<value>Includes glossary of Chinese names and terms.</value>
+								</operational_fld>
+							</value>
+						</notes>
+					</map_entry>
+					<map_entry>
+						<end_pub_date>
+							<value>
+								<operational_fld>
+									<name>end_pub_date</name>
+									<value>2015</value>
+								</operational_fld>
+							</value>
+						</end_pub_date>
+					</map_entry>
+					<map_entry>
+						<type_of_date>
+							<value>
+								<operational_fld>
+									<name>type_of_date</name>
+									<value>t</value>
+								</operational_fld>
+							</value>
+						</type_of_date>
+					</map_entry>
+					<map_entry>
+						<isbn>
+							<value>
+								<operational_fld>
+									<name>isbn</name>
+									<value>0520283848 (hardcover : alk. paper)</value>
+								</operational_fld>
+								<operational_fld>
+									<name>isbn</name>
+									<value>9780520283848 (hardcover : alk. paper)</value>
+								</operational_fld>
+							</value>
+						</isbn>
+					</map_entry>
+					<map_entry>
+						<description>
+							<value>
+								<operational_fld>
+									<name>description</name>
+									<value>&quot;The Age of Irreverence tells the story of why
+										China's entry into the modern age was not just traumatic,
+										but uproarious. As the Qing dynasty slumped toward
+										extinction, prominent writers compiled jokes into
+										collections they called &quot;histories of laughter.&quot;
+										During the first years of the Republic, novelists, essayists
+										and illustrators used humorous allegories to make veiled
+										critiques of the new government. But political and cultural
+										discussion repeatedly erupted into invective, as critics
+										jeered and derided rivals in public. Farceurs drew
+										followings in the popular press, promoting a culture of
+										practical joking and buffoonery. Eventually, these various
+										expressions of hilarity proved so offensive to high-brow
+										writers that they launched a campaign to transform the tone
+										of public discourse, hoping to displace the old forms of
+										mirth with a new one they called youmo (humor). Christopher
+										Rea argues that this era--from the 1890s up to the
+										1930s--transformed how Chinese people thought and talked
+										about what is funny. Focusing on five cultural expressions
+										of laughter--jokes, play, mockery, farce, and humor--he
+										reveals the textures of comedy that were a part of everyday
+										life during modern China's first &quot;age of
+										irreverence.&quot; This new history offers an unprecedented
+										and up-close look at a neglected facet of Chinese cultural
+										modernity, and discusses its legacy in the language and
+										styles of Chinese humor today.--Provided by
+										publisher.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>description</name>
+									<value>Breaking into laughter -- Jokes -- Play -- Mockery --
+										Farce -- The invention of humor.</value>
+								</operational_fld>
+							</value>
+						</description>
+					</map_entry>
+					<map_entry>
+						<language>
+							<value>
+								<operational_fld>
+									<name>language</name>
+									<value>eng</value>
+								</operational_fld>
+							</value>
+						</language>
+					</map_entry>
+					<map_entry>
+						<title>
+							<value>
+								<operational_fld>
+									<name>title</name>
+									<value>The age of irreverence : a new history of laughter in
+										China /</value>
+								</operational_fld>
+							</value>
+						</title>
+					</map_entry>
+					<map_entry>
+						<registry_id>
+							<value>
+								<operational_fld>
+									<name>registry_id</name>
+									<value>3</value>
+								</operational_fld>
+							</value>
+						</registry_id>
+					</map_entry>
+					<map_entry>
+						<lccn>
+							<value>
+								<operational_fld>
+									<name>lccn</name>
+									<value>2015010050</value>
+								</operational_fld>
+							</value>
+						</lccn>
+					</map_entry>
+					<map_entry>
+						<material_type>
+							<value>
+								<operational_fld>
+									<name>material_type</name>
+									<value>BK</value>
+								</operational_fld>
+							</value>
+						</material_type>
+					</map_entry>
+					<map_entry>
+						<carrier_type>
+							<value>
+								<operational_fld>
+									<name>carrier_type</name>
+									<value>volume</value>
+								</operational_fld>
+							</value>
+						</carrier_type>
+					</map_entry>
+					<map_entry>
+						<short_title>
+							<value>
+								<operational_fld>
+									<name>short_title</name>
+									<value>The age of irreverence :</value>
+								</operational_fld>
+							</value>
+						</short_title>
+					</map_entry>
+					<map_entry>
+						<content_type>
+							<value>
+								<operational_fld>
+									<name>content_type</name>
+									<value>text</value>
+								</operational_fld>
+							</value>
+						</content_type>
+					</map_entry>
+					<map_entry>
+						<media_type>
+							<value>
+								<operational_fld>
+									<name>media_type</name>
+									<value>unmediated</value>
+								</operational_fld>
+							</value>
+						</media_type>
+					</map_entry>
+					<map_entry>
+						<title_abcnph>
+							<value>
+								<operational_fld>
+									<name>title_abcnph</name>
+									<value>The age of irreverence : a new history of laughter in
+										China / Christopher Rea.</value>
+								</operational_fld>
+							</value>
+						</title_abcnph>
+					</map_entry>
+					<map_entry>
+						<place_of_publication>
+							<value>
+								<operational_fld>
+									<name>place_of_publication</name>
+									<value>Oakland, California :</value>
+								</operational_fld>
+							</value>
+						</place_of_publication>
+					</map_entry>
+					<map_entry>
+						<id>
+							<value>
+								<operational_fld>
+									<name>id</name>
+									<value>9992374553506421</value>
+								</operational_fld>
+							</value>
+						</id>
+					</map_entry>
+					<map_entry>
+						<creator>
+							<value>
+								<operational_fld>
+									<name>creator</name>
+									<value>Rea, Christopher G. author.</value>
+								</operational_fld>
+							</value>
+						</creator>
+					</map_entry>
+					<map_entry>
+						<author>
+							<value>
+								<operational_fld>
+									<name>author</name>
+									<value>Rea, Christopher G. author.</value>
+								</operational_fld>
+							</value>
+						</author>
+					</map_entry>
+					<map_entry>
+						<isbn_az>
+							<value>
+								<operational_fld>
+									<name>isbn_az</name>
+									<value>9780520283848 (hardcover : alk. paper)</value>
+								</operational_fld>
+							</value>
+						</isbn_az>
+					</map_entry>
+					<map_entry>
+						<subjects>
+							<value>
+								<operational_fld>
+									<name>subjects</name>
+									<value>History.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Criticism, interpretation, etc.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>China.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Popular culture.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Chinese wit and humor.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Popular culture--China--History--19th century.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>Chinese wit and humor--History and criticism.</value>
+								</operational_fld>
+								<operational_fld>
+									<name>subjects</name>
+									<value>1800 - 1899</value>
+								</operational_fld>
+							</value>
+						</subjects>
+					</map_entry>
+					<map_entry>
+						<format>
+							<value>
+								<operational_fld>
+									<name>format</name>
+									<value>xvi, 335 pages :;illustrations ;;24 cm</value>
+								</operational_fld>
+							</value>
+						</format>
+					</map_entry>
+					<map_entry>
+						<leganto_complete_title>
+							<value>
+								<operational_fld>
+									<name>leganto_complete_title</name>
+									<value>The age of irreverence : a new history of laughter in
+										China /</value>
+								</operational_fld>
+							</value>
+						</leganto_complete_title>
+					</map_entry>
+					<map_entry>
+						<resource_type>
+							<value>
+								<operational_fld>
+									<name>resource_type</name>
+									<value>Book - Physical</value>
+								</operational_fld>
+							</value>
+						</resource_type>
+					</map_entry>
+					<map_entry>
+						<short_creator>
+							<value>
+								<operational_fld>
+									<name>short_creator</name>
+									<value>Rea, Christopher G.</value>
+								</operational_fld>
+							</value>
+						</short_creator>
+					</map_entry>
+					<map_entry>
+						<type_of_record_bib>
+							<value>
+								<operational_fld>
+									<name>type_of_record_bib</name>
+									<value>a</value>
+								</operational_fld>
+							</value>
+						</type_of_record_bib>
+					</map_entry>
+					<map_entry>
+						<bib_level>
+							<value>
+								<operational_fld>
+									<name>bib_level</name>
+									<value>m</value>
+								</operational_fld>
+							</value>
+						</bib_level>
+					</map_entry>
+					<map_entry>
+						<bib_id>
+							<value>
+								<operational_fld>
+									<name>bib_id</name>
+									<value>2015010050</value>
+								</operational_fld>
+							</value>
+						</bib_id>
+					</map_entry>
+					<map_entry>
+						<begin_pub_date>
+							<value>
+								<operational_fld>
+									<name>begin_pub_date</name>
+									<value>2015</value>
+								</operational_fld>
+							</value>
+						</begin_pub_date>
+					</map_entry>
+					<map_entry>
+						<network_number_a>
+							<value>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(NjP)9237455-princetondb</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>9237455</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(OCoLC)ocn894745480</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number_a</name>
+									<value>(OCoLC)894745480</value>
+								</operational_fld>
+							</value>
+						</network_number_a>
+					</map_entry>
+					<map_entry>
+						<date_of_publication>
+							<value>
+								<operational_fld>
+									<name>date_of_publication</name>
+									<value>[2015]</value>
+								</operational_fld>
+							</value>
+						</date_of_publication>
+					</map_entry>
+					<map_entry>
+						<publisher>
+							<value>
+								<operational_fld>
+									<name>publisher</name>
+									<value>University of California Press,</value>
+								</operational_fld>
+							</value>
+						</publisher>
+					</map_entry>
+					<map_entry>
+						<poline_title>
+							<value>
+								<operational_fld>
+									<name>poline_title</name>
+									<value>The age of irreverence : a new history of laughter in
+										China / Christopher Rea.</value>
+								</operational_fld>
+							</value>
+						</poline_title>
+					</map_entry>
+					<map_entry>
+						<publisher_const_b>
+							<value>
+								<operational_fld>
+									<name>publisher_const_b</name>
+									<value>University of California Press</value>
+								</operational_fld>
+							</value>
+						</publisher_const_b>
+					</map_entry>
+					<map_entry>
+						<place_code>
+							<value>
+								<operational_fld>
+									<name>place_code</name>
+									<value>cau</value>
+								</operational_fld>
+							</value>
+						</place_code>
+					</map_entry>
+					<map_entry>
+						<network_number>
+							<value>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(NjP)9237455-princetondb</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>9237455</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(OCoLC)ocn894745480</value>
+								</operational_fld>
+								<operational_fld>
+									<name>network_number</name>
+									<value>(OCoLC)894745480</value>
+								</operational_fld>
+							</value>
+						</network_number>
+					</map_entry>
+				</flds>
+				<flds_list>
+					<operational_fld>
+						<name>date</name>
+						<value>2015</value>
+					</operational_fld>
+					<operational_fld>
+						<name>complete_title</name>
+						<value>The age of irreverence : a new history of laughter in China /
+							Christopher Rea.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Includes bibliographical references and index.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>notes</name>
+						<value>Includes glossary of Chinese names and terms.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>end_pub_date</name>
+						<value>2015</value>
+					</operational_fld>
+					<operational_fld>
+						<name>type_of_date</name>
+						<value>t</value>
+					</operational_fld>
+					<operational_fld>
+						<name>isbn</name>
+						<value>0520283848 (hardcover : alk. paper)</value>
+					</operational_fld>
+					<operational_fld>
+						<name>isbn</name>
+						<value>9780520283848 (hardcover : alk. paper)</value>
+					</operational_fld>
+					<operational_fld>
+						<name>description</name>
+						<value>&quot;The Age of Irreverence tells the story of why China's entry
+							into the modern age was not just traumatic, but uproarious. As the Qing
+							dynasty slumped toward extinction, prominent writers compiled jokes into
+							collections they called &quot;histories of laughter.&quot; During the
+							first years of the Republic, novelists, essayists and illustrators used
+							humorous allegories to make veiled critiques of the new government. But
+							political and cultural discussion repeatedly erupted into invective, as
+							critics jeered and derided rivals in public. Farceurs drew followings in
+							the popular press, promoting a culture of practical joking and
+							buffoonery. Eventually, these various expressions of hilarity proved so
+							offensive to high-brow writers that they launched a campaign to
+							transform the tone of public discourse, hoping to displace the old forms
+							of mirth with a new one they called youmo (humor). Christopher Rea
+							argues that this era--from the 1890s up to the 1930s--transformed how
+							Chinese people thought and talked about what is funny. Focusing on five
+							cultural expressions of laughter--jokes, play, mockery, farce, and
+							humor--he reveals the textures of comedy that were a part of everyday
+							life during modern China's first &quot;age of irreverence.&quot; This
+							new history offers an unprecedented and up-close look at a neglected
+							facet of Chinese cultural modernity, and discusses its legacy in the
+							language and styles of Chinese humor today.--Provided by
+							publisher.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>description</name>
+						<value>Breaking into laughter -- Jokes -- Play -- Mockery -- Farce -- The
+							invention of humor.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>language</name>
+						<value>eng</value>
+					</operational_fld>
+					<operational_fld>
+						<name>title</name>
+						<value>The age of irreverence : a new history of laughter in China /</value>
+					</operational_fld>
+					<operational_fld>
+						<name>registry_id</name>
+						<value>3</value>
+					</operational_fld>
+					<operational_fld>
+						<name>lccn</name>
+						<value>2015010050</value>
+					</operational_fld>
+					<operational_fld>
+						<name>material_type</name>
+						<value>BK</value>
+					</operational_fld>
+					<operational_fld>
+						<name>carrier_type</name>
+						<value>volume</value>
+					</operational_fld>
+					<operational_fld>
+						<name>short_title</name>
+						<value>The age of irreverence :</value>
+					</operational_fld>
+					<operational_fld>
+						<name>content_type</name>
+						<value>text</value>
+					</operational_fld>
+					<operational_fld>
+						<name>media_type</name>
+						<value>unmediated</value>
+					</operational_fld>
+					<operational_fld>
+						<name>title_abcnph</name>
+						<value>The age of irreverence : a new history of laughter in China /
+							Christopher Rea.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>place_of_publication</name>
+						<value>Oakland, California :</value>
+					</operational_fld>
+					<operational_fld>
+						<name>id</name>
+						<value>9992374553506421</value>
+					</operational_fld>
+					<operational_fld>
+						<name>creator</name>
+						<value>Rea, Christopher G. author.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>author</name>
+						<value>Rea, Christopher G. author.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>isbn_az</name>
+						<value>9780520283848 (hardcover : alk. paper)</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>History.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Criticism, interpretation, etc.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>China.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Popular culture.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Chinese wit and humor.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Popular culture--China--History--19th century.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>Chinese wit and humor--History and criticism.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>subjects</name>
+						<value>1800 - 1899</value>
+					</operational_fld>
+					<operational_fld>
+						<name>format</name>
+						<value>xvi, 335 pages :;illustrations ;;24 cm</value>
+					</operational_fld>
+					<operational_fld>
+						<name>leganto_complete_title</name>
+						<value>The age of irreverence : a new history of laughter in China /</value>
+					</operational_fld>
+					<operational_fld>
+						<name>resource_type</name>
+						<value>Book - Physical</value>
+					</operational_fld>
+					<operational_fld>
+						<name>short_creator</name>
+						<value>Rea, Christopher G.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>type_of_record_bib</name>
+						<value>a</value>
+					</operational_fld>
+					<operational_fld>
+						<name>bib_level</name>
+						<value>m</value>
+					</operational_fld>
+					<operational_fld>
+						<name>bib_id</name>
+						<value>2015010050</value>
+					</operational_fld>
+					<operational_fld>
+						<name>begin_pub_date</name>
+						<value>2015</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(NjP)9237455-princetondb</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>9237455</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(OCoLC)ocn894745480</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number_a</name>
+						<value>(OCoLC)894745480</value>
+					</operational_fld>
+					<operational_fld>
+						<name>date_of_publication</name>
+						<value>[2015]</value>
+					</operational_fld>
+					<operational_fld>
+						<name>publisher</name>
+						<value>University of California Press,</value>
+					</operational_fld>
+					<operational_fld>
+						<name>poline_title</name>
+						<value>The age of irreverence : a new history of laughter in China /
+							Christopher Rea.</value>
+					</operational_fld>
+					<operational_fld>
+						<name>publisher_const_b</name>
+						<value>University of California Press</value>
+					</operational_fld>
+					<operational_fld>
+						<name>place_code</name>
+						<value>cau</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(NjP)9237455-princetondb</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>9237455</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(OCoLC)ocn894745480</value>
+					</operational_fld>
+					<operational_fld>
+						<name>network_number</name>
+						<value>(OCoLC)894745480</value>
+					</operational_fld>
+				</flds_list>
+				<name>display</name>
+			</operational_sec>
+			<ownership_and_custodial_history/>
+			<permanent_call_number/>
+			<permanent_call_number_type/>
+			<permanent_physical_location/>
+			<place_code>cau</place_code>
+			<place_of_publication>Oakland, California :</place_of_publication>
+			<place_of_publication_list_reversed>
+				<string>Oakland, California :</string>
+			</place_of_publication_list_reversed>
+			<preferred_chronological_subdivision_list/>
+			<preferred_chronological_term_list/>
+			<preferred_classification_number_list/>
+			<preferred_corporate_name_list/>
+			<preferred_form_subdivision_list/>
+			<preferred_general_subdivision_list/>
+			<preferred_genre_form_name_list/>
+			<preferred_geographic_name_list/>
+			<preferred_geographic_subdivision_list/>
+			<preferred_meeting_name_list/>
+			<preferred_personal_name_list/>
+			<preferred_topical_term_list/>
+			<preferred_uniform_title_list/>
+			<public_access_note/>
+			<public_access_note_list/>
+			<public_general_note/>
+			<public_location_note/>
+			<publication_type/>
+			<publisher>University of California Press,</publisher>
+			<publisher_const>University of California Press</publisher_const>
+			<publisher_const_list>
+				<string>University of California Press</string>
+			</publisher_const_list>
+			<receipt_acq_status/>
+			<registry_id>3</registry_id>
+			<reproduction_note/>
+			<resource_title/>
+			<resource_type>Book - Physical</resource_type>
+			<see_also_chronological_subdivision_list/>
+			<see_also_chronological_term_list/>
+			<see_also_corporate_name_list/>
+			<see_also_form_subdivision_list/>
+			<see_also_general_subdivision_list/>
+			<see_also_genre_form_name_list/>
+			<see_also_geographic_name_list/>
+			<see_also_geographic_subdivision_list/>
+			<see_also_meeting_name_list/>
+			<see_also_personal_name_list/>
+			<see_also_topical_term_list/>
+			<see_also_uniform_title_list/>
+			<see_chronological_subdivision_list/>
+			<see_chronological_term_list/>
+			<see_corporate_name_list/>
+			<see_form_subdivision_list/>
+			<see_general_subdivision_list/>
+			<see_genre_form_name_list/>
+			<see_geographic_name_list/>
+			<see_geographic_subdivision_list/>
+			<see_meeting_name_list/>
+			<see_personal_name_list/>
+			<see_topical_term_list/>
+			<see_uniform_title_list/>
+			<series_all/>
+			<series_name/>
+			<series_small/>
+			<series_small_list/>
+			<series_volume/>
+			<shelving_data/>
+			<shelving_location/>
+			<short_creator>Rea, Christopher G.</short_creator>
+			<short_edition/>
+			<short_title>The age of irreverence :</short_title>
+			<short_title_reversed>The age of irreverence :</short_title_reversed>
+			<source_found/>
+			<special_format_designation/>
+			<subjects>History.</subjects>
+			<subjects_list>
+				<string>History.</string>
+				<string>Criticism, interpretation, etc.</string>
+				<string>China.</string>
+				<string>Popular culture.</string>
+				<string>Chinese wit and humor.</string>
+				<string>Popular culture--China--History--19th century.</string>
+				<string>Chinese wit and humor--History and criticism.</string>
+				<string>1800 - 1899</string>
+			</subjects_list>
+			<subjects_list_reversed>
+				<string>1800 - 1899</string>
+				<string>Chinese wit and humor--History and criticism.</string>
+				<string>Popular culture--China--History--19th century.</string>
+				<string>Chinese wit and humor.</string>
+				<string>Popular culture.</string>
+				<string>China.</string>
+				<string>Criticism, interpretation, etc.</string>
+				<string>History.</string>
+			</subjects_list_reversed>
+			<summary_holding_list/>
+			<terms_use_repro/>
+			<title>The age of irreverence : a new history of laughter in China /</title>
+			<title_abcnph>The age of irreverence : a new history of laughter in China / Christopher
+				Rea.</title_abcnph>
+			<title_id/>
+			<title_reversed>The age of irreverence : a new history of laughter in China
+				/</title_reversed>
+			<type_of_date>t</type_of_date>
+			<type_of_record/>
+			<type_of_record_bib>a</type_of_record_bib>
+			<uniform_title/>
+		</record_display_section>
+		<remote_digitize_indicator/>
+		<req_items_before_recalculation/>
+		<request_creator/>
+		<request_life_cycle/>
+		<request_not_needed>false</request_not_needed>
+		<request_source>ExternalSource</request_source>
+		<request_status_display/>
+		<request_type>PATRON_PHYSICAL</request_type>
+		<request_type_display/>
+		<required_chapters/>
+		<resource_sharing_request_id/>
+		<resource_slip_printed>true</resource_slip_printed>
+		<resource_slip_reported>false</resource_slip_reported>
+		<rule_id/>
+		<scan_from_page/>
+		<scan_from_page2/>
+		<scan_to_page/>
+		<scan_to_page2/>
+		<search_type>PHYSICAL_ITEM</search_type>
+		<selected_inventory_id>23718660340006421</selected_inventory_id>
+		<selected_inventory_type>ITEM</selected_inventory_type>
+		<show_in_task_list>true</show_in_task_list>
+		<start_time/>
+		<start_time_dummy/>
+		<status_note/>
+		<status_note_display/>
+		<system_notes/>
+		<title_display/>
+		<total_chapters_count/>
+		<user_group>GRAD</user_group>
+		<user_statistics1>G2</user_statistics1>
+		<user_statistics10/>
+		<user_statistics2/>
+		<user_statistics3/>
+		<user_statistics4/>
+		<user_statistics5/>
+		<user_statistics6/>
+		<user_statistics7/>
+		<user_statistics8/>
+		<user_statistics9/>
+		<volume/>
+		<volume_issue/>
+		<work_flow_entity>
+			<action_date>08/03/2021</action_date>
+			<assigned_unit_id>124287770006421</assigned_unit_id>
+			<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
+			<calculated_destination_id>124287770006421</calculated_destination_id>
+			<calculated_destination_type>CIRCULATION_DESK</calculated_destination_type>
+			<create_date>08/03/2021</create_date>
+			<destination_institution_code/>
+			<entity_action/>
+			<estimated_arrival_date/>
+			<expiration_date>08/12/2021</expiration_date>
+			<expiration_date_to_end_of_day/>
+			<transit>false</transit>
+			<work_order_department>false</work_order_department>
+			<library_id>124287750006421</library_id>
+			<library_unit_id/>
+			<step_type>ON_HOLD_SHELF</step_type>
+			<user_id>11727158510006421</user_id>
+		</work_flow_entity>
+	</request>
+	<request_id>14351708250006421</request_id>
+	<request_type>Patron physical item request</request_type>
+	<send_after_commit>true</send_after_commit>
+	<sms_content/>
+	<throw_exceptions>false</throw_exceptions>
+	<url_list/>
+	<user_for_printing>
+		<address1>East Asian Studies</address1>
+		<address2>Jones Hall, Room 211</address2>
+		<address3/>
+		<address4/>
+		<address5/>
+		<blocks/>
+		<city>Princeton</city>
+		<country>USA</country>
+		<email>fh9@Princeton.EDU</email>
+		<first_name>Fangyuan</first_name>
+		<identifiers>
+			<code_value>
+				<code>Primary Identifier</code>
+				<value>920216555</value>
+			</code_value>
+			<code_value>
+				<code>BARCODE</code>
+				<value>22101008613838</value>
+			</code_value>
+			<code_value>
+				<code>NET_ID</code>
+				<value>fh9</value>
+			</code_value>
+		</identifiers>
+		<last_name>Huang</last_name>
+		<middle_name/>
+		<name>Huang, Fangyuan</name>
+		<phone/>
+		<postal_code/>
+		<preferred_first_name/>
+		<preferred_last_name/>
+		<preferred_middle_name/>
+		<state>NJ</state>
+		<title/>
+		<user_group>GRAD</user_group>
+		<user_title/>
+	</user_for_printing>
+	<webhook_data>
+		<fees/>
+		<items/>
+		<loans/>
+		<outgoing_resource_sharing_requests/>
+		<receivers/>
+		<smss_content/>
+		<user_requests/>
+	</webhook_data>
+</notification_data>
