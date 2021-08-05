@@ -310,11 +310,11 @@
 						<td/>
 						<td/>
 						<td/>
-						<td style="background-color:#e9e9e9;">
+						<!--<td style="background-color:#e9e9e9;">
 							<b>Total: </b>
 							<xsl:value-of select="notification_data/po/currency"/>
 							<xsl:value-of select="notification_data/po/total_price"/>
-						</td>
+						</td>-->
 					</tr>
 				</table>
 				<br/>
