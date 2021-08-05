@@ -274,6 +274,7 @@
 						<!--<th>@@date@@</th>-->
 						<th>@@issn_isbn@@</th>
 						<th>@@title@@</th>
+<th>Vendor Reference Number:</th>
 						<th align="right">@@price@@</th>
 						<th>@@note@@</th>
 					</tr>
@@ -293,6 +294,7 @@
 							<td>
 								<xsl:value-of select="meta_data_values/title"/>
 							</td>
+							<td><xsl:value-of select="vendor_reference_number/"/></td>
 							<td align="right"><xsl:value-of select="total_price_compose/currency"
 									/>&#160;<xsl:value-of
 									select="total_price_compose_with_normalized_sum/normalized_sum"
