@@ -49,16 +49,23 @@
 									<br/>
 									<b>Description: </b>
 									<xsl:value-of
-										select="concat(notification_data/line_title, ' ', notification_data/publication_place, ' ', notification_data/publisher, ' ', notification_data/publication_date)"
-									/>
+										select="concat(notification_data/line_title, ' ', notification_data/publication_place, ' ', notification_data/publisher, ' ', notification_data/publication_date)"/>
+									<br/>
+									<xsl:if
+										test="notification_data/po_line/vendor_reference_number[. != '']">
+										<b>Vendor Reference Number: </b>
+										<xsl:value-of select="vendor_reference_number"/>
+									</xsl:if>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<br/>
-									<br/>
-									<b>@@vendor_note@@: </b>
-									<xsl:value-of select="notification_data/vendor_note"/>
+									<xsl:if test="notification_data/vendor_note[. != '']">
+										<br/>
+										<br/>
+										<b>@@vendor_note@@: </b>
+										<xsl:value-of select="notification_data/vendor_note"/>
+									</xsl:if>
 									<xsl:choose>
 										<xsl:when test="/notification_data/rush = 'true'">
 											<br/>
