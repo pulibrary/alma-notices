@@ -1,0 +1,480 @@
+<notification_data>
+	<ckb_id>0</ckb_id>
+	<general_data>
+		<address_c>None;None</address_c>
+		<address_c>None;None</address_c>
+		<address_from>orderdiv@princeton.edu</address_from>
+		<current_date>08/05/2021</current_date>
+		<letter_channel_info/>
+		<letter_name>Order Now Notification</letter_name>
+		<letter_type>OrderNowLetter</letter_type>
+		<subject>Order Now Notification</subject>
+	</general_data>
+	<identifier/>
+	<languages>
+		<string>en</string>
+	</languages>
+	<letter_params/>
+	<letter_texts/>
+	<mms_id>99107175233506421</mms_id>
+	<need_review_entity/>
+	<normalize_sum_strategy/>
+	<order_now_succed>true</order_now_succed>
+	<organization_unit>
+		<address>
+			<city>Princeton</city>
+			<country/>
+			<country_display/>
+			<create_date>12/23/2020</create_date>
+			<entity_action/>
+			<library_id/>
+			<library_unit_id/>
+			<line1>Princeton University Library</line1>
+			<line2/>
+			<line3/>
+			<line4/>
+			<line5/>
+			<note/>
+			<originating_id/>
+			<postal_code>08544</postal_code>
+			<preferred>true</preferred>
+			<segment_types_display>
+				<string>Primary</string>
+			</segment_types_display>
+			<state_province>NJ</state_province>
+			<user_address_types_display/>
+		</address>
+		<automatic_creation>false</automatic_creation>
+		<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+		<automatically_locate_resource>false</automatically_locate_resource>
+		<bibliographic_titles/>
+		<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+		<code>techserv</code>
+		<code_rfid/>
+		<country/>
+		<create_date>12/02/2020</create_date>
+		<data_encryption_type/>
+		<default_acq_loctaion_id>124300450006421</default_acq_loctaion_id>
+		<default_item_loctaion_id/>
+		<default_move_loctaion_id/>
+		<default_pickup_loctaion_id/>
+		<default_printer/>
+		<description/>
+		<digital_objects/>
+		<digital_storage_size/>
+		<disable_call_number_calculation>false</disable_call_number_calculation>
+		<edi_code/>
+		<edi_type/>
+		<email>
+			<create_date>12/23/2020</create_date>
+			<description/>
+			<email>almacirc@princeton.edu</email>
+			<entity_action/>
+			<esploro_display_email/>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<preferred>true</preferred>
+		</email>
+		<entity_action/>
+		<hold_shelf_email_delay/>
+		<ignore_electronic>false</ignore_electronic>
+		<inactive_dates_end_bor/>
+		<inactive_dates_end_lend/>
+		<inactive_dates_start_bor/>
+		<inactive_dates_start_lend/>
+		<isil_code/>
+		<itemless_library/>
+		<leader_institution_id/>
+		<library_id/>
+		<library_unit_id/>
+		<name>Technical Services</name>
+		<named_users/>
+		<org_scope>
+			<customer_id>6420</customer_id>
+			<institution_id>6421</institution_id>
+			<library_id>124284710006421</library_id>
+			<library_unit_id/>
+		</org_scope>
+		<organization_id>124284710006421</organization_id>
+		<organization_path>6420.6421.124284710006421</organization_path>
+		<organization_type>LIBRARY</organization_type>
+		<parent_org_id>6421</parent_org_id>
+		<path>01PRI.01PRI_INST.techserv</path>
+		<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+		<phone>
+			<create_date>12/02/2020</create_date>
+			<entity_action/>
+			<esploro_display_phone>0</esploro_display_phone>
+			<external_id/>
+			<library_id/>
+			<library_unit_id/>
+			<originating_id/>
+			<phone/>
+			<preferred>true</preferred>
+			<preferred_phone/>
+			<preferred_sms/>
+		</phone>
+		<premium_sandbox/>
+		<prod_instance_name/>
+		<rapido_symbol/>
+		<reject_not_available>false</reject_not_available>
+		<reject_not_requestable>false</reject_not_requestable>
+		<reject_on_locate_failure>false</reject_on_locate_failure>
+		<reject_only_electronic>false</reject_only_electronic>
+		<reshelf_period/>
+		<resource_sharing_library>false</resource_sharing_library>
+		<extend_due_date/>
+		<uresolver_locate>false</uresolver_locate>
+		<serves_other_institutions>false</serves_other_institutions>
+		<standard_sandbox/>
+		<status>ACTIVE</status>
+		<support_code/>
+		<temp_inactive_borrowing>false</temp_inactive_borrowing>
+		<temp_inactive_lending>false</temp_inactive_lending>
+		<unique_ejournal_titles/>
+		<url_mapping_prefix/>
+	</organization_unit>
+	<line_reference>2005341-princetondb</line_reference>
+	<line_title>DOAJ Membership</line_title>
+	<number>PO-49001</number>
+	<publication_date/>
+	<publication_place/>
+	<publisher/>
+	<receivers>
+		<receiver>
+			<address_types/>
+			<attached_to_entity_id>2683750210006421</attached_to_entity_id>
+			<email_types/>
+			<params/>
+			<preferred_language>en</preferred_language>
+			<receiver_id/>
+			<receiver_type/>
+			<receiver_type_class>com.exlibris.core.infra.model.HFrUser</receiver_type_class>
+			<user_address>
+				<city>Princeton</city>
+				<country>USA</country>
+				<country_display/>
+				<create_date>07/27/2021</create_date>
+				<entity_action/>
+				<library_id/>
+				<library_unit_id/>
+				<line1>Tech Services</line1>
+				<line2>693 Alexander Rd, Fl. 2C Wi</line2>
+				<line3/>
+				<line4/>
+				<line5/>
+				<note/>
+				<originating_id/>
+				<postal_code/>
+				<preferred>true</preferred>
+				<state_province>NJ</state_province>
+			</user_address>
+			<user_email>
+				<create_date>07/27/2021</create_date>
+				<description/>
+				<email>santos@Princeton.EDU</email>
+				<entity_action/>
+				<esploro_display_email/>
+				<external_id>SIS</external_id>
+				<library_id/>
+				<library_unit_id/>
+				<originating_id/>
+				<preferred>true</preferred>
+			</user_email>
+			<user_phone/>
+			<user>
+				<addresses_mask>$preferredlabel$ $false$,
+					::enc::77C52F6742C362AD4291D0BB5AB9CDF0F7AFFE2367B4135CA2FC08EBDA96BEDE::enc::,
+					::enc::517AF3909828E250D3928FA8A70E91D8::enc::,
+					::enc::2CDB12BBA6A8C8FAF1E59FAC646859FF::enc::,
+					::enc::9938EF26E365D8F77555879462341EDB::enc::, $addresstypeslabel$
+					::ctvs::home::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::,
+					$enddatelabel$ ::date::::date::&lt;br&gt;$preferredlabel$ $true$,
+					::enc::0ECAA22BEE9743EEEB5D12D3F239C6D4::enc::,
+					::enc::8052D0E5B776D13CE66A1392F31B6AC2E2FEAF2B7219448E0BEFEF7EB181F311::enc::,
+					::enc::AE61603E9A203EE26EB299975F0C5E90::enc::,
+					::enc::2CDB12BBA6A8C8FAF1E59FAC646859FF::enc::,
+					::enc::9938EF26E365D8F77555879462341EDB::enc::, $addresstypeslabel$
+					::ctvs::work::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::,
+					$enddatelabel$ ::date::::date::&lt;br&gt;</addresses_mask>
+				<birth_date/>
+				<birth_date_dummy>
+					<calendar>12/31/1969</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>0</default_value_for_with_validation>
+					<full_date/>
+					<full_date_from_ui/>
+					<input_date_tag_format>00.00.0</input_date_tag_format>
+					<month>0</month>
+					<month_ui/>
+					<date>true</date>
+					<year>1970</year>
+					<year_ui/>
+				</birth_date_dummy>
+				<blocks_mask/>
+				<campus_code/>
+				<campus_code_original_value/>
+				<cataloger_level>00</cataloger_level>
+				<cataloger_level_original_value>00</cataloger_level_original_value>
+				<checksum/>
+				<copied_from_z>false</copied_from_z>
+				<create_date>06/30/2000</create_date>
+				<default_language>en</default_language>
+				<duplicate_user_name>010000213</duplicate_user_name>
+				<emails_mask>$preferredlabel$ $true$,
+					::enc::272382478D6D20AAA64A674C94D513A97C69B548E4C66D55D1FF791CE498F210::enc::,
+					$emailtypeslabel$ ::ctvs::work::ctvs::, $descriptionlabel$
+					&lt;br&gt;</emails_mask>
+				<encrypted_pin_number/>
+				<encrypted_pin_number_original_value/>
+				<entity_action/>
+				<expiry_date>10/31/2023</expiry_date>
+				<expiry_date_dummy>
+					<calendar>10/31/2023</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>1698811199999</default_value_for_with_validation>
+					<full_date>2023-11-01</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>01.11.2023</input_date_tag_format>
+					<month>10</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2023</year>
+					<year_ui/>
+				</expiry_date_dummy>
+				<external_id>SIS</external_id>
+				<failed_authentication>0</failed_authentication>
+				<first_name>Carlos</first_name>
+				<force_password_change>false</force_password_change>
+				<force_update_external>false</force_update_external>
+				<force_update_external_original_fields>false</force_update_external_original_fields>
+				<from_register_new_user>false</from_register_new_user>
+				<gender/>
+				<identifiers_mask>$isactive$ $true$, $typelabel$ ::ctvs::BARCODE::ctvs::,
+					$valuelabel$ ::enc::D8B4BE77D694B34DCAD5A7A6FDF2551A::enc::, $notelabel$
+					&lt;br&gt;$isactive$ $true$, $typelabel$ ::ctvs::NET_ID::ctvs::, $valuelabel$
+					::enc::0D6752CD0EE769B527D170087066A6F2::enc::, $notelabel$
+					&lt;br&gt;</identifiers_mask>
+				<from_external_system>true</from_external_system>
+				<researcher/>
+				<job_description/>
+				<job_title/>
+				<job_title_original_value/>
+				<last_name>Santos</last_name>
+				<last_patron_activity_date/>
+				<last_patron_activity_date_dummy>
+					<calendar>12/31/1969</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>0</default_value_for_with_validation>
+					<full_date/>
+					<full_date_from_ui/>
+					<input_date_tag_format>00.00.0</input_date_tag_format>
+					<month>0</month>
+					<month_ui/>
+					<date>true</date>
+					<year>1970</year>
+					<year_ui/>
+				</last_patron_activity_date_dummy>
+				<library_id/>
+				<library_unit_id/>
+				<linked_account>false</linked_account>
+				<linking_id/>
+				<locked_out>false</locked_out>
+				<locked_out_date/>
+				<login_restriction_exception/>
+				<lti_course_code/>
+				<middle_name>Manuel</middle_name>
+				<notes_mask>$notelabel$ DEPT(690), $typelabel$ ::ctvs::LIBRARY::ctvs::,
+					$userviewable$ $false$, $popupnote$ $false$ &lt;br&gt;</notes_mask>
+				<distributed>false</distributed>
+				<original_id>6459-princetondb</original_id>
+				<originating_id/>
+				<password_expiry_date/>
+				<password_in_idp/>
+				<phones_mask/>
+				<pin_number/>
+				<pin_number_for_display/>
+				<pin_number_original_value/>
+				<pin_number_salt/>
+				<ppr_libraries_d/>
+				<preferred_first_name/>
+				<preferred_first_name_orig_value/>
+				<preferred_first_name_set_by/>
+				<preferred_first_name_set_by_enum/>
+				<preferred_last_name/>
+				<preferred_last_name_orig_value/>
+				<preferred_last_name_set_by/>
+				<preferred_last_name_set_by_enum/>
+				<preferred_middle_name/>
+				<preferred_middle_name_orig_value/>
+				<preferred_middle_name_set_by/>
+				<preferred_middle_name_set_by_enum/>
+				<preferred_name_suffix/>
+				<preferred_name_suffix_orig_value/>
+				<product_name/>
+				<proxy_for_mask/>
+				<purge_date>10/31/2022</purge_date>
+				<purge_date_dummy>
+					<calendar>10/31/2022</calendar>
+					<calendar_ui/>
+					<day>1</day>
+					<day_ui/>
+					<default_value_for_with_validation>1667275199999</default_value_for_with_validation>
+					<full_date>2022-11-01</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>01.11.2022</input_date_tag_format>
+					<month>10</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2022</year>
+					<year_ui/>
+				</purge_date_dummy>
+				<record_type>PUBLIC</record_type>
+				<registration_key/>
+				<roles_mask>$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::204::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::209::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::218::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::245::ctvs::, $rolescope$ ::msvs::6420.6421::msvs::,
+					$isactive$ $true$, $expirydate$ ::date::::date::, $parameterslabel$
+					&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$
+					::msvs::6420.6421.124284710006421::msvs::, $isactive$ $true$, $expirydate$
+					::date::::date::, $parameterslabel$ $serviceunit$ -
+					AcqDepttechserv&lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::58::ctvs::, $rolescope$
+					::msvs::6420.6421::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,
+					$parameterslabel$ &lt;br&gt;</roles_mask>
+				<library_code/>
+				<library_code_original_value/>
+				<secret_key/>
+				<selected_patron_letters/>
+				<selected_patron_letters_original_value/>
+				<source_institution_id/>
+				<source_institution_name/>
+				<source_link_id/>
+				<status>ACTIVE</status>
+				<status_date>07/27/2021</status_date>
+				<status_date_dummy>
+					<calendar>07/27/2021</calendar>
+					<calendar_ui/>
+					<day>27</day>
+					<day_ui/>
+					<default_value_for_with_validation>1627389556025</default_value_for_with_validation>
+					<full_date>2021-07-27</full_date>
+					<full_date_from_ui/>
+					<input_date_tag_format>27.07.2021</input_date_tag_format>
+					<month>6</month>
+					<month_ui/>
+					<date>false</date>
+					<year>2021</year>
+					<year_ui/>
+				</status_date_dummy>
+				<temp_generated_password/>
+				<update_source/>
+				<user_address_list>
+					<user_address>
+						<city>Princeton</city>
+						<country>USA</country>
+						<country_display/>
+						<create_date>07/27/2021</create_date>
+						<entity_action/>
+						<library_id/>
+						<library_unit_id/>
+						<line1>Tech Services</line1>
+						<line2>693 Alexander Rd, Fl. 2C Wi</line2>
+						<line3/>
+						<line4/>
+						<line5/>
+						<note/>
+						<originating_id/>
+						<postal_code/>
+						<preferred>true</preferred>
+						<state_province>NJ</state_province>
+					</user_address>
+					<user_address>
+						<city>Trenton</city>
+						<country>USA</country>
+						<country_display/>
+						<create_date>07/27/2021</create_date>
+						<entity_action/>
+						<library_id/>
+						<library_unit_id/>
+						<line1>104 Liberty Street</line1>
+						<line2/>
+						<line3/>
+						<line4/>
+						<line5/>
+						<note/>
+						<originating_id/>
+						<postal_code/>
+						<preferred>false</preferred>
+						<state_province>NJ</state_province>
+					</user_address>
+				</user_address_list>
+				<user_email_list>
+					<user_email>
+						<create_date>07/27/2021</create_date>
+						<description/>
+						<email>santos@Princeton.EDU</email>
+						<entity_action/>
+						<esploro_display_email/>
+						<external_id>SIS</external_id>
+						<library_id/>
+						<library_unit_id/>
+						<originating_id/>
+						<preferred>true</preferred>
+					</user_email>
+				</user_email_list>
+				<user_gender/>
+				<user_group>P</user_group>
+				<user_group_original_value>P</user_group_original_value>
+				<user_name>010000213</user_name>
+				<user_phone_list/>
+				<user_preferred_language>en</user_preferred_language>
+				<user_preferred_language_original_value>en</user_preferred_language_original_value>
+				<user_record_type>PUBLIC</user_record_type>
+				<user_status>ACTIVE</user_status>
+				<user_title/>
+				<user_title_original_value/>
+				<user_type>EXTERNAL</user_type>
+				<user_user_type>EXTERNAL</user_user_type>
+				<user_web_address_list/>
+				<web_site_url/>
+			</user>
+		</receiver>
+	</receivers>
+	<rush>false</rush>
+	<send_after_commit>false</send_after_commit>
+	<sms_content/>
+	<throw_exceptions>false</throw_exceptions>
+	<vendor/>
+	<vendor_note/>
+	<webhook_data>
+		<fees/>
+		<items/>
+		<loans/>
+		<outgoing_resource_sharing_requests/>
+		<receivers/>
+		<smss_content/>
+		<user_requests/>
+	</webhook_data>
+</notification_data>
