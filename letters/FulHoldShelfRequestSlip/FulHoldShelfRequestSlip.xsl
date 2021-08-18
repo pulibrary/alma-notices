@@ -21,7 +21,7 @@
 				</h1>
 				<h2>
 					<xsl:value-of
-						select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"
+						select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE'][1]/value"
 					/>
 				</h2>
 				<h2>
@@ -31,7 +31,7 @@
 						</xsl:attribute>
 						<xsl:text>*</xsl:text>
 						<xsl:value-of
-							select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE']/value"/>
+							select="notification_data/user_for_printing/identifiers/code_value[code = 'BARCODE'][1]/value"/>
 						<xsl:text>*</xsl:text>
 					</span>
 				</h2>
