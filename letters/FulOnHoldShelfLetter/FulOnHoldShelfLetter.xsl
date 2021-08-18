@@ -37,14 +37,14 @@
 							<tr>
 								<td><!--@@following_item_requested_on@@ <xsl:value-of
 									select="notification_data/request/create_date"/>-->
-									The following item(s) are available for pickup.
+									Effective Aug. 19th the Firestone Book Pick-up service will move to the Firestone Circulation Desk. The following item(s) are available for pickup.
 									<!--@@circulation_desk@@--></td>
 							</tr>
-							<tr>
+							<!--<tr>
 								<td>
 									<xsl:text>Book pick-up hours at Firestone are Monday - Friday 11a-5p and Saturday - Sunday 12p-3p. Branch pick-up hours may differ.</xsl:text>
 								</td>
-							</tr>
+							</tr>-->
 							<xsl:if
 								test="notification_data/request/work_flow_entity/expiration_date">
 								<tr>

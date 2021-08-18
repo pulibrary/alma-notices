@@ -41,9 +41,15 @@
 										select="notification_data/request/create_date"/>
 									@@detailed_below@@ : </td>-->
 								<td>
-									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. Cancellations can occur for several reasons. The item available for you was not picked up, or the item you requested was needed for course reserve. If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
-<br/><br/>								
-</td>
+									<xsl:text>We regret that your request has been cancelled for the item(s) listed below. 
+Cancellations can occur for several reasons: 
+the item available was not picked up within 7 days; 
+the item you requested was missing; 
+the item you requested was needed for course reserve. 
+If you still need this item, please check the Library’s catalog for the latest status of the item.</xsl:text>
+									<br/>
+									<br/>
+								</td>
 							</tr>
 							<tr>
 								<td>
