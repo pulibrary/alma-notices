@@ -43,9 +43,7 @@
 									<xsl:if test="notification_data/short_loans='false'">
 										<strong>@@message@@</strong>
 									</xsl:if>-->
-									<xsl:text>This notice is to remind you that the following item(s) will be due soon. 
-												Please return or renew the item(s) by the due date indicated below. 
-												Online renewal is available for most items.
+									<xsl:text>This notice is to remind you that the following item(s) will be due soon. Please return or renew the item(s) by the due date indicated below. Online renewal is available for most items, unless the item has been recalled or it has exceeded its renewal limit.
 									</xsl:text>
 									<br/>
 									<br/>
