@@ -351,7 +351,7 @@
 						</table>
 						<xsl:if
 							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
-							<div style="margin-top:400px; text-align:right;">
+							<div style="margin-top:380px; text-align:left;">
 								<b>Inventory Number: </b>
 								<br/>
 								<br/>
