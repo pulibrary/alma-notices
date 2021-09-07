@@ -146,7 +146,6 @@
 										<div>
 											<xsl:attribute name="style">
 												<xsl:call-template name="text-wrap"/>
-												
 											</xsl:attribute>
 											<xsl:value-of
 												select="notification_data/phys_item_display/title"/>
@@ -349,15 +348,42 @@
 								</tr>
 							</xsl:if>-->
 						</table>
+						<div style="margin-top:360px;"/>
+						<div>
+							<xsl:attribute name="style">
+								<xsl:text>font-size:150%;</xsl:text>
+								<xsl:call-template name="flip-text"/>
+							</xsl:attribute>
+							<xsl:choose>
+								<!-- strip trailing " Library" if present-->
+								<xsl:when
+									test="contains(//notification_data/phys_item_display/location_name, ' Library')">
+									<!-- in addition, swap code and long form -->
+									<xsl:value-of
+										select="substring-after(substring-before(//notification_data/phys_item_display/location_name, ' Library'), ': ')"/>
+									<xsl:text>: </xsl:text>
+									<xsl:value-of select="substring-before(//notification_data/phys_item_display/location_name, ': ')
+										"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of
+										select="substring-after(//notification_data/phys_item_display/location_name, ': ')"/>
+									<xsl:text>: </xsl:text>
+									<xsl:value-of select="substring-before(//notification_data/phys_item_display/location_name, ': ')
+										"/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</div>
 						<xsl:if
 							test="//notification_data/phys_item_display/available_items/available_item/inventory_number[. != '']">
-							<div style="margin-top:380px; text-align:left;">
+							<!--<div style="margin-top:380px; text-align:left;">
 								<b>Inventory Number: </b>
 								<br/>
 								<br/>
-							</div>
+							</div>-->
 							<div>
 								<xsl:attribute name="style">
+									<xsl:text>font-size:300%;</xsl:text>
 									<xsl:call-template name="flip-text"/>
 								</xsl:attribute>
 								<xsl:value-of
