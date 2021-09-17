@@ -42,13 +42,12 @@
 							<tr>
 								<td>
 									<b>Please return the item(s) by <xsl:value-of
-										select="/notification_data/item_loans/item_loan/due_date"/>.</b>
+											select="/notification_data/item_loans/item_loan/due_date"
+										/>.</b>
 									<br/>
 									<br/>
 								</td>
-								
 							</tr>
-							
 							<tr>
 								<td>
 									<table cellpadding="5" class="listing">
@@ -63,25 +62,26 @@
 											<th>Barcode</th>
 											<th>Due date</th>
 										</tr>
-										<tr>
-											<xsl:for-each select="notification_data/item_loans/item_loan">
+										<xsl:for-each
+											select="notification_data/item_loans/item_loan">
+											<tr>
 												<td>
-													<xsl:value-of select="title"/>
+												<xsl:value-of select="title"/>
 												</td>
 												<td>
-													<xsl:value-of select="author"/>
+												<xsl:value-of select="author"/>
 												</td>
 												<td>
-													<xsl:value-of select="call_number"/>
+												<xsl:value-of select="call_number"/>
 												</td>
 												<td>
-													<xsl:value-of select="barcode"/>
+												<xsl:value-of select="barcode"/>
 												</td>
 												<td>
-													<xsl:value-of select="due_date"/>
+												<xsl:value-of select="due_date"/>
 												</td>
-											</xsl:for-each>
-										</tr>
+											</tr>
+										</xsl:for-each>
 									</table>
 								</td>
 							</tr>
