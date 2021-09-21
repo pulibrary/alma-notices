@@ -23,7 +23,7 @@
 	<!--<xsl:template name="barcodeCss"> font-family:'Barcode39'; </xsl:template>-->
 	<xsl:template name="barcodeCss"> font-family:'Barcode 3 of 9', '3OF9_NEW', 'BarCode Normal', '3
 		of 9 Barcode Regular', 'Barcode39', 'Bcc3of9'; </xsl:template>
-	<xsl:template name="flip-text"> font-size:300%; -moz-transform: rotate(-180deg);
+	<xsl:template name="flip-text"> -moz-transform: rotate(-180deg);
 		-webkit-transform: rotate(-180deg); -ms-transform: rotate(-180deg); -o-transform:
 		rotate(-180deg); transform: rotate(-180deg); position: relative; text-align: right; min-height: 60px;</xsl:template>
 	<xsl:template name="text-wrap"> 
