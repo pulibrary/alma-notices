@@ -50,7 +50,7 @@
 
 							<tr>
 								<table cellspacing="0" cellpadding="5" border="0"><hr/>
-									<xsl:for-each select="notification_data/po/po_line_list/po_line">
+									<xsl:for-each select="notification_data/line">
 										<tr><td style="padding-left:20px;">
 											<br/>
 											<b>PO Line Reference Number: </b>
