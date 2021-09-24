@@ -39,47 +39,52 @@
 						<table cellspacing="0" cellpadding="5" style="text-size:120%;">
 							<tr>
 								<td style="width: 65%">
-									<b>Purchase Order: <xsl:value-of
-											select="notification_data/po/number"/></b>
+									<!-- this element, while available in the default XML that we tested on, is not available in the actual data file. Salesforce ticket submitted, disabling this for now and moving date to the left. -->
+									<!--<b>Purchase Order: <xsl:value-of
+											select="notification_data/po/number"/></b>-->
+									<b>Purchase Order Date: <xsl:value-of
+										select="notification_data/line/send_date"/></b>
 								</td>
 								<td style="text-align:right;">
-									<b>Purchase Order Date: <xsl:value-of
-											select="notification_data/line/send_date"/></b>
+									<!--<b>Purchase Order Date: <xsl:value-of
+											select="notification_data/line/send_date"/></b>-->
 								</td>
 							</tr>
-
 							<tr>
-								<table cellspacing="0" cellpadding="5" border="0"><hr/>
+								<table cellspacing="0" cellpadding="5" border="0">
+									<hr/>
 									<xsl:for-each select="notification_data/line">
-										<tr><td style="padding-left:20px;">
-											<br/>
-											<b>PO Line Reference Number: </b>
-											<xsl:value-of select="line_reference"/>
-											<br/>
-											<br/>
-											<b><xsl:value-of select="identifier_type"/>: </b>
-											<xsl:value-of select="identifier"/>
-											<br/>
-											<br/>
-											<b>Title: </b>
-											<xsl:value-of select="item_description"/>
-											<br/>
-											<br/>
-											<b>Number of Items Ordered: </b>
-											<xsl:value-of select="quantity"/>
-											<br/>
-											<br/>
-											<b>Invoice Number: </b>
-											<xsl:value-of select="vendor_invoice_number"/>
-											<br/>
-											<br/>
-											<b>Vendor Reference Number: </b>
-											<xsl:value-of select="vendor_reference_number"/>
-											<br/>
-											<br/>
-											<b>Invoice Status: </b>
-											<xsl:value-of select="invoice_status"/>
-											<br/></td>
+										<tr>
+											<td style="padding-left:20px;">
+												<br/>
+												<b>PO Line Reference Number: </b>
+												<xsl:value-of select="line_reference"/>
+												<br/>
+												<br/>
+												<b><xsl:value-of select="identifier_type"/>: </b>
+												<xsl:value-of select="identifier"/>
+												<br/>
+												<br/>
+												<b>Title: </b>
+												<xsl:value-of select="item_description"/>
+												<br/>
+												<br/>
+												<b>Number of Items Ordered: </b>
+												<xsl:value-of select="quantity"/>
+												<br/>
+												<br/>
+												<b>Invoice Number: </b>
+												<xsl:value-of select="vendor_invoice_number"/>
+												<br/>
+												<br/>
+												<b>Vendor Reference Number: </b>
+												<xsl:value-of select="vendor_reference_number"/>
+												<br/>
+												<br/>
+												<b>Invoice Status: </b>
+												<xsl:value-of select="invoice_status"/>
+												<br/>
+											</td>
 										</tr>
 									</xsl:for-each>
 								</table>
@@ -118,8 +123,7 @@
 				<br/>
 				<table>
 					<tr>
-						<td><br/><br/>
-							Sincerely,<br/><br/>
+						<td><br/><br/> Sincerely,<br/><br/>
 						</td>
 					</tr>
 					<tr>
