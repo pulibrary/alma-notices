@@ -348,19 +348,20 @@
 											select="/notification_data/po/ship_to_address/line1"/>
 									</td>
 								</tr>
-								<xsl:if test="/notification_data/po/ship_to_address/line2[. = '']">
-									<tr>
-										<td>
-											<xsl:value-of
-												select="/notification_data/po/ship_to_address/line2"
-											/>
-										</td>
-									</tr>
-								</xsl:if>
+								<tr>
+									<td>
+										<xsl:value-of
+											select="/notification_data/po/ship_to_address/line2"/>
+									</td>
+								</tr>
 								<tr>
 									<td>
 										<xsl:value-of
 											select="/notification_data/po/ship_to_address/city"/>
+										<xsl:text> </xsl:text>
+										<xsl:value-of
+											select="/notification_data/po/ship_to_address/postal_code"
+										/>
 									</td>
 								</tr>
 								<tr>
@@ -378,32 +379,21 @@
 									</td>
 								</tr>
 								<tr>
-									<td>
-										<xsl:value-of
-											select="/notification_data/po/ship_to_address/line1"/>
-									</td>
-								</tr>
-								<xsl:if test="/notification_data/po/ship_to_address/line2[. = '']">
-									<tr>
-										<td>
-											<xsl:value-of
-												select="/notification_data/po/ship_to_address/line2"
-											/>
-										</td>
-									</tr>
-								</xsl:if>
-								<tr>
-									<td>
-										<xsl:value-of
-											select="/notification_data/po/ship_to_address/city"/>
-									</td>
+									<td>Princeton University Library</td>
 								</tr>
 								<tr>
-									<td>
-										<xsl:value-of
-											select="/notification_data/po/ship_to_address/country"/>
-									</td>
+									<td>Acquisitions Services-Monographs</td>
 								</tr>
+								<tr>
+									<td>693 Alexander Road</td>
+								</tr>
+								<tr>
+									<td>Princeton, NJ 08540-6317 USA</td>
+								</tr>
+<tr><td></td></tr>
+								<tr><td>Phone: 609-258-3219</td></tr>
+								<tr><td>FAX: 609-258-0441</td></tr>
+								<tr><td>E-Mail: orderdiv@princeton.edu</td></tr>
 							</table>
 						</td>
 					</tr>

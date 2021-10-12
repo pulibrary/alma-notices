@@ -85,8 +85,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Princeton University Library <br/> Acquisitions Services-Monographs
-							<br/> Princeton University Library <br/> 693 Alexander Road <br/>
+						<td>Princeton University Library <br/> Acquisitions Services-Monographs<br/> 693 Alexander Road <br/>
 							Princeton, NJ 08540-6317 USA <br/><br/>Phone: 609-258-3219 <br/>FAX:
 							609-258-0441 <br/> E-Mail: orderdiv@princeton.edu</td>
 					</tr>
