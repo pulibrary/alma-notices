@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
     <xsl:include href="header.xsl"/>
     <xsl:include href="senderReceiver.xsl"/>
     <xsl:include href="mailReason.xsl"/>
@@ -27,13 +26,16 @@
                 <!-- header.xsl -->
                 <!-- <xsl:call-template name="senderReceiver" /> SenderReceiver.xsl -->
                 <br/>
-                <!-- <xsl:call-template name="toWhomIsConcerned" /> -->
+                <!--<xsl:call-template name="toWhomIsConcerned" />-->
                 <!-- mailReason.xsl -->
                 <div class="messageArea">
                     <div class="messageBody">
                         <table role="presentation" cellspacing="0" cellpadding="5" border="0">
                             <tr>
-                                <td>Hi,<br/><br/> @@bodyTextBeforeLink@@<!-- <xsl:text>to reset your Princeton University Library account password, please </xsl:text> -->
+                                <td>Hi,</td>
+                            </tr>
+                            <tr>
+                                <td> @@bodyTextBeforeLink@@<!-- <xsl:text>to reset your Princeton University Library account password, please </xsl:text> -->
                                     <a>
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="notification_data/reset_pw_url"/>
