@@ -4,11 +4,11 @@
         <address_c/>
         <address_c/>
         <address_from>Library Access &lt;access@princeton.edu&gt;</address_from>
-        <current_date>01/27/2022</current_date>
+        <current_date>01/28/2022</current_date>
         <letter_channel_info/>
-        <letter_name>Gmail authentication has been activated</letter_name>
+        <letter_name>Gmail Authentication has been Activated</letter_name>
         <letter_type>SocialLoginAccountAttachedLetter</letter_type>
-        <subject>Gmail authentication has been activated</subject>
+        <subject>Gmail Authentication has been Activated</subject>
     </general_data>
     <institution>
         <address/>
@@ -359,7 +359,7 @@
                     <year_ui/>
                 </status_date_dummy>
                 <temp_generated_password/>
-                <update_source>GENERIC</update_source>
+                <update_source/>
                 <user_address_list/>
                 <user_email_list>
                     <user_email>

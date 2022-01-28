@@ -24,15 +24,12 @@
                 <!-- header.xsl -->
                 <!--<xsl:call-template name="senderReceiver"/>-->
                 <!-- SenderReceiver.xsl -->
-                <br/>
-                <!-- <xsl:call-template name="toWhomIsConcerned" /> -->
+               <br/>
+                <xsl:call-template name="toWhomIsConcerned" /><br />
                 <!-- mailReason.xsl -->
                 <div class="messageArea">
                     <div class="messageBody">
                         <table role="presentation" cellspacing="0" cellpadding="5" border="0">
-                            <tr>
-                                <td>Dear Princeton University Library Patron,</td>
-                            </tr>
                             <tr>
                                 <td> @@bodyTextBeforeLink@@<br/>
                                     <xsl:if test="notification_data/alma_social_login_url != ''">
@@ -47,7 +44,7 @@
                         </table>
                         <table role="presentation">
                             <tr>
-                                <td>@@signature@@</td>
+                                <td><br />@@signature@@</td>
                             </tr>
                             <tr>
                                 <td>April Miller<br/>Library Access Office<br/>
