@@ -1,0 +1,8 @@
+﻿Enabled,Code,Description,Updated By,Last Updated
+Yes,addressFrom,Library Access <access@princeton.edu>,960024377,01/26/2022
+Yes,subject,Library Account Login with Barcode,960024377,01/27/2022
+Yes,letterName,Library Account Login with Barcode,960024377,01/27/2022
+Yes,signature,"Thank you,",940000258,01/26/2022
+Yes,bodyTextBeforeLink,"To activate your Princeton University Library account, your user ID begins with BC plus the last nine digits of your barcode (after 22101). Example: BC123456789.  To reset your Princeton University Library account password with that username, please ",940000258,01/26/2022
+Yes,bodyTextAfterLink,and follow the instructions provided.,940000258,01/26/2022
+Yes,linkLabel,click here,,
