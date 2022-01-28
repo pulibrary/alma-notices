@@ -1,0 +1,9 @@
+﻿Enabled,Code,Description,Updated By,Last Updated
+Yes,subject,Activate Authentication via Gmail,960024377,01/28/2022
+Yes,letterName,Activate Authentication via Gmail,960024377,01/28/2022
+Yes,addressFrom,Library Access <access@princeton.edu>,960024377,01/26/2022
+Yes,line2,"Once you activate your account, select “Login with my Gmail account” the next time you login to Your Account.  If you don’t have Gmail or prefer a different login method, please email aprilm@princeton.edu.",960024377,01/26/2022
+Yes,signature,"Thank you,",960024377,01/26/2022
+Yes,bodyTextBeforeLink,"We’re introducing a new feature which will allow you to use your Gmail account to log into Your Library Account. You can then renew material and view your loans, requests and fines. To activate this service,",960024377,01/26/2022
+Yes,bodyTextAfterLink,and follow the instructions provided. You will be asked to give permission to the library to view your public profile information. ,960024377,01/26/2022
+Yes,linkLabel,click here,,

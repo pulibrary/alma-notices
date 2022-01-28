@@ -1,14 +1,14 @@
 <notification_data>
-    <attach_social_account_url>https://princeton.alma.exlibrisgroup.com/view/socialLogin?institutionCode=01PRI_INST&amp;attachAccountJwt=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBbG1hIiwiYXVkIjoiQWxtYSIsImV4cCI6MTY0NDUyMTk3OCwianRpIjoiMGZuSDZsMXlYc25aYUZNNEJvajdaQSIsImlhdCI6MTY0MzMxMjM3OCwibmJmIjoxNjQzMzEyMjU4LCJzdWIiOiJwYXRyb24iLCJpZCI6ImdyZWVuYmxhdHQifQ.L2gRz-inFxxoA3l5yqaf4LgKIHqxaNXWY6TDSCcQqCU</attach_social_account_url>
+    <attach_social_account_url>https://princeton.alma.exlibrisgroup.com/view/socialLogin?institutionCode=01PRI_INST&amp;attachAccountJwt=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBbG1hIiwiYXVkIjoiQWxtYSIsImV4cCI6MTY0NDU5OTQzNiwianRpIjoiRi1sT3ZjTjdlckIyYnh3UDBNcnpoQSIsImlhdCI6MTY0MzM4OTgzNiwibmJmIjoxNjQzMzg5NzE2LCJzdWIiOiJwYXRyb24iLCJpZCI6ImdyZWVuYmxhdHQifQ.egT6t5D-tlAgffo1O4K-KAjldeuCbOTUI3GlqKCtr2Q</attach_social_account_url>
     <general_data>
         <address_c/>
         <address_c/>
         <address_from>Library Access &lt;access@princeton.edu&gt;</address_from>
-        <current_date>01/27/2022</current_date>
+        <current_date>01/28/2022</current_date>
         <letter_channel_info/>
-        <letter_name>Activate authentication via Gmail</letter_name>
+        <letter_name>Activate Authentication via Gmail</letter_name>
         <letter_type>SocialLoginInviteLetter</letter_type>
-        <subject>Activate authentication via Gmail</subject>
+        <subject>Activate Authentication via Gmail</subject>
     </general_data>
     <institution>
         <address/>
@@ -283,7 +283,7 @@
                 <distributed>false</distributed>
                 <original_id/>
                 <originating_id/>
-                <password_expiry_date>01/26/2022</password_expiry_date>
+                <password_expiry_date>01/27/2022</password_expiry_date>
                 <password_in_idp>true</password_in_idp>
                 <phones_mask/>
                 <pin_number/>
