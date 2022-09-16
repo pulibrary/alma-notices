@@ -178,13 +178,14 @@
 										/>
 									</td>
 								</tr>
-								<tr>
+<!-- This seems to be an empty field most of the time; taking it out for now -->
+								<!--<tr>
 									<td>
 										<b>@@shipping_method@@: </b>
 										<xsl:value-of select="/notification_data/po/shipping_method"
 										/>
 									</td>
-								</tr>
+								</tr>-->
 								<!--<xsl:if test="/notification_data/po/erp_number != ''">
 									<tr>
 										<td>
@@ -345,6 +346,42 @@
 								<tr>
 									<td>
 										<xsl:value-of
+											select="/notification_data/po/bill_to_address/line1"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<xsl:value-of
+											select="/notification_data/po/bill_to_address/line2"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<xsl:value-of
+											select="/notification_data/po/bill_to_address/city"/>
+										<xsl:text> </xsl:text>
+										<xsl:value-of
+											select="/notification_data/po/bill_to_address/postal_code"
+										/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<xsl:value-of
+											select="/notification_data/po/bill_to_address/country"/>
+									</td>
+								</tr>
+							</table>
+							<table border="1px" align="right" width="50%"
+								style="border-collapse: collapse;">
+								<tr style="background-color:#e9e9e9;">
+									<td>
+										<b>@@shipping_address@@: </b>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<xsl:value-of
 											select="/notification_data/po/ship_to_address/line1"/>
 									</td>
 								</tr>
@@ -370,30 +407,8 @@
 											select="/notification_data/po/ship_to_address/country"/>
 									</td>
 								</tr>
-							</table>
-							<table border="1px" align="right" width="50%"
-								style="border-collapse: collapse;">
-								<tr style="background-color:#e9e9e9;">
-									<td>
-										<b>@@shipping_address@@: </b>
-									</td>
-								</tr>
-								<tr>
-									<td>Princeton University Library</td>
-								</tr>
-								<tr>
-									<td>Acquisitions Services-Monographs</td>
-								</tr>
-								<tr>
-									<td>693 Alexander Road</td>
-								</tr>
-								<tr>
-									<td>Princeton, NJ 08540-6317 USA</td>
-								</tr>
-<tr><td></td></tr>
-								<tr><td>Phone: 609-258-3219</td></tr>
-								<tr><td>FAX: 609-258-0441</td></tr>
-								<tr><td>E-Mail: orderdiv@princeton.edu</td></tr>
+								<tr><td><xsl:value-of
+									select="/notification_data/organization_unit/email/email"/></td></tr>
 							</table>
 						</td>
 					</tr>
