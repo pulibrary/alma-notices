@@ -1,0 +1,28 @@
+﻿Enabled,Code,Description,Updated By,Last Updated
+Yes,department,Acquisitions Department,,
+Yes,alternate_complete_edition,Alternative Complete Edition,,
+Yes,alternate_creator,Alternative Creator,,
+Yes,alternate_publisher,Alternative Publisher,,
+Yes,alternate_title,Alternative Title,,
+Yes,billing_address,Billing Address,,
+Yes,date,Date,,
+Yes,erp_number,ERP Number,,
+Yes,issn_isbn,ISSN/ISBN,,
+Yes,Bcc,None,,
+Yes,Cc,None,,
+Yes,note,Note,,
+Yes,order_date,Order Date,,
+Yes,letterName,Order List,,
+Yes,subject,Order List,110082824,08/05/2021
+Yes,po_line_number,PO Line Reference Number,110082824,08/02/2021
+Yes,price,Price,,
+Yes,quantity,Quantity,,
+Yes,490_series_statement,Series Statement,,
+Yes,830_series_uniform_title,Series Uniform Title,,
+Yes,shipping_address,Shipping Address,,
+Yes,shipping_method,Shipping Method,,
+Yes,sincerely,Sincerely,,
+Yes,title,Title,,
+Yes,vendor_account,Vendor Account,,
+Yes,place_order_introduction,We would like to place an order for the following items,,
+Yes,addressFrom,orderdiv@princeton.edu,110082824,07/26/2021

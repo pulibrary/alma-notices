@@ -1,0 +1,14 @@
+﻿Enabled,Code,Description,Updated By,Last Updated
+Yes,department,Acquisition Department,,
+Yes,Bcc,None,,
+Yes,Cc,None,,
+Yes,rush,Order Is Rush,,
+Yes,pol_reference,PO Line Reference Number,110082824,08/02/2021
+Yes,letterName,Order Now Notification,,
+Yes,subject,Order Now Notification,,
+Yes,order_now_succed,Order Now process completed successfully. PO Line continued its workflow,,
+Yes,order_now_failed,Order Now process completed with error. The order wasn't sent to vendor. Please review the ,,
+Yes,order_number,Order Number,,
+Yes,sincerely,Sincerely,,
+Yes,vendor_note,Vendor Note,,
+Yes,addressFrom,orderdiv@princeton.edu,110082824,07/26/2021
