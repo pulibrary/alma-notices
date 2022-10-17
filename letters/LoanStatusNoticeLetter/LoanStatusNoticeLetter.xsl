@@ -54,7 +54,9 @@ Your borrowed item has been recalled. There is no change in its due date.
 									<!-- corresponds to #5 above -->									
 									<xsl:if test="notification_data/message='RECALL_DUEDATE_CHANGE'">
 										<!--<strong>@@recall_and_date_change@@</strong>-->
-										<strong>The following item, currently loaned to you, has been recalled for course reserve or another borrower. Please return it by the new due date to avoid recall fines.
+										<strong>The 
+following item, currently loaned to you, has been recalled for course reserve or another borrower. 
+Please return it by the new due date to avoid recall fines of $1/day.
 										</strong>
 									</xsl:if>
 									<!-- corresponds to #6 above -->
