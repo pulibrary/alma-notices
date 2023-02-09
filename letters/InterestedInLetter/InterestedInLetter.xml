@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:include href="header.xsl"/>
+    <xsl:include href="senderReceiver.xsl"/>
+    <xsl:include href="mailReason.xsl"/>
+    <xsl:include href="footer.xsl"/>
+    <xsl:include href="style.xsl"/>
+    <xsl:template match="/">
+        <html>
+            <xsl:if test="notification_data/languages/string">
+                <xsl:attribute name="lang">
+                    <xsl:value-of select="notification_data/languages/string"/>
+                </xsl:attribute>
+            </xsl:if>
+            <head>
+                <title>
+                    <xsl:value-of select="notification_data/general_data/subject"/>
+                </title>
+                <xsl:call-template name="generalStyle"/>
+            </head>
+            <body>
+                <xsl:attribute name="style">
+                    <xsl:call-template name="bodyStyleCss"/>
+                    <!-- style.xsl -->
+                </xsl:attribute>
+                <xsl:call-template name="head"/>
+                <!-- header.xsl -->
+                <!--<xsl:call-template name="senderReceiver"/>-->
+                <!-- SenderReceiver.xsl -->
+                <br/>
+                <xsl:call-template name="toWhomIsConcerned"/>
+                <table role="presentation" cellspacing="0" cellpadding="5" border="0">
+                    <!-- mailReason.xsl -->
+                    <tr>
+                        <td>@@You_were_specify@@</td>
+                    </tr>
+                </table>
+                <br/>
+                <div class="messageArea">
+                    <div class="messageBody">
+                        <table role="presentation" cellspacing="0" cellpadding="5" border="0">
+                            <xsl:attribute name="style">
+                                <xsl:call-template name="mainTableStyleCss"/>
+                                <!-- style.xsl -->
+                            </xsl:attribute>
+                            <!--<tr>
+                                <td><b>@@orderNumber@@</b>: <xsl:value-of
+                                    select="notification_data/line_number"/></td>
+                            </tr>-->
+                            <tr>
+                                <td><b>@@title@@</b>: <xsl:value-of select="notification_data/title"
+                                    /></td>
+                            </tr>
+                            <xsl:if test="notification_data/mms_id != ''">
+                                <xsl:variable name="MMID">
+                                    <xsl:value-of select="notification_data/mms_id"/>
+                                </xsl:variable>
+                                <xsl:variable name="LINK">
+                                    <xsl:value-of
+                                        select="concat('https://catalog.princeton.edu/catalog/', $MMID)"
+                                    />
+                                </xsl:variable>
+                                <tr>
+                                    <td>
+                                        <br/>
+                                        <a href="{$LINK}" target="_BLANK">Click here for access</a>
+                                        <br/>
+                                        <br/>
+                                    </td>
+                                </tr>
+                            </xsl:if>
+                            <!--<xsl:if test="notification_data/poline_inventory/call_number != ''">
+                                <tr>
+                                    <td><b>@@callNumber@@</b>: <xsl:value-of
+                                        select="notification_data/poline_inventory/call_number"
+                                        /><br/></td>
+                                </tr>
+                            </xsl:if>-->
+                            <!--<tr>
+                                <td><b>@@receivingNote@@</b>: <xsl:value-of
+                                    select="notification_data/receiving_note"/></td>
+                            </tr>-->
+                            <!--<tr>
+                                <td><b>@@message@@</b>: <xsl:value-of select="notification_data/message"
+                                    /></td>
+                            </tr>-->
+                            <tr>
+                                <td>
+                                    <!--<xsl:call-template name="contactUs"/>--> If you have
+                                    questions, please contact us at <a
+                                    href="mailto:orderdiv@princeton.edu">orderdiv@princeton.edu</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <xsl:call-template name="signed_order"/>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--<table role="presentation"> <tr><td>@@sincerely@@</td></tr>
+                  <tr><td>@@department@@</td></tr> 
+                </table>-->
+                        <!-- <xsl:call-template name="lastFooter"/>-->
+                        <!-- footer.xsl -->
+                    </div>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
