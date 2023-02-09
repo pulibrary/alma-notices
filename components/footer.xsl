@@ -33,6 +33,14 @@
 		<strong>Firestone Circulation Services</strong>
 		<br/>
 	</xsl:template>
+        <xsl:template name="signed_order">
+		<br/>
+		<strong>Thank you,</strong>
+		<br/>
+		<br/>
+		<strong>Order Division</strong>
+		<br/>
+	</xsl:template>
 	<xsl:template name="contactUs">
 		<br/>
 		<xsl:text>If you have questions or need mailing instructions, please contact
