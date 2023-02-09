@@ -33,7 +33,7 @@
 		<strong>Firestone Circulation Services</strong>
 		<br/>
 	</xsl:template>
-        <xsl:template name="signed_order">
+    <xsl:template name="signed_order">
 		<br/>
 		<strong>Thank you,</strong>
 		<br/>
