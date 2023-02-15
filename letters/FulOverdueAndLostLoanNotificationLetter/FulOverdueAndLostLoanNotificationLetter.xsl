@@ -60,7 +60,8 @@
                                         > The following item(s), currently charged to you, are
                                         overdue. To avoid replacement fees, please return or renew
                                         them as soon as possible. Online renewal is available for
-                                        most items.<br/></xsl:if>
+                                        most items, unless the item has been recalled or it has
+                                        exceeded its renewal limit.<br/></xsl:if>
                                     <!-- Long Overdue -->
                                     <xsl:if
                                         test="/notification_data/notification_type = 'OverdueNotificationType2'"
