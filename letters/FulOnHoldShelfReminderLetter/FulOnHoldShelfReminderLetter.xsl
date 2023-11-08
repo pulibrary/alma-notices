@@ -45,7 +45,7 @@
                                             <xsl:attribute name="style">
                                                 <xsl:call-template name="mainTableStyleCss"/>
                                             </xsl:attribute>
-                                            <!--											<tr align="center" bgcolor="#f5f5f5">
+                                            <!--<tr align="center" bgcolor="#f5f5f5">
 												<td colspan="4">
 												<h3>
 												<xsl:value-of select="organization_unit/name"/>
@@ -63,9 +63,19 @@
                                             <xsl:for-each select="requests/request_for_display">
                                                 <tr>
                                                   <td>
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="phys_item_display/item_policy = 'ILLiad borrowing'">
+                                                  <xsl:value-of
+                                                  select="request/work_flow_entity/estimated_arrival_date"
+                                                  />
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
                                                   <xsl:value-of
                                                   select="request/work_flow_entity/expiration_date"
                                                   />
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
                                                   </td>
                                                   <td>
                                                   <xsl:value-of select="request/assigned_unit_name"
@@ -124,9 +134,19 @@
                                                   />
                                                   </td>
                                                   <td>
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="phys_item_display/item_policy = 'ILLiad borrowing'">
+                                                  <xsl:value-of
+                                                  select="request/work_flow_entity/estimated_arrival_date"
+                                                  />
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
                                                   <xsl:value-of
                                                   select="request/work_flow_entity/expiration_date"
                                                   />
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
                                                   </td>
                                                 </tr>
                                             </xsl:for-each>
@@ -150,8 +170,8 @@
                             </xsl:if>
                             <tr>
                                 <td>
-                                    <xsl:call-template name="contactUs"/>
-                                </td>
+                                    <!--<xsl:call-template name="contactUs"/>-->If you have
+                                    questions, please contact us at fstcirc@princeton.edu. </td>
                             </tr>
                             <tr>
                                 <td>

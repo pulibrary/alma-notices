@@ -40,17 +40,18 @@
                                     The following item(s) are available for pickup.
                                     <!--@@circulation_desk@@--></td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <xsl:text>Book pick-up hours at Firestone are Monday - Friday 11a-5p and Saturday - Sunday 12p-3p. Branch pick-up hours may differ.</xsl:text>
-                                </td>
-                            </tr>
                             <xsl:if
-                                test="notification_data/request/work_flow_entity/expiration_date">
+                                test="notification_data/request/work_flow_entity/expiration_date or notification_data/request/work_flow_entity/estimated_arrival_date">
                                 <tr>
-                                    <td><strong>@@note_item_held_until@@ <xsl:value-of
-                                        select="notification_data/request/work_flow_entity/expiration_date"
-                                        /></strong>. <br/><br/></td>
+                                    <td>
+                                        <strong>@@note_item_held_until@@ <xsl:choose><xsl:when
+                                            test="notification_data/phys_item_display/item_policy = 'ILLiad borrowing'"
+                                            > <xsl:value-of
+                                            select="notification_data/request/work_flow_entity/estimated_arrival_date"
+                                            /> </xsl:when> <xsl:otherwise><xsl:value-of
+                                            select="notification_data/request/work_flow_entity/expiration_date"
+                                            /></xsl:otherwise></xsl:choose></strong>
+                                    </td>
                                 </tr>
                             </xsl:if>
                             <tr>
@@ -117,8 +118,8 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <xsl:call-template name="contactUs"/>
-                                </td>
+                                    <!--<xsl:call-template name="contactUs"/>--> If you have
+                                    questions, please contact us at fstcirc@princeton.edu </td>
                             </tr>
                             <tr>
                                 <td>

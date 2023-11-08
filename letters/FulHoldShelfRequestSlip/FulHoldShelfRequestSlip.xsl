@@ -12,8 +12,13 @@
 				<xsl:call-template name="generalStyle"/>
 			</head>-->
             <body>
-                <h2>Expires: <xsl:value-of
-                    select="notification_data/request/work_flow_entity/expiration_date"/></h2>
+                <h2>Expires: <xsl:choose><xsl:when
+                    test="notification_data/phys_item_display/item_policy = 'ILLiad borrowing'">
+                    <xsl:value-of
+                    select="notification_data/request/work_flow_entity/estimated_arrival_date"/>
+                    </xsl:when> <xsl:otherwise><xsl:value-of
+                    select="notification_data/request/work_flow_entity/expiration_date"
+                    /></xsl:otherwise></xsl:choose></h2>
                 <h1 style="font-size: 300%;">
                     <b>
                         <!--@@requested_for@@ : -->
