@@ -41,7 +41,7 @@
 								style="border-collapse: collapse;">
 								<tr style="background-color:#e9e9e9;">
 									<td>
-										<b>Vendor:</b>
+										<b>Vendor</b>
 									</td>
 								</tr>
 								<xsl:choose>
@@ -118,8 +118,19 @@
 										<xsl:for-each
 											select="notification_data/receivers/receiver/user">
 											<tr>
-												<td><xsl:value-of select="last_name"
-												/>&#160;<xsl:value-of select="first_name"/></td>
+												<td>
+													<xsl:choose>
+													<xsl:when test="last_name/text()">
+													<xsl:value-of select="last_name"/>
+													<xsl:if test="first_name[. != last_name]">
+													<xsl:text> </xsl:text><xsl:value-of select="first_name"/>
+													</xsl:if>
+													</xsl:when>
+													<xsl:otherwise>
+													<xsl:value-of select="first_name"/>
+													</xsl:otherwise>
+													</xsl:choose>
+												</td>
 											</tr>
 											<tr>
 												<td>
@@ -161,7 +172,7 @@
 								style="border-collapse: collapse;">
 								<tr style="background-color:#e9e9e9;">
 									<td>
-										<b>Purchase Order:</b>
+										<b>Purchase Order</b>
 									</td>
 								</tr>
 								<tr>
@@ -340,7 +351,7 @@
 								style="border-collapse: collapse;">
 								<tr style="background-color:#e9e9e9;">
 									<td>
-										<b>@@billing_address@@: </b>
+										<b>@@billing_address@@</b>
 									</td>
 								</tr>
 								<tr>
@@ -376,7 +387,7 @@
 								style="border-collapse: collapse;">
 								<tr style="background-color:#e9e9e9;">
 									<td>
-										<b>@@shipping_address@@: </b>
+										<b>@@shipping_address@@</b>
 									</td>
 								</tr>
 								<tr>
