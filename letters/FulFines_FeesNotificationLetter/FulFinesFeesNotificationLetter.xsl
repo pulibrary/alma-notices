@@ -42,12 +42,12 @@
 								<!--@@we_would_like@@ -->
 								<!--<xsl:value-of select="notification_data/organization_unit/name"/>-->
 								<!-- @@debt_of@@ -->
-								<!--<strong><xsl:value-of select="notification_data/total_fines_amount"
-									/> &#160;<xsl:value-of
-										select="notification_data/total_fines_currency"/></strong>-->
-								<xsl:text>The following is a list of current fine(s) or fee(s).  Payment can be made at Firestone Library Circulation Desk. If a book is long overdue, you have been billed the minimum replacement fee and a standard processing fee. The Library reserves the right to adjust this replacement fee upward if it does not cover the cost of the replacement. Please discuss lost items with staff of the owning library.</xsl:text>
-								<br/>
-								<br/>
+							    <xsl:text>The following is a list of fines and fees. If an item is long overdue, you have been billed a replacement fee. The Library reserves the right to increase a replacement fee if it does not cover the cost of replacing and processing the material. If you still have the overdue item, please return it immediately and replacement fees may be waived. Overdue fines represent the late return of material and remain the responsibility of the patron.</xsl:text>
+							    <br/>
+							    <br/>
+							    <xsl:text>Fees can be paid by credit card at the Firestone Circulation Desk. Students may also contact fstcirc@princeton.edu to pay by Student Account.</xsl:text>
+							    <br/>
+							    <br/>
 							</h>
 						</td>
 					</tr>
