@@ -17,16 +17,16 @@
                     <xsl:choose>
                         <xsl:when
                             test="/notification_data/notification_type = 'OverdueNotificationType1'"
-                            >Overdue Library Material</xsl:when>
+                            >Overdue Library Materials</xsl:when>
                         <xsl:when
                             test="/notification_data/notification_type = 'OverdueNotificationType2'"
-                            >Long Overdue Library Material</xsl:when>
+                            >Long Overdue Library Materials</xsl:when>
                         <xsl:when
                             test="/notification_data/notification_type = 'OverdueNotificationType3'"
-                            >Long Overdue Library Material Soon Considered Lost</xsl:when>
+                            >Long Overdue Library Materials Soon Considered Lost</xsl:when>
                         <xsl:when
                             test="/notification_data/notification_type = 'OverdueNotificationType4'"
-                            >Long Lost Library Material</xsl:when>
+                            >Long Lost Library Materials</xsl:when>
                         <xsl:when
                             test="/notification_data/notification_type = 'OverdueNotificationType5'"
                             >Overdue Recall</xsl:when>
