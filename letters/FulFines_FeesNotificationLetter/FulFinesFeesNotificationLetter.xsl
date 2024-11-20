@@ -15,7 +15,7 @@
 			<head>
 				<title>
 					<!--<xsl:value-of select="notification_data/general_data/subject"/>-->
-					<xsl:text>Fines and fees notice</xsl:text>
+					<xsl:text>Fine and fee notice</xsl:text>
 				</title>
 				<xsl:call-template name="generalStyle"/>
 			</head>
@@ -39,16 +39,16 @@
 							<!--@@dear@@ &#160;
 							<xsl:value-of select="receivers/receiver/user/last_name"/>-->
 							<h>
-								<!--@@we_would_like@@ -->
-								<!--<xsl:value-of select="notification_data/organization_unit/name"/>-->
-								<!-- @@debt_of@@ -->
-							    <xsl:text>The following is a list of fines and fees. If an item is long overdue, you have been billed a replacement fee. The Library reserves the right to increase a replacement fee if it does not cover the cost of replacing and processing the material. If you still have the overdue item, please return it immediately and replacement fees may be waived. Overdue fines represent the late return of material and remain the responsibility of the patron.</xsl:text>
-							    <br/>
-							    <br/>
-							    <xsl:text>Fees can be paid by credit card at the Firestone Circulation Desk. Students may also contact fstcirc@princeton.edu to pay by Student Account.</xsl:text>
-							    <br/>
-							    <br/>
-							</h>
+                                        <!--@@we_would_like@@ -->
+                                        <!--<xsl:value-of select="notification_data/organization_unit/name"/>-->
+                                        <!-- @@debt_of@@ -->
+                                        <xsl:text>The following is a list of fines and fees. Overdue fines represent the late return of material and remain the responsibility of the patron. If an item is long overdue, you have been billed a replacement fee. The Library reserves the right to increase a replacement fee if it does not cover the cost of replacing and processing the material. If you still have the overdue item, please return it immediately and replacement fees may be waived.</xsl:text>
+                                        <br/>
+                                        <br/>
+                                        <xsl:text>Fees can be paid by credit card at the Firestone Circulation Desk. Students may also contact fstcirc@princeton.edu to pay by Student Account.</xsl:text>
+                                        <br/>
+                                        <br/>
+                                    </h>
 						</td>
 					</tr>
 					<tr>
@@ -61,7 +61,11 @@
 						<tr>
 							<th>@@fee_type@@</th>
 							<th>@@fee_amount@@</th>
-							<th>@@note@@</th>
+							<!--<th>@@note@@</th>-->
+                                                         <th>Title</th>
+                                                         <th>Call Number</th>
+                                                         <th>Barcode</th>
+                                                         <th>Library</th>
 						</tr>
 						<xsl:for-each select="notification_data/fines_fees_list/user_fines_fees">
 							<tr>
@@ -72,21 +76,31 @@
 										/>&#160;<xsl:value-of select="fine_fee_ammount/currency"
 									/></td>
 								<td>
-									<xsl:value-of select="fine_comment"/>
+									<!--<xsl:value-of select="fine_comment"/>-->
+                                                                        <xsl:value-of select="item_title" />
 								</td>
+								<td>
+                                                                        <xsl:value-of select="item_call_number" />
+								</td>
+                                                                <td>
+                                                                        <xsl:value-of select="item_barcode" />
+								</td>
+								<td><xsl:value-of select="owner" /></td>
 							</tr>
 						</xsl:for-each>
 					</table></td></tr>
+<tr><td>	<strong>Total owed for these items: <xsl:value-of select="notification_data/total_fines_amount"
+									/>&#160;<xsl:value-of
+										select="notification_data/total_fines_currency"/></strong></td></tr>
 					<xsl:if test="notification_data/fine_fee_notification_fee_amount/sum != ''">
 						<tr>
 							<td>
-								<strong>@@fine_fee_notification_fee@@ </strong>
-								<xsl:value-of
-									select="notification_data/fine_fee_notification_fee_amount/normalized_sum"
-									/>&#160;<xsl:value-of
-									select="notification_data/fine_fee_notification_fee_amount/currency"
-									/>&#160;<xsl:value-of select="ff"/>
-							</td>
+								<strong>Total owed for these items: <xsl:value-of
+                                            select="notification_data/total_fines_amount"
+                                            />&#160;<xsl:value-of
+                                            select="notification_data/total_fines_currency"
+                                            /></strong>
+                                    </td>
 						</tr>
 					</xsl:if>
 					<!--<h>
@@ -101,9 +115,8 @@
 				</table>
 					</div>
 				</div>
-				
 				<!-- footer.xsl -->
-				<!--<xsl:call-template name="protocols"/>-->
+				<!-- <xsl:call-template name="protocols"/> -->
 				<!-- footer.xsl -->
 				
 				<!-- footer.xsl -->
